@@ -2754,6 +2754,303 @@
 			)
 			(embedded_fonts no)
 		)
+
+		(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+
+		(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(polyline
 		(pts
@@ -4854,7 +5151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 59.69 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -4884,7 +5181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4895,7 +5192,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25819.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25792.pdf"
 			(at 64.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4906,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Description" "47 kohm 1%, target NRST pull-up"
+		(property "Description" "47 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 64.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +5225,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF4702T5E"
+		(property "MPN" "0402WGF4702TCE"
 			(at 64.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4939,7 +5236,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25819"
+		(property "LCSC Part #" "C25792"
 			(at 64.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4950,7 +5247,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25819.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25792.html"
 			(at 64.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4961,7 +5258,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25819"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25792"
 			(at 64.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4994,7 +5291,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 64.77 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5029,6 +5326,32 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 59.69 59.69 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 59.69 59.69 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 59.69 59.69 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 59.69 59.69 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 59.69 59.69 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -5110,7 +5433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 59.69 104.14 90)
 		(unit 1)
 		(body_style 1)
@@ -5140,7 +5463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5151,7 +5474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C21190.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
 			(at 59.69 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5162,7 +5485,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kohm 1%, BOOTSEL and UART"
+		(property "Description" "1 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 59.69 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5184,7 +5507,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "0402WGF1001TCE"
 			(at 59.69 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5195,7 +5518,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C11702"
 			(at 59.69 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5206,7 +5529,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C21190.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C11702.html"
 			(at 59.69 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5217,7 +5540,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C21190"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C11702"
 			(at 59.69 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5250,7 +5573,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 59.69 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5285,6 +5608,32 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 59.69 104.14 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 59.69 104.14 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 59.69 104.14 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 59.69 104.14 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 59.69 104.14 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -5522,7 +5871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 292.1 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -5552,7 +5901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5563,7 +5912,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105879.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25104.pdf"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5574,7 +5923,7 @@
 				)
 			)
 		)
-		(property "Description" "Target switched-supply LED current limit, before the current shunt"
+		(property "Description" "330 Ω, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5585,7 +5934,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5596,7 +5945,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603JR-07330RL"
+		(property "MPN" "0402WGF3300TCE"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5607,7 +5956,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C105879"
+		(property "LCSC Part #" "C25104"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5618,7 +5967,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C105879.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25104.html"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5629,7 +5978,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C105879"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25104"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5640,7 +5989,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Class" "Extended"
+		(property "JLCPCB Class" "Basic"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5662,7 +6011,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 297.18 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5697,6 +6046,32 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 292.1 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 292.1 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 292.1 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 292.1 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 292.1 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -5780,7 +6155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:C")
+		(lib_id "Device:C")
 		(at 59.69 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -5810,7 +6185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5821,7 +6196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1589.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5832,7 +6207,7 @@
 				)
 			)
 		)
-		(property "Description" "10 nF, 50 V, X7R, target NRST capacitor"
+		(property "Description" "10 nF, ±10%, 50 V, X7R, 0402 (1005 metric)"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5854,7 +6229,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B103KB8NNNC"
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5865,7 +6240,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C1589"
+		(property "LCSC Part #" "C15195"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5876,7 +6251,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C1589.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C15195.html"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5887,7 +6262,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C1589"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C15195"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5898,7 +6273,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Class" "Extended"
+		(property "JLCPCB Class" "Basic"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5920,7 +6295,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 64.77 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5955,6 +6330,27 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 59.69 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±10%"
+			(at 59.69 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 59.69 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "X7R"
+			(at 59.69 72.39 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6136,7 +6532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 59.69 83.82 270)
 		(unit 1)
 		(body_style 1)
@@ -6166,7 +6562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -6177,7 +6573,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22775.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25076.pdf"
 			(at 59.69 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -6188,7 +6584,7 @@
 				)
 			)
 		)
-		(property "Description" "100 ohm 1%, target communication series resistors"
+		(property "Description" "100 Ω, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 59.69 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -6210,7 +6606,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1000T5E"
+		(property "MPN" "0402WGF1000TCE"
 			(at 59.69 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -6221,7 +6617,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22775"
+		(property "LCSC Part #" "C25076"
 			(at 59.69 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -6232,7 +6628,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C22775.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25076.html"
 			(at 59.69 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -6243,7 +6639,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C22775"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25076"
 			(at 59.69 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -6276,7 +6672,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 59.69 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -6311,6 +6707,32 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 59.69 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 59.69 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 59.69 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 59.69 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 59.69 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7043,7 +7465,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 179.07 71.12 90)
 		(unit 1)
 		(body_style 1)
@@ -7073,7 +7495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -7084,7 +7506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C21190.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
 			(at 179.07 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -7095,7 +7517,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kohm 1%, BOOTSEL and UART"
+		(property "Description" "1 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 179.07 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -7117,7 +7539,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "0402WGF1001TCE"
 			(at 179.07 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -7128,7 +7550,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C11702"
 			(at 179.07 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -7139,7 +7561,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C21190.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C11702.html"
 			(at 179.07 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -7150,7 +7572,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C21190"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C11702"
 			(at 179.07 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -7183,7 +7605,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 179.07 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -7219,9 +7641,35 @@
 				)
 			)
 		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 179.07 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 179.07 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 179.07 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 179.07 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 179.07 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 254 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -7251,7 +7699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7262,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C21190.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
 			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7273,7 +7721,7 @@
 				)
 			)
 		)
-		(property "Description" "Target PA15 status LED current limit; remove to free PA15"
+		(property "Description" "1 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7295,7 +7743,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "0402WGF1001TCE"
 			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7306,7 +7754,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C11702"
 			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7317,7 +7765,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C21190.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C11702.html"
 			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7328,7 +7776,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C21190"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C11702"
 			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7361,7 +7809,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 259.08 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7396,6 +7844,32 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 254 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 254 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 254 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 254 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 254 71.12 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7716,7 +8190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 59.69 99.06 90)
 		(unit 1)
 		(body_style 1)
@@ -7746,7 +8220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -7757,7 +8231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C21190.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
 			(at 59.69 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -7768,7 +8242,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kohm 1%, BOOTSEL and UART"
+		(property "Description" "1 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 59.69 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -7790,7 +8264,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "0402WGF1001TCE"
 			(at 59.69 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -7801,7 +8275,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C11702"
 			(at 59.69 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -7812,7 +8286,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C21190.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C11702.html"
 			(at 59.69 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -7823,7 +8297,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C21190"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C11702"
 			(at 59.69 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -7856,7 +8330,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 59.69 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -7892,9 +8366,35 @@
 				)
 			)
 		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 59.69 99.06 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 59.69 99.06 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 59.69 99.06 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 59.69 99.06 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 59.69 99.06 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 179.07 81.28 90)
 		(unit 1)
 		(body_style 1)
@@ -7924,7 +8424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -7935,7 +8435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C21190.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
 			(at 179.07 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -7946,7 +8446,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kohm 1%, BOOTSEL and UART"
+		(property "Description" "1 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 179.07 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -7968,7 +8468,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "0402WGF1001TCE"
 			(at 179.07 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -7979,7 +8479,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C11702"
 			(at 179.07 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -7990,7 +8490,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C21190.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C11702.html"
 			(at 179.07 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -8001,7 +8501,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C21190"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C11702"
 			(at 179.07 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -8034,7 +8534,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 179.07 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -8069,6 +8569,32 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 179.07 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 179.07 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 179.07 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 179.07 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 179.07 81.28 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -8250,7 +8776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 171.45 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -8280,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8291,7 +8817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25804.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25744.pdf"
 			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8302,7 +8828,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kohm 1%, pull-ups/downs and MODE divider"
+		(property "Description" "10 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8324,7 +8850,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1002T5E"
+		(property "MPN" "0402WGF1002TCE"
 			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8335,7 +8861,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25804"
+		(property "LCSC Part #" "C25744"
 			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8346,7 +8872,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25804.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25744.html"
 			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8357,7 +8883,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25804"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25744"
 			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8390,7 +8916,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 176.53 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8426,9 +8952,35 @@
 				)
 			)
 		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 171.45 95.25 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 171.45 95.25 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 171.45 95.25 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 171.45 95.25 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 171.45 95.25 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:C")
+		(lib_id "Device:C")
 		(at 78.74 203.2 0)
 		(unit 1)
 		(body_style 1)
@@ -8458,7 +9010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8469,7 +9021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C314282.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1525.pdf"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8480,7 +9032,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF, 50 V, X7R, 10%; bypass capacitors"
+		(property "Description" "100 nF, ±10%, 16 V, X7R, 0402 (1005 metric)"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8491,7 +9043,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Walsin"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8502,7 +9054,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603B104K500CT"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8513,7 +9065,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C314282"
+		(property "LCSC Part #" "C1525"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8524,7 +9076,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C314282.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8535,7 +9087,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C314282"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C1525"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8546,7 +9098,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Class" "Extended"
+		(property "JLCPCB Class" "Basic"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8568,7 +9120,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 83.82 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -8604,9 +9156,30 @@
 				)
 			)
 		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 78.74 203.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±10%"
+			(at 78.74 203.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "16 V"
+			(at 78.74 203.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "X7R"
+			(at 78.74 203.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 59.69 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -8636,7 +9209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -8647,7 +9220,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C21190.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
 			(at 59.69 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -8658,7 +9231,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kohm 1%, BOOTSEL and UART"
+		(property "Description" "1 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 59.69 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -8680,7 +9253,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "0402WGF1001TCE"
 			(at 59.69 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -8691,7 +9264,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C11702"
 			(at 59.69 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -8702,7 +9275,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C21190.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C11702.html"
 			(at 59.69 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -8713,7 +9286,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C21190"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C11702"
 			(at 59.69 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -8746,7 +9319,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 59.69 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -8781,6 +9354,32 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 59.69 96.52 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -9294,7 +9893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 179.07 83.82 270)
 		(unit 1)
 		(body_style 1)
@@ -9324,7 +9923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -9335,7 +9934,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22775.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25076.pdf"
 			(at 179.07 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -9346,7 +9945,7 @@
 				)
 			)
 		)
-		(property "Description" "100 ohm 1%, target communication series resistors"
+		(property "Description" "100 Ω, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 179.07 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -9368,7 +9967,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1000T5E"
+		(property "MPN" "0402WGF1000TCE"
 			(at 179.07 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -9379,7 +9978,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22775"
+		(property "LCSC Part #" "C25076"
 			(at 179.07 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -9390,7 +9989,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C22775.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25076.html"
 			(at 179.07 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -9401,7 +10000,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C22775"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25076"
 			(at 179.07 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -9434,7 +10033,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 179.07 78.74 270)
 			(hide yes)
 			(show_name no)
@@ -9469,6 +10068,32 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 179.07 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 179.07 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 179.07 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 179.07 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 179.07 83.82 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -9805,7 +10430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
+		(lib_id "Device:R")
 		(at 59.69 91.44 90)
 		(unit 1)
 		(body_style 1)
@@ -9835,7 +10460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -9846,7 +10471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C21190.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C11702.pdf"
 			(at 59.69 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -9857,7 +10482,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kohm 1%, BOOTSEL and UART"
+		(property "Description" "1 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
 			(at 59.69 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -9879,7 +10504,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "0402WGF1001TCE"
 			(at 59.69 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -9890,7 +10515,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C21190"
+		(property "LCSC Part #" "C11702"
 			(at 59.69 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -9901,7 +10526,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C21190.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C11702.html"
 			(at 59.69 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -9912,7 +10537,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C21190"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C11702"
 			(at 59.69 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -9945,7 +10570,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-20"
 			(at 59.69 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -9980,6 +10605,32 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Package" "0402 (1005 metric)"
+			(at 59.69 91.44 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Tolerance" "±1%"
+			(at 59.69 91.44 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Voltage Rating" "50 V"
+			(at 59.69 91.44 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Technology" "Thick film"
+			(at 59.69 91.44 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 59.69 91.44 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
