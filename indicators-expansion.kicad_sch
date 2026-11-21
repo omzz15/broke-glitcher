@@ -1,0 +1,141 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "de6344c2-ba50-576d-8d82-405e77acbf8c")
+	(paper "A3")
+	(title_block
+		(title "Broke Glitcher - Indicators and target GPIO expansion")
+		(date "2026-11-15")
+		(rev "A")
+		(comment 1 "RP2040 / MSPM0G3507 / MS9280 - no PCB layout yet")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 20.32 109.22) (xy 190.5 109.22) (xy 190.5 231.14) (xy 20.32 231.14) (xy 20.32 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "01272395-75a5-5496-9b89-011421867028")
+	)
+	(polyline
+		(pts
+			(xy 203.2 109.22) (xy 350.52 109.22) (xy 350.52 231.14) (xy 203.2 231.14) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1886ce75-d50b-58ba-bb2d-e8a384d2be86")
+	)
+	(polyline
+		(pts
+			(xy 20.32 20.32) (xy 350.52 20.32) (xy 350.52 99.06) (xy 20.32 99.06) (xy 20.32 20.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3b90646c-4baf-58e0-af04-9ace86e3e372")
+	)
+	(text "PA15/pad19 high = status on. Shared with J2.\nTurn off for power traces; remove R52 to free pin.\n\nTarget power LED uses the switched supply BEFORE\nthe shunt. Its current is excluded from the trace.\nIt does not measure the instantaneous glitched VDD."
+		(exclude_from_sim no)
+		(at 30.48 190.5 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left)
+		)
+		(uuid "08d08323-ff86-596d-ac01-161025c21093")
+	)
+	(text "Board +3V3 present.\nNo GPIO required."
+		(exclude_from_sim no)
+		(at 259.08 88.9 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "317d024d-e211-51f8-b79f-2dc5e9cc1809")
+	)
+	(text "CONTROLLER INDICATORS"
+		(exclude_from_sim no)
+		(at 25.4 27.94 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "58467e2e-ca8b-5000-94dc-e31210f4ef24")
+	)
+	(text "TARGET INDICATORS"
+		(exclude_from_sim no)
+		(at 25.4 116.84 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "979e968f-af42-5851-bd62-440179ddded7")
+	)
+	(text "Unpopulated plated holes; no connector in assembly BOM.\nPA15 also drives D7 via R52. PA0/PA1 are open-drain.\nGPIOs share target power; avoid external drive when off.\nUse VDD as a reference; external loads enter the trace."
+		(exclude_from_sim no)
+		(at 210.82 200.66 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left)
+		)
+		(uuid "a27dc6a6-cfdb-5353-bec4-dab74fa98390")
+	)
+	(text "TARGET GPIO BREAKOUT / 2x9 / 2.54 mm"
+		(exclude_from_sim no)
+		(at 208.28 116.84 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "ba81930c-3323-594b-8f08-184736beccec")
+	)
+	(text "GPIO15 low = armed; R36 pulls high on reset.\nNot a pulse monitor or safety interlock."
+		(exclude_from_sim no)
+		(at 30.48 88.9 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "c011e469-865a-5131-8f95-8f9e18c3b601")
+	)
+	(text "GPIO29 high = on.\nKeep steady/off during captures."
+		(exclude_from_sim no)
+		(at 142.24 88.9 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "d956f56c-c86c-50e2-a51c-0cc8ed6f6ab1")
+	)
+)

@@ -1,0 +1,17 @@
+# KiCad lock and backup files
+*.lck
+*.bak
+*-backups/
+_autosave-*
+.history
+
+# Temporary and cache files
+fp-info-cache
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+
+# Netlists and simulation outputs (optional)
+*.net
+*.cir
+

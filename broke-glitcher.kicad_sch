@@ -1,0 +1,950 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1574f122-72a3-4d04-827f-4da4e6044b1c")
+	(paper "A3")
+	(title_block
+		(title "Broke Glitcher - system overview")
+		(date "2026-11-15")
+		(rev "A")
+	)
+	(lib_symbols)
+	(text "BROKE GLITCHER"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "4ae13b71-9d65-5f0b-861b-9be1c5543888")
+	)
+	(text "RP2040 controller + MSPM0G3507 target + MS9280 capture ADC"
+		(exclude_from_sim no)
+		(at 20 30 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "9ea68cd0-23e2-58f0-aaa7-486a89520007")
+	)
+	(text "Shunt -> AC differential amplifier -> 10-bit ADC -> RP2040 PIO/DMA -> USB"
+		(exclude_from_sim no)
+		(at 208.28 243.84 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left)
+		)
+		(uuid "cdab8a73-9fdb-583e-89cb-a0abb101ef7e")
+	)
+	(junction
+		(at 213.36 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "041d417e-40c0-4717-a784-e2a4c7204130")
+	)
+	(junction
+		(at 213.36 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "277bdece-6bd0-45f2-913d-d013c57f084e")
+	)
+	(junction
+		(at 210.82 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3c9fbfe-ec39-4ca6-8cde-3b1f13950bbc")
+	)
+	(wire
+		(pts
+			(xy 215.9 199.39) (xy 213.36 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0720848a-1022-4022-b2c8-de954deae91b")
+	)
+	(wire
+		(pts
+			(xy 210.82 201.93) (xy 215.9 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16865382-5aff-4dae-9251-5000551e96fa")
+	)
+	(wire
+		(pts
+			(xy 279.4 137.16) (xy 289.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17cc354e-ed0a-4137-886c-38c758b9e455")
+	)
+	(wire
+		(pts
+			(xy 203.2 162.56) (xy 215.9 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f12b6e9-3891-4549-8e1f-421e3af576d4")
+	)
+	(wire
+		(pts
+			(xy 289.56 137.16) (xy 289.56 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3607003e-8f72-4dd2-8642-ca717ed43864")
+	)
+	(wire
+		(pts
+			(xy 279.4 123.19) (xy 292.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0477cb-6919-4334-a9c9-9619d9ddc7fc")
+	)
+	(bus
+		(pts
+			(xy 284.48 162.56) (xy 292.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b260e4-30b4-42d6-ba54-f10dc7e2bb49")
+	)
+	(wire
+		(pts
+			(xy 279.4 120.65) (xy 292.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d478f80-769d-48ca-bda8-8fd838f05d28")
+	)
+	(wire
+		(pts
+			(xy 279.4 128.27) (xy 292.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e9955b-4ef3-431b-9115-19ef59c53438")
+	)
+	(wire
+		(pts
+			(xy 203.2 182.88) (xy 215.9 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b34a702-c169-48ab-a687-9836359dcc18")
+	)
+	(wire
+		(pts
+			(xy 287.02 160.02) (xy 287.02 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4ad8b9-1836-4b33-a00f-d6c0c396b292")
+	)
+	(wire
+		(pts
+			(xy 289.56 157.48) (xy 292.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607a817d-3bfe-494c-8e66-5af4d0150d2b")
+	)
+	(wire
+		(pts
+			(xy 285.75 177.8) (xy 292.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64428e47-b772-4d94-be99-919d7df9f962")
+	)
+	(wire
+		(pts
+			(xy 279.4 130.81) (xy 292.1 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de17c13-d7b0-486b-92b0-9ee9bf798c38")
+	)
+	(bus
+		(pts
+			(xy 279.4 142.24) (xy 284.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0378d1-c788-4242-ae0c-632aa50f019d")
+	)
+	(wire
+		(pts
+			(xy 355.6 118.11) (xy 358.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8457e34c-f450-46c8-8190-07eec8699612")
+	)
+	(bus
+		(pts
+			(xy 213.36 158.75) (xy 215.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9070d640-ff6e-46b5-912d-69c74bf7d921")
+	)
+	(bus
+		(pts
+			(xy 284.48 142.24) (xy 284.48 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64ce0af-59d0-4227-a8fd-4db656773a42")
+	)
+	(bus
+		(pts
+			(xy 213.36 118.11) (xy 213.36 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2438211-3964-46d0-a67b-e8e3d7d80ee5")
+	)
+	(wire
+		(pts
+			(xy 279.4 199.39) (xy 285.75 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4aff3a5-55e1-457d-b629-7277b5f5dae1")
+	)
+	(wire
+		(pts
+			(xy 292.1 160.02) (xy 287.02 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a1c123-f69e-406b-9ef9-4430b7388965")
+	)
+	(wire
+		(pts
+			(xy 210.82 182.88) (xy 210.82 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba4166f-0554-4f60-96bb-899f1dc58c7e")
+	)
+	(wire
+		(pts
+			(xy 203.2 180.34) (xy 215.9 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35e81e6-01e2-4d11-93ae-56ce086992c9")
+	)
+	(wire
+		(pts
+			(xy 213.36 199.39) (xy 213.36 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de757ff6-30cb-4ad2-80dd-fc1a0c53a594")
+	)
+	(bus
+		(pts
+			(xy 203.2 158.75) (xy 213.36 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ba1518-908e-425f-95cc-9714ad8248b0")
+	)
+	(wire
+		(pts
+			(xy 287.02 139.7) (xy 279.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21da221-5c43-4a69-a5e3-8754eeae8a64")
+	)
+	(wire
+		(pts
+			(xy 285.75 199.39) (xy 285.75 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9423850-13ea-4e70-a458-a8684c08119d")
+	)
+	(wire
+		(pts
+			(xy 279.4 118.11) (xy 292.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a36bed-6c0a-45a4-ac10-a87c50346735")
+	)
+	(bus
+		(pts
+			(xy 215.9 118.11) (xy 213.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe22042-14f6-4344-bb97-987296116801")
+	)
+	(label "GLITCH_OUT"
+		(at 358.14 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "438df65b-6606-42f1-91d2-d3503e18f016")
+	)
+	(label "GLITCH_OUT"
+		(at 203.2 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1685e9c-31f5-4a48-8b07-e2e9fb7c839b")
+	)
+	(sheet
+		(at 215.9 114.3)
+		(size 63.5 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "19e4ee66-6f19-5955-b0de-198afda9d7bd")
+		(property "Sheetname" "RP2040 controller, flash and oscillator"
+			(at 215.9 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "rp2040-controller.kicad_sch"
+			(at 215.9 148.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CLK" output
+			(at 279.4 139.7 0)
+			(uuid "dd28751e-5fdc-48a1-bcd6-1fd2f5b81050")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_STBY" output
+			(at 279.4 137.16 0)
+			(uuid "cf0abd89-9d11-4012-81f9-d06aac3784f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC{D[0..9] OTR}" input
+			(at 279.4 142.24 0)
+			(uuid "40872e45-27c2-42c1-90ea-3bf65734b1b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GLITCH_PULSE" output
+			(at 279.4 123.19 0)
+			(uuid "e009cade-2e27-4878-9157-5759488dd258")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TARGET_PWR_EN" output
+			(at 279.4 118.11 0)
+			(uuid "ff54f059-5e9d-44f5-b969-b194f59f17da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 279.4 130.81 0)
+			(uuid "071e9e30-87dc-45ca-b9ec-2cef0b926c9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 279.4 128.27 0)
+			(uuid "76f0c46f-27f9-467e-866f-f5d3e7fb12e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{GLITCH_EN}" output
+			(at 279.4 120.65 0)
+			(uuid "47575c1d-b4fb-44ae-ac3b-7d91bf3a96b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TARGET{TARGET_LINK}" bidirectional
+			(at 215.9 118.11 180)
+			(uuid "c6f361c4-459d-4770-aea3-3fa95cf1ec90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 196.28)
+		(size 63.5 32.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3cf7ae48-d6a9-57bf-a1bd-675db1139474")
+		(property "Sheetname" "AC current-shunt amplifier"
+			(at 215.9 193.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "shunt-amplifier.kicad_sch"
+			(at 215.9 230.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 279.4 199.39 0)
+			(uuid "b23e5961-6bdd-48c0-bfc7-0f3c35252b9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_N" input
+			(at 215.9 201.93 180)
+			(uuid "566d5302-cb29-45f5-89f3-48816c0c5378")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE_P" input
+			(at 215.9 199.39 180)
+			(uuid "7f570cdc-57ec-4566-8a17-bea3076de2c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 292.1 154.94)
+		(size 65.2 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4042dbc3-56a1-53f7-bc93-a548cc7b2b7b")
+		(property "Sheetname" "10-bit ADC and references"
+			(at 292.1 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "adc-capture.kicad_sch"
+			(at 292.1 189.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CLK" input
+			(at 292.1 160.02 180)
+			(uuid "a5f6277d-72a9-407d-9050-d04e99ea4f01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_IN" input
+			(at 292.1 177.8 180)
+			(uuid "6a113310-a5e8-49af-b53b-f1e1abdd05cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_STBY" input
+			(at 292.1 157.48 180)
+			(uuid "d37df8af-fc43-4d1f-a4c0-e82fd9499cbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC{D[0..9] OTR}" output
+			(at 292.1 162.56 180)
+			(uuid "c21d6529-67b7-41fa-b506-03d1fc5ea9d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 154.94)
+		(size 63.5 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "59365128-f1c6-514f-92c7-b78e30af6b39")
+		(property "Sheetname" "MSPM0G3507 target and debug access"
+			(at 215.9 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "mspm0-target.kicad_sch"
+			(at 215.9 189.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GLITCH_OUT" input
+			(at 215.9 162.56 180)
+			(uuid "0e51b2cc-d29c-4905-94b9-255ae74d6fb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE_N" output
+			(at 215.9 182.88 180)
+			(uuid "3ffb74c8-b65a-4ae5-bb7e-67be91569176")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE_P" output
+			(at 215.9 180.34 180)
+			(uuid "a3956f8e-33d2-4c6e-993b-f1ec7196468d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TARGET{TARGET_LINK}" bidirectional
+			(at 215.9 158.75 180)
+			(uuid "99e955ce-8f9a-4969-8847-524c0624f147")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 292.1 114.3)
+		(size 63.5 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628")
+		(property "Sheetname" "USB, 3.3 V supply and glitch driver"
+			(at 292.1 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "usb-power-glitch.kicad_sch"
+			(at 292.1 148.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GLITCH_OUT" output
+			(at 355.6 118.11 0)
+			(uuid "8d2713cf-cf69-4a5e-9056-39a030d3dfbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GLITCH_PULSE" input
+			(at 292.1 123.19 180)
+			(uuid "a8b7fa9b-a799-48c7-a512-abdb786e67ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TARGET_PWR_EN" input
+			(at 292.1 118.11 180)
+			(uuid "ac87e3f7-2a2e-471e-adc3-c4cb9cdd15a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 292.1 130.81 180)
+			(uuid "071c402e-fb07-434e-a606-9a4ce8abfa1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 292.1 128.27 180)
+			(uuid "e9af1d60-9b95-4443-bea6-d540c921b8f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{GLITCH_EN}" input
+			(at 292.1 120.65 180)
+			(uuid "60bfec2e-c7d9-47b0-90aa-dc2103b72076")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 154.94)
+		(size 64.77 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d17160bd-daf5-5533-9d68-e15229d9d939")
+		(property "Sheetname" "Breakaway interface"
+			(at 138.43 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "breakaway-interface.kicad_sch"
+			(at 138.43 189.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GLITCH_OUT" input
+			(at 203.2 162.56 0)
+			(uuid "086e569c-2665-4a4d-b396-50bbaf20ca9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_N" output
+			(at 203.2 182.88 0)
+			(uuid "84e2966f-89eb-4f4d-b41b-04277cd6f149")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_P" output
+			(at 203.2 180.34 0)
+			(uuid "3907e498-2cb0-4c39-82f5-7d97efa98b14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TARGET{TARGET_LINK}" bidirectional
+			(at 203.2 158.75 0)
+			(uuid "3c38a86b-6f4b-4665-bc64-9a168ff83142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
