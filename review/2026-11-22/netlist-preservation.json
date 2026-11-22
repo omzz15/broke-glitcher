@@ -1,0 +1,7 @@
+{
+  "controller_component_count": 118,
+  "controller_nets_preserved": true,
+  "schematic_component_fields_preserved": true,
+  "renamed_controller_nets": [],
+  "target_parts_excluded_from_board_and_bom": 29
+}

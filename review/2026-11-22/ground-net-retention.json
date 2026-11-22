@@ -1,0 +1,10 @@
+{
+  "fixed_ground_stitching_vias": [
+    "10c54461-dc70-4ab3-850e-5a4a6232e495",
+    "4997471b-a4e5-4eb4-a01f-c41be9a6d931",
+    "6c5ca879-fdcb-4990-98a5-50f6884fbd7a",
+    "c0a7aa04-44e9-4096-965a-b312336c27d3",
+    "e7e0af40-98e7-4344-adbd-2607eff3e964"
+  ],
+  "automatic_net_update": false
+}

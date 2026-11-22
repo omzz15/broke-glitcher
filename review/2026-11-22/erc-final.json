@@ -1,0 +1,62 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-22T09:31:15",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/1574f122-72a3-4d04-827f-4da4e6044b1c",
+            "violations": []
+        },
+        {
+            "path": "/USB, 3.3 V supply and glitch driver/",
+            "uuid_path": "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628",
+            "violations": []
+        },
+        {
+            "path": "/RP2040 controller, flash and oscillator/",
+            "uuid_path": "/1574f122-72a3-4d04-827f-4da4e6044b1c/19e4ee66-6f19-5955-b0de-198afda9d7bd",
+            "violations": []
+        },
+        {
+            "path": "/MSPM0G3507 target and debug access/",
+            "uuid_path": "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39",
+            "violations": []
+        },
+        {
+            "path": "/10-bit ADC and references/",
+            "uuid_path": "/1574f122-72a3-4d04-827f-4da4e6044b1c/4042dbc3-56a1-53f7-bc93-a548cc7b2b7b",
+            "violations": []
+        },
+        {
+            "path": "/AC current-shunt amplifier/",
+            "uuid_path": "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474",
+            "violations": []
+        },
+        {
+            "path": "/Breakaway interface/",
+            "uuid_path": "/1574f122-72a3-4d04-827f-4da4e6044b1c/d17160bd-daf5-5533-9d68-e15229d9d939",
+            "violations": []
+        }
+    ],
+    "source": "broke-glitcher.kicad_sch"
+}

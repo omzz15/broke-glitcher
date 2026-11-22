@@ -3359,7 +3359,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54S,215"
+		(property "Value" "BAT754S,215"
 			(at 109.22 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3380,7 +3380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C47546.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT754S.pdf"
 			(at 109.22 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -3413,7 +3413,7 @@
 				)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT754S,215"
 			(at 109.22 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -3424,7 +3424,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C47546"
+		(property "LCSC Part #" "C426771"
 			(at 109.22 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -3435,7 +3435,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C47546.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C426771.html"
 			(at 109.22 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -3446,7 +3446,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C47546"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C426771"
 			(at 109.22 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -3479,7 +3479,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-22"
 			(at 109.22 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -4162,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54S,215"
+		(property "Value" "BAT754S,215"
 			(at 58.42 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,7 +4183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C47546.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT754S.pdf"
 			(at 58.42 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -4216,7 +4216,7 @@
 				)
 			)
 		)
-		(property "MPN" "BAT54S,215"
+		(property "MPN" "BAT754S,215"
 			(at 58.42 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -4227,7 +4227,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C47546"
+		(property "LCSC Part #" "C426771"
 			(at 58.42 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -4238,7 +4238,7 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C47546.html"
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C426771.html"
 			(at 58.42 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -4249,7 +4249,7 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C47546"
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C426771"
 			(at 58.42 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -4282,7 +4282,7 @@
 				)
 			)
 		)
-		(property "BOM Snapshot" "2026-11-15"
+		(property "BOM Snapshot" "2026-11-22"
 			(at 58.42 199.39 0)
 			(hide yes)
 			(show_name no)

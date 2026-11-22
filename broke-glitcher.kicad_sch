@@ -282,11 +282,16 @@
 		)
 		(uuid "cdab8a73-9fdb-583e-89cb-a0abb101ef7e")
 	)
-	(junction
-		(at 213.36 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "041d417e-40c0-4717-a784-e2a4c7204130")
+	(text "Controller PCB: target-side parts excluded from PCB and BOM.\nTarget schematic retained; raw GPIO mapping unchanged."
+		(exclude_from_sim no)
+		(at 138.43 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d736dde3-2e25-46db-ab82-00ce420936dd")
 	)
 	(junction
 		(at 317.5 207.01)
@@ -438,6 +443,16 @@
 		)
 		(uuid "5b7805ff-0f1b-4089-a163-f4deabf074fd")
 	)
+	(bus
+		(pts
+			(xy 203.2 166.37) (xy 215.9 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c867442-5fdd-4ea0-9760-9faeefb2af5b")
+	)
 	(wire
 		(pts
 			(xy 287.02 160.02) (xy 287.02 139.7)
@@ -497,16 +512,6 @@
 			(type default)
 		)
 		(uuid "8457e34c-f450-46c8-8190-07eec8699612")
-	)
-	(bus
-		(pts
-			(xy 213.36 158.75) (xy 215.9 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9070d640-ff6e-46b5-912d-69c74bf7d921")
 	)
 	(bus
 		(pts
@@ -1415,7 +1420,7 @@
 			)
 		)
 		(pin "TARGET{TARGET_LINK}" bidirectional
-			(at 215.9 158.75 180)
+			(at 215.9 166.37 180)
 			(uuid "99e955ce-8f9a-4969-8847-524c0624f147")
 			(effects
 				(font
@@ -1607,6 +1612,16 @@
 		(pin "LINK_GPIO[17..29]" bidirectional
 			(at 203.2 158.75 0)
 			(uuid "2d3577c9-b765-4332-a8f5-99363a32f9e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TARGET{TARGET_LINK}" bidirectional
+			(at 203.2 166.37 0)
+			(uuid "a0ce8d28-4385-4711-801d-0979c68bb722")
 			(effects
 				(font
 					(size 1.27 1.27)

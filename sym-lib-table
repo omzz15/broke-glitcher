@@ -1,0 +1,5 @@
+(sym_lib_table
+      (lib (name "BrokeGlitcher") (type "KiCad")
+        (uri "${KIPRJMOD}/BrokeGlitcher.kicad_sym") (options "")
+        (descr "Recovered existing embedded project symbols; pin geometry preserved")))
+    

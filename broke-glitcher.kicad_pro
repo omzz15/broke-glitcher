@@ -136,6 +136,402 @@
         [
           "copper_edge_clearance|15000000|58670000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|9c455f57-9b1d-410c-a947-57d849f6fa9f",
           "Edge SMA connector"
+        ],
+        [
+          "lib_footprint_mismatch|21750000|47250000|878ef3e3-4598-4758-9ca2-b409c4662771|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|21750000|48250000|75f52e1c-1197-4dac-89b6-89a41caac9b8|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|22600000|51500000|0c52a86c-85f4-495b-906c-592d27ed5c9f|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|23000000|53500000|57470609-d387-4416-b4a7-726cc18cd61e|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|23250000|42500000|fde355c2-fc0f-47e5-a667-6be7158599d0|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|23500000|24500000|4cbe900b-2e01-4664-a7f8-8e63f3920b96|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|23500000|40000000|be3639b3-9aeb-495c-ba12-f5fc91c9b0c8|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|23750000|47750000|da94b4dd-0159-414f-821d-ed22d0587097|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|24000000|51000000|838d9512-c04a-4cf1-ab36-32e41988df7e|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|24250000|42500000|1901c857-88ff-4bab-a038-eba1e424f5e7|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|24750000|44000000|61f45685-bf90-4459-9543-a35fe03062fc|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|25250000|42500000|7664c4a6-fadd-4fad-8e6c-40f3d27127f0|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|25250000|47750000|e9b53700-d25c-465e-9ff1-21d3c2a7abaa|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|25250000|50000000|c2811946-394b-46bf-a7a4-cba210cc6768|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|25750000|53000000|051ea43f-57e2-470b-ba4c-cb0773caaa01|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|26250000|24500000|04982491-0a0a-48a2-ba7b-f2accffaed76|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|26250000|31750000|2edcc23b-dbae-4a90-be61-39aee7b81a1d|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|26250000|33250000|79bfca5c-257e-4663-9fc0-8c5dafeb53ac|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|26250000|40000000|bba85bd4-7730-4130-b7c1-5229509cb663|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|27000000|52500000|1171c78c-5749-46ae-8b2a-8009c8204bbb|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|27250000|29000000|93f05ed0-850a-4d29-b832-b8da19a59505|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|27250000|36000000|e5c0ee7e-ca8c-4c10-bf19-6af571d2e494|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|28500000|55750000|8e0afdb8-5809-427e-9455-ccf0b89ebb5e|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|28750000|40000000|27c993ec-0863-4211-884d-b6b7f3780116|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|29587500|32500000|cd89f851-f57f-4b6e-b6eb-1f6e8500efba|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|30000000|28750000|1e4c1887-67b8-4f32-94f0-6f44655e97e5|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|30000000|29750000|efe601cd-6236-404d-8af7-d4a8a0921cc2|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|30000000|35250000|58793a0b-6fcf-4028-8888-d31d2282353f|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|30000000|36250000|232687c5-7702-40a0-884d-c8156d54333b|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|30750000|53000000|d484b0b1-33df-4544-a87b-3faade3c87bb|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|31250000|40000000|25a0ad6a-846f-4074-bc10-bdb250121823|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|31750000|31500000|5829c354-bfc0-4fb8-980b-74051a8b6e32|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|31750000|33500000|ae629f76-da70-4f64-b2c3-a6467dd23063|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|31750000|36000000|9569297d-54fc-4074-87fc-d20c8e0a7263|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|32250000|57000000|00050d30-6a46-4967-bc8f-bd874c4e8142|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|32250000|58600000|ced2e69f-42f1-4d4d-b58d-df7fcbedfb83|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|33250000|52750000|e3d339dc-225f-4dc2-9d55-b706f29661eb|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|33500000|32750000|f1f66fea-c1f2-4ee4-b1e5-827ab4784735|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|34750000|27500000|a4355561-5cc7-4e5d-8e24-c3bd7e9aa9d1|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|35250000|32100000|64ce38c3-af75-4bb8-b0f7-4c2fa01d8928|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|35750000|27500000|e9958704-b82e-43fc-92a3-da5d54d57488|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|35750000|54750000|42990f98-2c29-490f-91af-eee051320d63|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|36000000|56912500|9cdb7fa4-9524-4fd4-b126-75283f244938|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|36750000|27500000|72375943-206f-4ed6-9018-0eb52c106f2e|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|33250000|4afeb0c8-7ac4-4228-9b5a-1aa126f2a2c4|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|41500000|1d91cada-0692-4f7e-81fe-17de7693048a|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|42500000|315867fa-6c79-470f-9e94-c1dfcccb4366|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|43500000|4a961992-e6e7-42f3-aa1b-339f01cf3e52|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|44500000|3a9e80c3-17f0-4760-85a9-0b82c5265480|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|45500000|4b12687d-eea3-44e3-bfb6-076cfbd0d097|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|46500000|264866cb-485e-4563-940d-f1291c3378a0|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|47500000|8c2231dd-78ca-4ecd-88aa-16183a89bc6e|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|48500000|b8b87ce3-e8aa-4dca-8c55-3c515e4a8151|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|49500000|247e5fdd-5040-4c83-a4d6-d1c7f9dada78|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|50500000|910d0412-6fa6-4682-8a6d-39bf3b2cdce2|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37000000|51500000|68fe38a4-4370-4bba-8858-3b3a1764e0b1|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|37500000|53750000|08ffb69e-3607-4ef4-89b6-7036dad00050|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|38000000|36432500|feef8d61-e628-43af-85d5-82755c17761f|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|39000000|33250000|49099074-cfbd-4a2d-b429-5aba853bd97a|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|39000000|57000000|7417cf4f-a23d-465b-b56f-6b7c7ce5d2cb|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|39000000|59000000|26b3bdb6-2186-4cf9-bd5c-b65ba3b45379|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|39500000|46000000|524cf116-0ad0-4de7-9f81-c2731dedf4b8|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|39750000|41500000|7e5b398d-b890-4bd5-871b-5704232e507c|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|39750000|42500000|107a4d75-e954-4feb-99cc-87ae282f2687|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|40500000|52000000|90c0e167-b849-4bb2-989e-2af9a0378563|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|42750000|52000000|2eaa4154-ee91-46d3-af94-52c3fa05bad4|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|43750000|39000000|42e875c3-5ed7-469b-b32c-dac4b31e2f2a|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|44750000|39000000|83263b9b-794c-4565-8496-11979343e784|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|45000000|45000000|4ef80454-309b-4be8-b67b-cc442a2aebd0|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|45000000|51000000|e0ca0705-af42-4ed4-9e17-24e96912a83f|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|45000000|53000000|471d581c-8533-4e43-81da-32bb64ff19ae|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|45750000|39000000|b3c0a1df-8b41-489f-bd4a-07931ba255c8|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|46000000|51000000|7eee2092-d239-4a1d-884d-0974b277674e|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|46500000|53000000|acb3bb98-b444-4bad-b282-25ff4954b865|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|46750000|24750000|ce2b02d8-8a61-468c-af91-443b5e8dcf87|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|46750000|39000000|a507adc1-0623-4d6a-b5ab-7a9a2936ad29|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|47000000|51000000|3e3def4e-3365-4348-99fe-74f6c8df58df|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|47750000|39000000|27feaada-3dc1-4144-89dd-bb042293ce9a|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|49000000|34500000|ff51bb7c-16a9-4cf2-9129-756e62d71fb5|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|49000000|51000000|8b7f6f27-64a8-4112-a54b-916ebca1b6a9|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50000000|19060000|2cda57d6-2898-4021-8031-802a3c3ac12d|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50000000|25662500|6007e90c-1e01-414f-aac0-9a4a0a3f660c|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50250000|31250000|9986b167-8d81-42b0-a303-ed585bf287f8|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50250000|34500000|9d3896a1-5824-4380-9b76-7b5aed20acad|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50250000|38000000|ec7f63f9-d6f2-4cd0-bcff-9d9f068a76a6|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50250000|39500000|4f933949-badc-4a7b-a862-7c666f09185b|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50250000|40750000|bddb1b4b-2003-4967-9410-d2ec540dffb3|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50250000|41750000|fe9d151b-2d7a-444e-85bd-67586ff8f67f|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50250000|46000000|4b5b823a-e5c7-499a-b49c-4889c1163940|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|50750000|51750000|a41ba4db-7433-4b0e-8fd4-3c690ea834b7|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|53000000|34912500|5342262a-355c-4b5b-b668-e4528a070971|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|53000000|38000000|b555c14b-cdfa-436c-849d-85a7169825c6|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|53250000|24750000|cc2170b1-e0c8-478b-b8a2-9bbdcede8329|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|53250000|25750000|f605ceb5-710b-4b4d-8759-bfd960e914c7|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|53250000|28750000|a916b577-754c-415e-b342-51d875d02dcb|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|54000000|31500000|7b2c2e3d-2407-4932-b19d-36a9c3ad4133|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|55250000|31250000|dc4e82f1-647b-454e-9b5c-9483059c5d3c|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|56000000|35000000|d5dac32d-0c68-4d84-b894-d42cbbf65cae|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
+        ],
+        [
+          "lib_footprint_mismatch|57250000|31165000|3deba9c4-3adc-4118-aacf-e9f4d921327b|00000000-0000-0000-0000-000000000000",
+          "Intentional board-instance silkscreen clearance edits; original footprint identity, all pad geometry, nets, and component fields verified unchanged. See DESIGN-FIXES.md."
         ]
       ],
       "meta": {
@@ -239,7 +635,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -251,7 +646,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -263,7 +657,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -625,8 +1018,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "USB",
@@ -835,7 +1228,7 @@
         "uuid": "1574f122-72a3-4d04-827f-4da4e6044b1c"
       }
     ],
-    "used_designators": "#FLG1-3,#FLG2018,#FLG2020,#PWR1-126,#PWR4007-4010,#PWR4012,#PWR4024-4025,#PWR7015,#PWR7017,#PWR7020,#PWR8016,#PWR8018,#PWR8029-8032,#PWR8034,#PWR8036,C1-45,D1-8,F1,H1-4,J1-11,NT1-4,Q1,R1-61,SW1-2,TP1-16,U1-8,Y1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

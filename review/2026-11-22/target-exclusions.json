@@ -1,0 +1,234 @@
+[
+  {
+    "reference": "D5",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "J3",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R23",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R28",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R35",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "TP10",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "C25",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R29",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R24",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "C27",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "NT1",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "no",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R31",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R34",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "NT3",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "no",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R27",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R32",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "D6",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R30",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "C26",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R26",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "NT2",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "no",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "U6",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R33",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "C24",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "R25",
+    "file": "mspm0-target.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "J8",
+    "file": "breakaway-interface.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "J9",
+    "file": "breakaway-interface.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "J7",
+    "file": "breakaway-interface.kicad_sch",
+    "previous": {
+      "in_bom": "yes",
+      "on_board": "yes"
+    }
+  },
+  {
+    "reference": "J10",
+    "file": "breakaway-interface.kicad_sch",
+    "previous": {
+      "in_bom": "no",
+      "on_board": "yes"
+    }
+  }
+]
