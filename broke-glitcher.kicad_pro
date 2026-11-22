@@ -60,17 +60,84 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|15000000|18910000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|0717623b-ebaf-44fa-ade1-f09137600f6f",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|18910000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|c77dc1eb-5fe0-4dde-beb8-4873a97a7157",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|23355000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|5bf55a2a-a4a3-4c16-9f6d-71a6eb2e42d4",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|27670000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|7016bf8a-f345-477c-9d24-db5fcc20d318",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|27670000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|bc89ba6d-8725-42a2-8212-4b2420bb9452",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|34410000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|021a83bc-446d-4a0e-a1a3-4b8c79da0e9a",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|34410000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|a1ce472a-6db3-4f3c-8319-2bf61c8f1bd6",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|38855000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|2b17b88b-7e55-414d-87d8-4438fe9088f6",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|43170000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|ed991f30-2e98-42f9-a144-9209c680a553",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|43170000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|fd43cf24-261d-49b1-ac8f-8fafa731771f",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|49910000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|6dadfae3-c7e6-49a0-b94f-9074ce26be81",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|49910000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|a27ec404-9eda-4ce9-8abd-6ecde796d3dc",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|54355000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|eeb88a07-388b-4616-a2a2-20be6c3dc48c",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|58670000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|752786a0-cc2f-41e1-aee3-5b72c56ad8b2",
+          "Edge SMA connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|58670000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|9c455f57-9b1d-410c-a947-57d849f6fa9f",
+          "Edge SMA connector"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -140,22 +207,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.0,
+        "min_microvia_drill": 0.0,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -171,7 +238,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
@@ -183,7 +250,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
@@ -206,7 +273,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +305,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.5
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -499,7 +580,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.0,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -515,6 +596,30 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.15,
+        "name": "Signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "Signal_S50"
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "USB_D90"
       }
     ],
     "meta": {
@@ -522,7 +627,68 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "*USB_D*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": ".*[0-9]V[0-9]"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "^(?!.*ADC_REF).*ADC[._].*$"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": ".*TARGET(?!_VDD).*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*STAT_LED"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*RP_RUN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*RP_SW*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": ".*X(TAL_)?(IN|OUT)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*QSPI*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": ".+/.*GLITCH.*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUS*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*LINK_GPIO*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*/SENSE*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*AMP*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -669,7 +835,7 @@
         "uuid": "1574f122-72a3-4d04-827f-4da4e6044b1c"
       }
     ],
-    "used_designators": "#FLG1-3,#FLG2018,#FLG2020,#PWR1-125,#PWR4007-4010,#PWR4012,#PWR4024-4025,#PWR7015,#PWR7017,#PWR7020,#PWR8016,#PWR8018,#PWR8029-8032,#PWR8034,#PWR8036,C1-45,D1-8,F1,J1-11,NT1-4,Q1,R1-61,SW1-2,TP1-15,U1-8,Y1",
+    "used_designators": "#FLG1-3,#FLG2018,#FLG2020,#PWR1-126,#PWR4007-4010,#PWR4012,#PWR4024-4025,#PWR7015,#PWR7017,#PWR7020,#PWR8016,#PWR8018,#PWR8029-8032,#PWR8034,#PWR8036,C1-45,D1-8,F1,H1-4,J1-11,NT1-4,Q1,R1-61,SW1-2,TP1-16,U1-8,Y1",
     "variants": []
   },
   "sheets": [
@@ -707,6 +873,51 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 150876
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In2.Cu",
+            "width": 150876
+          }
+        ],
+        "profile_name": "Signal_S50",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6000000,
+            "diff_pair_gap": 203200,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 149352
+          }
+        ],
+        "profile_name": "USB_D90",
+        "target_impedance": 90.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }

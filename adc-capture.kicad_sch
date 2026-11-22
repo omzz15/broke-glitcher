@@ -1003,7 +1003,6 @@
 			)
 			(embedded_fonts no)
 		)
-
 		(symbol "BrokeGlitcher:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1117,6 +1116,301 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1266,303 +1560,6 @@
 			)
 			(embedded_fonts no)
 		)
-
-		(symbol "Device:R"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "R"
-			(at 2.032 0 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 0 0 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -1.778 0 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "R res resistor"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "R_*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "R_0_1"
-			(rectangle
-				(start -1.016 -2.54)
-				(end 1.016 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "R_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-
-		(symbol "Device:C"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "C"
-			(at 0.635 2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 0.635 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0.9652 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "C_0_1"
-			(polyline
-				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "C_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 2.794)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.794)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	)
 	(polyline
 		(pts
@@ -3121,6 +3118,50 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 55.88 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 55.88 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "16 V"
+			(at 55.88 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "X7R"
+			(at 55.88 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "898220cb-b1c8-55b7-8fc2-2bdf68891daf")
 		)
@@ -3134,27 +3175,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 55.88 213.36 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±10%"
-			(at 55.88 213.36 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "16 V"
-			(at 55.88 213.36 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "X7R"
-			(at 55.88 213.36 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3320,6 +3340,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9fc449de-76c6-57de-a5aa-67d8f890182d")
 		)
@@ -3333,32 +3408,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 78.74 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 78.74 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 78.74 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 78.74 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 78.74 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3524,6 +3573,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43b7621f-5154-4095-8823-acc04ffde6c9")
 		)
@@ -3537,32 +3641,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 119.38 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 119.38 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 119.38 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 119.38 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 119.38 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -3906,6 +3984,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f518bf1-c743-5932-bdcd-8d05aae32e44")
 		)
@@ -3919,32 +4052,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 68.58 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 68.58 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 68.58 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 68.58 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 68.58 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -4188,6 +4295,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12c6402e-4373-5622-bd1f-54198be28f2f")
 		)
@@ -4201,32 +4363,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 109.22 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 109.22 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 109.22 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 109.22 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 109.22 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -4392,6 +4528,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7cf70f86-58af-5d34-8913-4282edb57ad5")
 		)
@@ -4405,32 +4596,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 93.98 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 93.98 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 93.98 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 93.98 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 93.98 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -5008,6 +5173,50 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 307.34 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 307.34 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "16 V"
+			(at 307.34 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "X7R"
+			(at 307.34 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fcbf972a-2af7-5377-9b08-7b3ec5846061")
 		)
@@ -5021,27 +5230,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 307.34 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±10%"
-			(at 307.34 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "16 V"
-			(at 307.34 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "X7R"
-			(at 307.34 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -5207,6 +5395,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36a52fe7-da06-5696-ba61-3fc3d8115066")
 		)
@@ -5220,32 +5463,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 60.96 55.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 60.96 55.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 60.96 55.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 60.96 55.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 60.96 55.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -5488,6 +5705,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a77c5556-9657-5606-a068-929be218d78b")
 		)
@@ -5501,32 +5773,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 73.66 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 73.66 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 73.66 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 73.66 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 73.66 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -5847,6 +6093,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "538ef0c9-39d3-56ab-b7a3-54dbab7a4f91")
 		)
@@ -5860,32 +6161,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 99.06 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 99.06 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 99.06 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 99.06 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 99.06 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6078,7 +6353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 104.14 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6364,6 +6639,50 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 254 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 254 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "16 V"
+			(at 254 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "X7R"
+			(at 254 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e332068e-1d93-55ee-9d4c-837333353410")
 		)
@@ -6377,27 +6696,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 254 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±10%"
-			(at 254 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "16 V"
-			(at 254 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "X7R"
-			(at 254 187.96 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6641,6 +6939,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86b26643-85cc-501b-bf33-b253453cebb8")
 		)
@@ -6654,32 +7007,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 68.58 111.76 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 68.58 111.76 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 68.58 111.76 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 68.58 111.76 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 68.58 111.76 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -6845,6 +7172,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6a5647c-87d2-5be5-8cf9-0eb8d5207b45")
 		)
@@ -6858,32 +7240,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 104.14 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 104.14 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 104.14 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 104.14 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 104.14 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7127,6 +7483,50 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 55.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 55.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "16 V"
+			(at 55.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "X7R"
+			(at 55.88 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d0251094-3bc5-5d80-80f6-6a67232e1751")
 		)
@@ -7140,27 +7540,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 55.88 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±10%"
-			(at 55.88 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "16 V"
-			(at 55.88 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "X7R"
-			(at 55.88 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7403,6 +7782,50 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 99.06 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 99.06 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "16 V"
+			(at 99.06 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "X7R"
+			(at 99.06 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c98dd63-f80d-5cde-bf29-43d16f5a6ad5")
 		)
@@ -7416,27 +7839,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 99.06 111.76 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±10%"
-			(at 99.06 111.76 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "16 V"
-			(at 99.06 111.76 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "X7R"
-			(at 99.06 111.76 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -7602,6 +8004,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "563f7168-f8a9-5bae-b04f-dfbdc0c57120")
 		)
@@ -7615,32 +8072,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -8011,7 +8442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8375,6 +8806,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 68.58 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 68.58 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 68.58 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 68.58 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 68.58 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c202317-63fd-5adb-a8d6-a093bf57d6c2")
 		)
@@ -8388,32 +8874,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 68.58 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 68.58 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 68.58 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 68.58 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 68.58 88.9 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -9169,6 +9629,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb347b35-566d-5f78-9d61-c9e37e80b8f9")
 		)
@@ -9182,32 +9697,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 83.82 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 83.82 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 83.82 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 83.82 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 83.82 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -9373,6 +9862,50 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 99.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 99.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "16 V"
+			(at 99.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "X7R"
+			(at 99.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cea5ceb3-8273-589d-8342-2ccf8b5fb355")
 		)
@@ -9386,27 +9919,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 99.06 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±10%"
-			(at 99.06 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "16 V"
-			(at 99.06 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "X7R"
-			(at 99.06 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -9572,6 +10084,61 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 201.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 201.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 201.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 201.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 201.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47314abf-c802-5557-a9dd-84140385fb5e")
 		)
@@ -9585,32 +10152,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 201.93 63.5 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±1%"
-			(at 201.93 63.5 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "50 V"
-			(at 201.93 63.5 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "Thick film"
-			(at 201.93 63.5 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 201.93 63.5 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 	(symbol
@@ -9776,6 +10317,50 @@
 				)
 			)
 		)
+		(property "Package" "0402 (1005 metric)"
+			(at 149.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 149.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "16 V"
+			(at 149.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "X7R"
+			(at 149.86 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a47b6231-4b5c-5419-9f50-f2f2c598e671")
 		)
@@ -9789,27 +10374,6 @@
 					(unit 1)
 				)
 			)
-		)
-
-		(property "Package" "0402 (1005 metric)"
-			(at 149.86 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Tolerance" "±10%"
-			(at 149.86 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Voltage Rating" "16 V"
-			(at 149.86 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Technology" "X7R"
-			(at 149.86 182.88 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
 		)
 	)
 )

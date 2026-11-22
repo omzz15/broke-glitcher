@@ -1818,6 +1818,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f02c774-a1cc-4234-80fe-570350f6d648")
+	)
+	(wire
+		(pts
 			(xy 271.78 129.54) (xy 269.24 129.54)
 		)
 		(stroke
@@ -1845,16 +1855,6 @@
 			(type default)
 		)
 		(uuid "98f40d06-0a68-44a9-b5b5-c09a508bc531")
-	)
-	(wire
-		(pts
-			(xy 53.34 81.28) (xy 91.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eda59c6-8c5c-4307-969b-585ef82df351")
 	)
 	(bus
 		(pts
@@ -2056,6 +2056,26 @@
 		)
 		(uuid "070608da-63f8-41ac-a9e9-dd5cfa3abf6f")
 	)
+	(label "LINK_GPIO27"
+		(at 55.88 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "145bf538-0ef3-403e-8dc6-71387f6f31c5")
+	)
+	(label "LINK_GPIO19"
+		(at 55.88 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "176e4344-de45-4dc7-b732-9fb3d99768fb")
+	)
 	(label "TARGET.LFCLK"
 		(at 241.3 77.47 0)
 		(effects
@@ -2076,25 +2096,45 @@
 		)
 		(uuid "28418b09-551c-4d68-af28-84cddcb08ccf")
 	)
-	(label "TARGET.SPI_SCK"
-		(at 55.88 68.58 0)
+	(label "LINK_GPIO24"
+		(at 55.88 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3aafa196-a49d-4403-85d4-669506099fc1")
+		(uuid "37939feb-e186-4a78-8792-fc7087d32353")
 	)
-	(label "TARGET.UART_TX"
-		(at 129.54 63.5 180)
+	(label "LINK_GPIO17"
+		(at 129.54 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5d7c1e62-29f6-4313-a87e-5ba2b376c1b3")
+		(uuid "3c875979-f414-4a03-9e65-bdb564a3658c")
+	)
+	(label "LINK_GPIO26"
+		(at 129.54 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f1a5ff0-fb9d-4b11-9b60-5f37657c8ddc")
+	)
+	(label "LINK_GPIO20"
+		(at 129.54 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f9a7adb-0e1d-4824-bb3e-607751a3f856")
 	)
 	(label "TARGET.SPI_SCK"
 		(at 241.3 69.85 0)
@@ -2116,15 +2156,15 @@
 		)
 		(uuid "6f29cd26-4549-42a7-99b7-4e091d34971c")
 	)
-	(label "TARGET.LFCLK"
-		(at 55.88 76.2 0)
+	(label "LINK_GPIO28"
+		(at 128.27 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "70317965-8433-4fa8-8a14-d284add7bc32")
+		(uuid "6f81e602-94ef-4254-a5d1-7472c1560803")
 	)
 	(label "TARGET.SWCLK"
 		(at 314.96 85.09 180)
@@ -2136,15 +2176,15 @@
 		)
 		(uuid "74a307cc-c51f-4195-a6be-8b07449dc031")
 	)
-	(label "TARGET.SPI_CSn"
-		(at 55.88 73.66 0)
+	(label "LINK_GPIO29"
+		(at 129.54 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "7a832f27-289f-4547-89c0-943c96770fbc")
+		(uuid "75fded42-39c4-4475-9832-a8710b2b5c76")
 	)
 	(label "TARGET.SPI_MISO"
 		(at 241.3 72.39 0)
@@ -2156,16 +2196,6 @@
 		)
 		(uuid "7d915c98-6ec6-426d-a4b4-4d8c81ff9dca")
 	)
-	(label "TARGET.RESET"
-		(at 129.54 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e77d413-c587-4b2c-baab-465c4dd5c290")
-	)
 	(label "TARGET.HFCLK"
 		(at 241.3 80.01 0)
 		(effects
@@ -2176,35 +2206,25 @@
 		)
 		(uuid "8c832817-542e-4fce-b170-8fe02789d379")
 	)
-	(label "TARGET.UART_RX"
-		(at 55.88 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94b111f5-7be7-4894-8ca7-0f20a81758cd")
-	)
-	(label "TARGET.SPI_MISO"
-		(at 55.88 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a292d09-1637-4ec8-ada9-f3272b04ff1d")
-	)
-	(label "TARGET.SPI_MOSI"
-		(at 129.54 68.58 180)
+	(label "LINK_GPIO23"
+		(at 129.54 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a52e54ef-870e-4c67-b137-06940869ed18")
+		(uuid "965a3bf7-048f-4754-8305-db6719cb4710")
+	)
+	(label "LINK_GPIO21"
+		(at 55.88 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab8b80ee-6b38-4c19-9e92-3e1955d6a7ff")
 	)
 	(label "TARGET.UART_RX"
 		(at 241.3 67.31 0)
@@ -2236,45 +2256,25 @@
 		)
 		(uuid "bc70bfef-ff43-439b-bb0f-625ad44cccdd")
 	)
-	(label "TARGET.HFCLK"
-		(at 55.88 78.74 0)
+	(label "LINK_GPIO28"
+		(at 55.88 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c4d05663-ab5f-4cb2-8214-bd499f7ac282")
+		(uuid "bf98580c-d42b-48f0-b796-3d95f0155c80")
 	)
-	(label "TARGET.BSL"
-		(at 55.88 81.28 0)
+	(label "LINK_GPIO18"
+		(at 55.88 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d8be39b5-09ad-440a-a716-dee52fff538e")
-	)
-	(label "TARGET.TRIGGER"
-		(at 129.54 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de3705f0-2d45-45e3-97de-8e32b6180125")
-	)
-	(label "TARGET.SWCLK"
-		(at 129.54 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e5f0a6de-3e1d-4f3e-8eca-dbf9e231af32")
+		(uuid "da7589d6-fb85-4fe5-a5cc-ac0ed8db31f4")
 	)
 	(label "TARGET.UART_TX"
 		(at 314.96 64.77 180)
@@ -2296,15 +2296,25 @@
 		)
 		(uuid "f4f3e34a-581a-4ab6-b55b-db59f3ce7438")
 	)
-	(label "TARGET.SWDIO"
-		(at 55.88 83.82 0)
+	(label "LINK_GPIO25"
+		(at 55.88 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f9e28156-9400-475e-b751-7b22752cb34d")
+		(uuid "f80f2823-94d4-4eb3-9322-253bd0c956f6")
+	)
+	(label "LINK_GPIO22"
+		(at 55.88 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe1e4d9f-3a54-49e0-abc3-6c633dc7c744")
 	)
 	(hierarchical_label "SENSE_P"
 		(shape output)
@@ -2327,6 +2337,17 @@
 			(justify right)
 		)
 		(uuid "2ab22e9f-c655-4dfc-a6c4-619d50371c06")
+	)
+	(hierarchical_label "LINK_GPIO[17..29]"
+		(shape bidirectional)
+		(at 134.62 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3807641f-30c0-4461-8957-2e48b31eafc1")
 	)
 	(hierarchical_label "GLITCH_OUT"
 		(shape input)
@@ -2372,6 +2393,17 @@
 		)
 		(uuid "7c5a832e-90a8-43b1-9394-9b0c929e514c")
 	)
+	(hierarchical_label "LINK_GPIO[17..29]"
+		(shape bidirectional)
+		(at 50.8 60.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dfd63b6-a881-4e74-aeed-9cea172c6e0d")
+	)
 	(hierarchical_label "SENSE_P"
 		(shape output)
 		(at 53.34 129.54 180)
@@ -2385,17 +2417,6 @@
 	)
 	(hierarchical_label "TARGET{TARGET_LINK}"
 		(shape bidirectional)
-		(at 50.8 60.96 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5bbe92a-1a3f-4331-8512-0e864ef92b02")
-	)
-	(hierarchical_label "TARGET{TARGET_LINK}"
-		(shape bidirectional)
 		(at 320.04 59.69 90)
 		(effects
 			(font
@@ -2404,17 +2425,6 @@
 			(justify left)
 		)
 		(uuid "f24b5caa-aaf6-433d-9d9d-2573111e65bb")
-	)
-	(hierarchical_label "TARGET{TARGET_LINK}"
-		(shape bidirectional)
-		(at 134.62 58.42 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5b46680-b997-4717-abf5-8ae375ee8f6c")
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:GND")
