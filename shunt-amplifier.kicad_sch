@@ -2480,7 +2480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0667514a-68cc-437f-89a2-0f5e78748a39")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0102"
 			(at 118.11 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2540,7 +2540,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR099")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -2557,7 +2557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09f9f5f2-7c01-5739-97a4-24787cd32101")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0104"
 			(at 162.56 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2617,7 +2617,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR0101")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2634,7 +2634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12de1ab5-a76a-53c0-9232-44992f7af19e")
-		(property "Reference" "R52"
+		(property "Reference" "R48"
 			(at 124.46 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2861,7 +2861,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "R52")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2879,7 +2879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e3061f0-7ab3-4a2e-81a4-18c2234cca98")
-		(property "Reference" "TP14"
+		(property "Reference" "TP12"
 			(at 91.44 123.6979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,7 +2941,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "TP14")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -2958,7 +2958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f4579ba-cdb2-5f6f-a893-b8d82615beeb")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0106"
 			(at 266.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3019,7 +3019,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR0103")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -3037,7 +3037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "272d022f-f884-4ac5-93b7-73af6e7304b7")
-		(property "Reference" "TP15"
+		(property "Reference" "TP13"
 			(at 294.64 100.8379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3099,7 +3099,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "TP15")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -3116,7 +3116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29b35903-d901-5d6a-aa48-0e1388152c6b")
-		(property "Reference" "R54"
+		(property "Reference" "R50"
 			(at 226.06 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3332,7 +3332,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "R54")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -3349,7 +3349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ed59183-dd1b-51f0-aca0-f6886ffb409b")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 109.22 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3513,7 +3513,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ce0f07e-bbd7-570e-b62c-6d0822547d53")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 58.42 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4316,7 +4316,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4333,7 +4333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72cae2d5-fadc-51c3-b693-8d3994ee742c")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0101"
 			(at 99.06 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -4394,7 +4394,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR098")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4411,7 +4411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dce9045-ebb9-5b76-ad1f-bc3170f4e04f")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0100"
 			(at 68.58 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -4471,7 +4471,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR097")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -4488,7 +4488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98ef672b-d234-59f8-a6f7-77fc2f01bb91")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0103"
 			(at 119.38 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -4548,7 +4548,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR0100")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -4565,7 +4565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9900e758-fe90-57d4-ad42-e56e28d1a69d")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0107"
 			(at 294.64 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -4625,7 +4625,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR0104")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -4820,7 +4820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa582586-4a38-53ff-836d-85ee7b678ab4")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0108"
 			(at 294.64 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -4881,7 +4881,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR0105")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -4898,7 +4898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac4caba8-0e2a-58d1-9106-7253d65e8383")
-		(property "Reference" "R51"
+		(property "Reference" "R47"
 			(at 106.68 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5059,7 +5059,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "R51")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -5077,7 +5077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0cb05a9-6dca-47ba-a65d-110d580d7d1a")
-		(property "Reference" "TP13"
+		(property "Reference" "TP11"
 			(at 91.44 98.2979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5139,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "TP13")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -5343,7 +5343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d55b5161-2e79-53da-82fd-d33c5f5ea603")
-		(property "Reference" "R53"
+		(property "Reference" "R49"
 			(at 165.1 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5570,7 +5570,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "R53")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5587,7 +5587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc1ab819-cf00-5be4-804b-71ae324212ff")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR099"
 			(at 48.26 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -5648,7 +5648,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR096")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -5665,7 +5665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc996cfc-0ab0-50b0-bdd3-fa65df37ce8f")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0105"
 			(at 162.56 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5726,7 +5726,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "#PWR0102")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -6187,7 +6187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7247747-d28c-5a7e-88bc-88d875309f7a")
-		(property "Reference" "R50"
+		(property "Reference" "R46"
 			(at 106.68 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6348,7 +6348,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/3cf7ae48-d6a9-57bf-a1bd-675db1139474"
-					(reference "R50")
+					(reference "R46")
 					(unit 1)
 				)
 			)

@@ -2910,6 +2910,410 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Open"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+				(at -1.27 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_1"
+				(arc
+					(start -2.032 1.016)
+					(mid -1.143 1.3235)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.143 1.3235)
+					(end 2.032 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power global)
 			(pin_numbers
@@ -3098,39 +3502,6 @@
 		)
 		(uuid "46f3ab78-571d-5d33-9dc4-ec021d66e80d")
 	)
-	(text "DNP"
-		(exclude_from_sim no)
-		(at 60.96 210.82 0)
-		(effects
-			(font
-				(size 1.2 1.2)
-			)
-			(justify left)
-		)
-		(uuid "5f15fc11-aa1f-56fd-aea8-f2b69e978994")
-	)
-	(text "DNP"
-		(exclude_from_sim no)
-		(at 93.98 210.82 0)
-		(effects
-			(font
-				(size 1.2 1.2)
-			)
-			(justify left)
-		)
-		(uuid "5f15fc11-aa1f-56fd-aea8-f2b69e978995")
-	)
-	(text "C14/C40 DNP: optional VDD decoupling.\nKeep C25 fitted at VCORE. EP33 -> VSS."
-		(exclude_from_sim no)
-		(at 30.48 228.6 0)
-		(effects
-			(font
-				(size 1.2 1.2)
-			)
-			(justify left)
-		)
-		(uuid "6932f45a-7d38-546c-8b4a-c6ba435c6987")
-	)
 	(text "TARGET MCU / SERIES INTERFACE RESISTORS"
 		(exclude_from_sim no)
 		(at 25.4 27.94 0)
@@ -3213,16 +3584,16 @@
 		(uuid "32842d69-c7c3-40d5-8d3b-240eabe4f3ff")
 	)
 	(junction
+		(at 50.8 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d991a10-69c9-4828-b09a-7a4b6d1e50c7")
+	)
+	(junction
 		(at 180.34 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b869f07c-ed6a-4142-a3cd-4a838ca3561b")
-	)
-	(junction
-		(at 157.48 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8e75f81-7ed4-4218-9196-ff5b3e3ac461")
 	)
 	(junction
 		(at 186.69 175.26)
@@ -3389,17 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 175.26) (xy 157.48 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "050a27fc-ae01-424c-9123-7253c860eca4")
-	)
-	(wire
-		(pts
-			(xy 157.48 175.26) (xy 153.67 175.26)
+			(xy 153.67 175.26) (xy 160.02 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3416,16 +3777,6 @@
 			(type default)
 		)
 		(uuid "075b6e68-e063-4b6e-98e6-d404faca4c0b")
-	)
-	(wire
-		(pts
-			(xy 154.94 182.88) (xy 157.48 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "080b7670-aa35-4d93-b321-5f00836be55f")
 	)
 	(wire
 		(pts
@@ -3529,6 +3880,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 198.12) (xy 63.5 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3814de59-014a-4c3f-8285-b14b272f2de6")
+	)
+	(wire
+		(pts
 			(xy 292.1 67.31) (xy 292.1 64.77)
 		)
 		(stroke
@@ -3549,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 207.01) (xy 78.74 209.55)
+			(xy 63.5 207.01) (xy 63.5 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3596,16 +3957,6 @@
 			(type default)
 		)
 		(uuid "5a882a2c-a8c6-4aa6-b313-f43215ad3ed3")
-	)
-	(wire
-		(pts
-			(xy 157.48 182.88) (xy 157.48 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f1a6854-1757-4d95-9139-c7d9eba9c23d")
 	)
 	(wire
 		(pts
@@ -3699,7 +4050,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 199.39) (xy 78.74 196.85)
+			(xy 63.5 199.39) (xy 63.5 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3726,6 +4077,16 @@
 			(type default)
 		)
 		(uuid "876ec33d-4cdd-49a3-9029-5ff6c5a424c2")
+	)
+	(wire
+		(pts
+			(xy 88.9 207.01) (xy 88.9 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab9eb22-c5be-45fa-b96f-da71e8756038")
 	)
 	(wire
 		(pts
@@ -3769,6 +4130,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 184.15) (xy 88.9 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9251a7e2-1966-42a7-a8d8-802c6290d1c8")
+	)
+	(wire
+		(pts
 			(xy 171.45 81.28) (xy 171.45 91.44)
 		)
 		(stroke
@@ -3789,7 +4160,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 199.39) (xy 45.72 196.85)
+			(xy 50.8 199.39) (xy 50.8 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3826,6 +4197,16 @@
 			(type default)
 		)
 		(uuid "a7e3682b-4801-4e7b-817f-cddefd8e1456")
+	)
+	(wire
+		(pts
+			(xy 50.8 198.12) (xy 50.8 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2711fe-5d6d-4cac-8562-fffd34378f00")
 	)
 	(wire
 		(pts
@@ -3869,7 +4250,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 207.01) (xy 45.72 209.55)
+			(xy 50.8 207.01) (xy 50.8 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3886,16 +4267,6 @@
 			(type default)
 		)
 		(uuid "b772c92e-f058-414e-a57b-d8b8e9ff2214")
-	)
-	(wire
-		(pts
-			(xy 111.76 207.01) (xy 111.76 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdf2e2ca-c682-5db4-99fd-e046e72dfeb3")
 	)
 	(wire
 		(pts
@@ -3936,16 +4307,6 @@
 			(type default)
 		)
 		(uuid "caf4ecf7-6920-4319-8ae1-ccec4403979a")
-	)
-	(wire
-		(pts
-			(xy 111.76 199.39) (xy 111.76 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb09281c-a8be-50a9-bc6d-c51b8d9cecfd")
 	)
 	(wire
 		(pts
@@ -4029,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 196.85) (xy 88.9 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c9d8d8-2ba1-4a13-b377-7ae950943f40")
+	)
+	(wire
+		(pts
 			(xy 33.02 99.06) (xy 55.88 99.06)
 		)
 		(stroke
@@ -4056,6 +4427,16 @@
 			(type default)
 		)
 		(uuid "f1eabb95-0f93-427f-8dd6-d9d7c66a1d64")
+	)
+	(wire
+		(pts
+			(xy 50.8 185.42) (xy 50.8 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fb8ad4-b353-49ec-a240-45e8c4bb2c80")
 	)
 	(bus
 		(pts
@@ -4116,6 +4497,16 @@
 			(justify right bottom)
 		)
 		(uuid "17f21834-f5ee-4555-8e49-bca57b1016f6")
+	)
+	(label "UART_TX"
+		(at 74.93 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17ffb54f-4312-46c7-b740-cf83181f6cbc")
 	)
 	(label "PA2"
 		(at 254 64.77 180)
@@ -4217,6 +4608,16 @@
 		)
 		(uuid "3a0f9d16-ec05-4413-9bca-da9f87ce27c5")
 	)
+	(label "SPI_CSn"
+		(at 74.93 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a764f30-796a-4e05-95f7-916f62a8a250")
+	)
 	(label "PA27"
 		(at 284.48 161.29 0)
 		(effects
@@ -4237,6 +4638,16 @@
 		)
 		(uuid "49a2f255-c58e-4a20-b412-9006dc05ea2f")
 	)
+	(label "SPI_SCK"
+		(at 74.93 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49a7d963-52c4-488a-8c27-b978fe93e3ca")
+	)
 	(label "PA7"
 		(at 271.78 148.59 180)
 		(effects
@@ -4246,6 +4657,16 @@
 			(justify right bottom)
 		)
 		(uuid "5152b15d-029b-4ff9-9c3b-fd7443b19258")
+	)
+	(label "SPI_MOSI"
+		(at 162.56 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "560b593c-162b-41bf-a403-6616378d39e0")
 	)
 	(label "PA9"
 		(at 74.93 93.98 180)
@@ -4367,6 +4788,26 @@
 		)
 		(uuid "97fa676c-c5af-4697-badb-ecccd8807b4f")
 	)
+	(label "SWDIO"
+		(at 162.56 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a1c9657-9e2c-4ea9-baf9-2e6ee98bcca4")
+	)
+	(label "UART_RX"
+		(at 74.93 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7d06a67-f683-4d8e-9393-404a49b96882")
+	)
 	(label "PA2"
 		(at 271.78 146.05 180)
 		(effects
@@ -4386,6 +4827,16 @@
 			(justify left bottom)
 		)
 		(uuid "af4f1b04-d1de-4c4b-9589-e8fa3ce64798")
+	)
+	(label "SPI_MISO"
+		(at 74.93 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af7cf396-c73a-4674-99b0-cc461fa7b6ec")
 	)
 	(label "PA17"
 		(at 162.56 78.74 0)
@@ -4447,6 +4898,16 @@
 		)
 		(uuid "bf5b3df4-3eb4-43d5-989d-7241854a2560")
 	)
+	(label "TRIGGER"
+		(at 74.93 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0b6b23b-5aca-4ad1-8a1c-a6d378296c54")
+	)
 	(label "PA15"
 		(at 271.78 151.13 180)
 		(effects
@@ -4506,6 +4967,16 @@
 			(justify left bottom)
 		)
 		(uuid "e10c42ec-4671-4b4b-affe-e0cbe67b37f3")
+	)
+	(label "BSL"
+		(at 162.56 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6e86454-9aea-4735-bdd8-8b5b314df4f8")
 	)
 	(label "PA24"
 		(at 162.56 96.52 0)
@@ -4571,14 +5042,14 @@
 	)
 	(hierarchical_label "GLITCH_OUT"
 		(shape input)
-		(at 154.94 182.88 180)
+		(at 152.4 203.2 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4c685a66-5b06-47c9-a85e-c2a489004339")
+		(uuid "711cd2eb-383c-464a-ae3d-cf9ebed072d6")
 	)
 	(hierarchical_label "SENSE_P"
 		(shape output)
@@ -4613,7 +5084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f11973c-b2cd-45fb-b7ad-f596cbcc816f")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 59.69 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4674,7 +5145,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4682,7 +5153,7 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:GND")
-		(at 78.74 209.55 0)
+		(at 63.5 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4691,8 +5162,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1606a8f3-718f-54f0-8f12-fb4b3bd270bf")
-		(property "Reference" "#PWR059"
-			(at 78.74 203.2 0)
+		(property "Reference" "#PWR060"
+			(at 63.5 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +5174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 205.994 0)
+			(at 63.5 205.994 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4714,7 +5185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 205.74 0)
+			(at 63.5 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,7 +5196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 205.74 0)
+			(at 63.5 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,7 +5207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 205.74 0)
+			(at 63.5 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4752,7 +5223,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4769,7 +5240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18ccd320-9cbd-4fa7-bc9e-d58393f78434")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 263.398 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4930,7 +5401,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4948,7 +5419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dbac6cd-b845-494e-9c45-02be560e68ab")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR074"
 			(at 269.24 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5008,7 +5479,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR071")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5159,7 +5630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24e2543e-a080-471b-867a-c1c336155f98")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 64.77 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,85 +5846,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 45.72 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d491b94-a8b4-43a6-94d3-af6a44b13c4f")
-		(property "Reference" "#PWR054"
-			(at 45.72 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TARGET_VDD_SENSE"
-			(at 45.72 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 45.72 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86b3bc5f-e9d2-404b-8cf0-14038423fbba")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR054")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5470,7 +5863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37b9c394-2d81-4230-b1d7-8df917b69bc8")
-		(property "Reference" "R28"
+		(property "Reference" "R24"
 			(at 55.88 102.235 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5686,7 +6079,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R28")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5703,7 +6096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "394c1e8d-aae1-4a24-8245-41420ce1ad66")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 114.3 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5764,85 +6157,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 78.74 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39b69960-7ddb-4c5b-ab8d-a836b84326cd")
-		(property "Reference" "#PWR058"
-			(at 78.74 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TARGET_VDD_SENSE"
-			(at 78.74 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 78.74 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bed23ebd-4afa-4ec7-b75d-091a790a6d1d")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR058")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5860,7 +6175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4085a690-0e7a-43aa-9b24-866c45c7f6ee")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR071"
 			(at 186.69 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -5920,7 +6235,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR068")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5937,7 +6252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41cc737e-8604-4c53-8965-8fa1572827e0")
-		(property "Reference" "R35"
+		(property "Reference" "R31"
 			(at 297.18 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6153,7 +6468,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R35")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6171,7 +6486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "427ee9bf-81b5-4ee6-b5e0-5e8beeefcb65")
-		(property "Reference" "TP10"
+		(property "Reference" "TP8"
 			(at 194.31 175.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6233,7 +6548,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "TP10")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -6472,7 +6787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "552a258c-4ccb-458d-9638-55c939c0e646")
-		(property "Reference" "R29"
+		(property "Reference" "R25"
 			(at 166.37 173.355 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6633,7 +6948,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R29")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6650,7 +6965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a723a1a-598a-40e9-b812-71b1ec69ed26")
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 55.88 81.915 270)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6866,7 +7181,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6884,7 +7199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627e3a28-d63e-4af7-9136-1e23b3848bcc")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR073"
 			(at 265.43 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6944,7 +7259,86 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR070")
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 147.32 199.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65d24331-c033-4b4a-b926-06f72c12dbc6")
+		(property "Reference" "#PWR067"
+			(at 151.13 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TARGET_VDD"
+			(at 143.51 199.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 147.32 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27c0abf3-5968-41be-8ac7-1ea9f586f9e8")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6961,7 +7355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6be1323a-4e94-4d30-bf83-d75d39e976fb")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR070"
 			(at 171.45 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7022,7 +7416,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR067")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7030,7 +7424,7 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:C")
-		(at 111.76 203.2 0)
+		(at 88.9 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7040,7 +7434,7 @@
 		(dnp no)
 		(uuid "7875f22e-4eaf-5d08-92ab-359da909f62e")
 		(property "Reference" "C27"
-			(at 116.84 201.93 0)
+			(at 93.98 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7050,7 +7444,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7060,7 +7454,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7071,7 +7465,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C1623.pdf"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7082,7 +7476,7 @@
 			)
 		)
 		(property "Description" "470 nF, 25 V, X7R, target VCORE capacitor"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7093,7 +7487,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7104,7 +7498,7 @@
 			)
 		)
 		(property "MPN" "CL10B474KA8NNNC"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7115,7 +7509,7 @@
 			)
 		)
 		(property "LCSC Part #" "C1623"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7126,7 +7520,7 @@
 			)
 		)
 		(property "LCSC URL" "https://www.lcsc.com/product-detail/C1623.html"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7137,7 +7531,7 @@
 			)
 		)
 		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C1623"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7148,7 +7542,7 @@
 			)
 		)
 		(property "JLCPCB Class" "Basic"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7159,7 +7553,7 @@
 			)
 		)
 		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7170,7 +7564,7 @@
 			)
 		)
 		(property "BOM Snapshot" "2026-11-15"
-			(at 116.84 204.47 0)
+			(at 93.98 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7181,7 +7575,7 @@
 			)
 		)
 		(property "Board Section" "Target"
-			(at 0 0 0)
+			(at -22.86 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,7 +7611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79865df6-40a7-49a8-9c29-285cc2a4f70c")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR072"
 			(at 254 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7278,7 +7672,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR069")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7286,7 +7680,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 111.76 196.85 0)
+		(at 88.9 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7296,8 +7690,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be9b4af-dd88-4501-9b23-960326168fe9")
-		(property "Reference" "#PWR060"
-			(at 111.76 200.66 0)
+		(property "Reference" "#PWR061"
+			(at 88.9 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7308,7 +7702,7 @@
 			)
 		)
 		(property "Value" "VDD_CORE"
-			(at 111.76 191.77 0)
+			(at 88.9 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7318,7 +7712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 196.85 0)
+			(at 88.9 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7329,7 +7723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 196.85 0)
+			(at 88.9 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7340,7 +7734,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 111.76 196.85 0)
+			(at 88.9 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7356,7 +7750,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7374,7 +7768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8080e370-0aae-4188-8cb9-109f83b7654e")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR075"
 			(at 287.02 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7434,7 +7828,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR072")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7442,7 +7836,7 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:GND")
-		(at 45.72 209.55 0)
+		(at 50.8 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7451,8 +7845,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85495423-9ac3-5c15-b264-0f75050b39d9")
-		(property "Reference" "#PWR055"
-			(at 45.72 203.2 0)
+		(property "Reference" "#PWR057"
+			(at 50.8 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7463,7 +7857,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 205.994 0)
+			(at 50.8 205.994 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,7 +7868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 205.74 0)
+			(at 50.8 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +7879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 205.74 0)
+			(at 50.8 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7496,7 +7890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 205.74 0)
+			(at 50.8 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7512,90 +7906,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 157.48 177.8 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "85aac519-1639-4b4b-91fc-286450d301e5")
-		(property "Reference" "NT1"
-			(at 156.21 177.7999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 156.21 179.0699 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
-			(at 157.48 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 157.48 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2db1fa02-1e5e-42d5-8b93-098010adb8b8")
-		)
-		(pin "2"
-			(uuid "6dd0a1a8-ad56-42a0-b8b4-4f2883786ab7")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "NT1")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7612,7 +7923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86b96ff3-577f-4c9e-b2c8-6fdd26179fd8")
-		(property "Reference" "R31"
+		(property "Reference" "R27"
 			(at 175.26 69.215 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,7 +8139,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R31")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7845,7 +8156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c8b95a9-7ca1-46d3-bbb7-93adce3f4b41")
-		(property "Reference" "R34"
+		(property "Reference" "R30"
 			(at 259.08 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +8372,85 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R34")
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 50.8 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d6f412a-6bfa-4b53-a2f8-174a0a773c85")
+		(property "Reference" "#PWR056"
+			(at 50.8 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TARGET_VDD_SENSE"
+			(at 50.8 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 50.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f0cc64f-9336-4082-bcac-5fd9a7ca02ee")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -8078,7 +8467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91cdc323-893a-4c7a-9e4b-c7620a52dffe")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 124.46 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8139,7 +8528,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8157,7 +8546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9657c243-874c-474b-8cf3-8fffd9909528")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 114.3 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8217,7 +8606,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8235,7 +8624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "998b03dc-30df-431f-bb4c-57e79afb604c")
-		(property "Reference" "NT3"
+		(property "Reference" "NT4"
 			(at 181.61 177.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8300,7 +8689,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "NT3")
+					(reference "NT4")
 					(unit 1)
 				)
 			)
@@ -8318,7 +8707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "998d7e6a-082c-4ebe-9a77-912805eb4b01")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 124.46 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8378,7 +8767,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8395,7 +8784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e18e47b-3b84-45af-94f1-8f3be67539aa")
-		(property "Reference" "R27"
+		(property "Reference" "R23"
 			(at 55.88 97.155 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8611,7 +9000,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R27")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8628,7 +9017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9b8179c-0bcd-44c9-97c9-ffe4a66ab7d6")
-		(property "Reference" "R32"
+		(property "Reference" "R28"
 			(at 175.26 79.375 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8844,7 +9233,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R32")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8861,7 +9250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af9718a1-3ed0-4425-b5a6-e65e4546df12")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 300.736 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9022,7 +9411,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9039,7 +9428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2761b7d-2e48-4755-b626-fa72098aed87")
-		(property "Reference" "R30"
+		(property "Reference" "R26"
 			(at 176.53 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9255,7 +9644,112 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R30")
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 152.4 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b55f14ef-0585-4b5d-9507-e0786ebaa494")
+		(property "Reference" "JP2"
+			(at 152.4 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 152.4 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 152.4 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 152.4 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+			(at 152.4 217.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+			(at 151.13 219.71 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d175e73f-369a-4bee-925c-8db8d99f27a9")
+		)
+		(pin "3"
+			(uuid "c450d69d-649a-4901-bf5f-646fa7da85dc")
+		)
+		(pin "2"
+			(uuid "99529090-e92e-44c1-a963-3cf7e35e1be1")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -9263,17 +9757,17 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 203.2 0)
+		(at 63.5 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b9536ed0-5f10-5059-879e-27f8aacd4edd")
 		(property "Reference" "C26"
-			(at 83.82 201.93 0)
+			(at 68.58 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9283,7 +9777,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9293,7 +9787,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9304,7 +9798,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C1525.pdf"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9315,7 +9809,7 @@
 			)
 		)
 		(property "Description" "100 nF, ±10%, 16 V, X7R, 0402 (1005 metric)"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,7 +9820,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9337,7 +9831,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9348,7 +9842,7 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9359,7 +9853,7 @@
 			)
 		)
 		(property "LCSC URL" "https://www.lcsc.com/product-detail/C1525.html"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9370,7 +9864,7 @@
 			)
 		)
 		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C1525"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9381,7 +9875,7 @@
 			)
 		)
 		(property "JLCPCB Class" "Basic"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9392,7 +9886,7 @@
 			)
 		)
 		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9403,7 +9897,7 @@
 			)
 		)
 		(property "BOM Snapshot" "2026-11-20"
-			(at 83.82 204.47 0)
+			(at 68.58 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9414,7 +9908,7 @@
 			)
 		)
 		(property "Board Section" "Target"
-			(at 0 0 0)
+			(at -15.24 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9919,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 metric)"
-			(at 78.74 203.2 0)
+			(at 63.5 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,7 +9930,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 78.74 203.2 0)
+			(at 63.5 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9447,7 +9941,7 @@
 			)
 		)
 		(property "Voltage Rating" "16 V"
-			(at 78.74 203.2 0)
+			(at 63.5 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9458,7 +9952,7 @@
 			)
 		)
 		(property "Technology" "X7R"
-			(at 78.74 203.2 0)
+			(at 63.5 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9494,7 +9988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcf39d5e-40f2-48a4-aa4b-34e8a525dac1")
-		(property "Reference" "R26"
+		(property "Reference" "R22"
 			(at 55.88 94.615 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9710,7 +10204,86 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R26")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 157.48 199.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2470e07-abeb-40a4-8063-e16870ee33d1")
+		(property "Reference" "#PWR069"
+			(at 153.67 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_CORE"
+			(at 161.29 199.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 157.48 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e64b169-3b73-45eb-9b41-41fa4ebe49b0")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9728,7 +10301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf3db1e-fe6d-4e0f-93f3-a99ad1fae711")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR077"
 			(at 292.1 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9788,7 +10361,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR074")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -9805,7 +10378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cee34182-a4c6-48b6-a422-c4ccf53ba4b2")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR078"
 			(at 292.1 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9866,7 +10439,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR075")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -9884,7 +10457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6275ffd-7b97-4852-beda-883ed447a0db")
-		(property "Reference" "NT2"
+		(property "Reference" "NT3"
 			(at 161.29 177.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9949,7 +10522,89 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "NT2")
+					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 50.8 193.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d896fc0a-f105-4ac7-94cb-1e0600e94077")
+		(property "Reference" "JP3"
+			(at 52.07 191.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 52.07 194.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 50.8 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 50.8 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ccbbcd3-752d-46c0-81e2-83071ae10ebc")
+		)
+		(pin "1"
+			(uuid "8021adbe-47cd-4594-b4d9-91612214d4da")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -10227,6 +10882,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 88.9 191.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0637fed-51c3-4a2a-9f8e-a9442498b08e")
+		(property "Reference" "JP4"
+			(at 90.17 190.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 90.17 193.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 88.9 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 88.9 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "608598c7-1b05-4315-9c52-612d805eda3b")
+		)
+		(pin "1"
+			(uuid "a570e8cf-d077-471f-92c4-4c606e5a03ea")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 179.07 83.82 270)
 		(unit 1)
@@ -10237,7 +10974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4a45e97-7b05-4236-91e2-0bd9f2652df7")
-		(property "Reference" "R33"
+		(property "Reference" "R29"
 			(at 175.26 81.915 270)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10453,7 +11190,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R33")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -10461,17 +11198,17 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:C")
-		(at 45.72 203.2 0)
+		(at 50.8 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ee0566c2-c19c-5979-aa3f-95fb500a2874")
 		(property "Reference" "C24"
-			(at 50.8 201.93 0)
+			(at 55.88 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10481,7 +11218,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10491,7 +11228,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +11239,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C15850.pdf"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10513,7 +11250,7 @@
 			)
 		)
 		(property "Description" "10 uF, 25 V, X5R, target bulk / ADC reference"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10524,7 +11261,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10535,7 +11272,7 @@
 			)
 		)
 		(property "MPN" "CL21A106KAYNNNE"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10546,7 +11283,7 @@
 			)
 		)
 		(property "LCSC Part #" "C15850"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +11294,7 @@
 			)
 		)
 		(property "LCSC URL" "https://www.lcsc.com/product-detail/C15850.html"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10568,7 +11305,7 @@
 			)
 		)
 		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C15850"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10579,7 +11316,7 @@
 			)
 		)
 		(property "JLCPCB Class" "Basic"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10590,7 +11327,7 @@
 			)
 		)
 		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10601,7 +11338,7 @@
 			)
 		)
 		(property "BOM Snapshot" "2026-11-15"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10612,7 +11349,7 @@
 			)
 		)
 		(property "Board Section" "Target"
-			(at 0 0 0)
+			(at 5.08 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10648,7 +11385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0f07d6c-692e-4633-bb0f-e80a1ee5ea67")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 59.69 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10708,7 +11445,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10726,7 +11463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4746497-24b1-4a61-b27d-ee933e6a6111")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR076"
 			(at 290.83 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10786,7 +11523,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR073")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -10803,7 +11540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbb23e29-cd88-4e9e-ab1c-02c6cd081913")
-		(property "Reference" "R25"
+		(property "Reference" "R21"
 			(at 55.88 89.535 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11019,7 +11756,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "R25")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11037,7 +11774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc4f0a37-6eab-4133-960e-26bfcd44ef65")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR068"
 			(at 153.67 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11097,7 +11834,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR066")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -11105,7 +11842,7 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:GND")
-		(at 111.76 209.55 0)
+		(at 88.9 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11114,8 +11851,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe087b17-1b02-58d3-8923-560e733c2e5f")
-		(property "Reference" "#PWR061"
-			(at 111.76 203.2 0)
+		(property "Reference" "#PWR062"
+			(at 88.9 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11126,7 +11863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 205.994 0)
+			(at 88.9 205.994 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11137,7 +11874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 205.74 0)
+			(at 88.9 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11148,7 +11885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 205.74 0)
+			(at 88.9 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11159,7 +11896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 205.74 0)
+			(at 88.9 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11175,7 +11912,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/59365128-f1c6-514f-92c7-b78e30af6b39"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)

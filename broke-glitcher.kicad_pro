@@ -63,7 +63,7 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 3,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -687,6 +687,10 @@
       {
         "netclass": "Signal",
         "pattern": "*AMP*"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "*BOOTSEL_SW"
       }
     ]
   },
@@ -769,12 +773,114 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Board Section",
+          "name": "Board Section",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Class",
+          "name": "JLCPCB Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB URL",
+          "name": "JLCPCB URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC URL",
+          "name": "LCSC URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Packaging",
+          "name": "Packaging",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Rating",
+          "name": "Power Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Technology",
+          "name": "Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating",
+          "name": "Voltage Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BOM Snapshot",
+          "name": "BOM Snapshot",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -835,7 +941,7 @@
         "uuid": "1574f122-72a3-4d04-827f-4da4e6044b1c"
       }
     ],
-    "used_designators": "#FLG1-3,#FLG2018,#FLG2020,#PWR1-126,#PWR4007-4010,#PWR4012,#PWR4024-4025,#PWR7015,#PWR7017,#PWR7020,#PWR8016,#PWR8018,#PWR8029-8032,#PWR8034,#PWR8036,C1-45,D1-8,F1,H1-4,J1-11,NT1-4,Q1,R1-61,SW1-2,TP1-16,U1-8,Y1",
+    "used_designators": "#FLG1-3,#FLG2018,#FLG2020,#PWR1-131,#PWR4007-4010,#PWR4012,#PWR4024-4025,#PWR7015,#PWR7017,#PWR7020,#PWR8016,#PWR8018,#PWR8029-8032,#PWR8034,#PWR8036,C1-46,D1-8,F1,H1-4,J1-11,JP1-4,NT1-4,Q1-3,R1-61,SW1-2,TP1-16,U1-9,Y1",
     "variants": []
   },
   "sheets": [

@@ -150,321 +150,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BrokeGlitcher:AO3400A"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3400A"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AO3400A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AO3400A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BrokeGlitcher:C"
 			(pin_numbers
 				(hide yes)
@@ -2268,212 +1953,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "BrokeGlitcher:UCC27511ADBV"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 5.08 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "UCC27511ADBV"
-				(at 8.89 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 0 -12.065 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc27511a.pdf"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single-Channel High-Speed Low-Side Gate Driver With 4-A Peak Source and 8-A Peak Sink, SOT-23-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "single channel low side gate drive dual input split output"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "UCC27511ADBV_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "UCC27511ADBV_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "V_{DD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "OUTH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "OUTL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BrokeGlitcher:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -3760,6 +3239,1342 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Driver_FET:UCC27524D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "UCC27524D"
+				(at 1.27 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc27524.pdf"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual 5A MOSFET driver, 4.5V..18V supply, non-inverting, SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "high-speed low-side negative-input-voltage-capability"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UCC27524D_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "UCC27524D_1_1"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "ENB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q1"
+				(at 6.35 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 6.35 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C20917.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-channel crowbar MOSFET, AOS original"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AO3400A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Alpha & Omega Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Class" "Basic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C20917"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Packaging" "Tape & Reel (cut quantity)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C20917"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC URL" "https://www.lcsc.com/product-detail/C20917.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q2"
+				(at 6.35 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 6.35 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C15127.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-channel MOSFET, AOS original"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB URL" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AO3401A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Alpha & Omega Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Class" "Basic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C15127"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Packaging" "Tape & Reel (cut quantity)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC URL" "https://www.lcsc.com/product-detail/C15127.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(polyline
 		(pts
@@ -3902,10 +4717,28 @@
 		(uuid "456d63d5-a51a-4802-a9bd-21aa9d0cea8b")
 	)
 	(junction
+		(at 198.12 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "569532a5-5197-4c39-b71d-cf9305d3c50e")
+	)
+	(junction
+		(at 208.28 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ecef7fc-e23d-426d-af5e-1689e70d4338")
+	)
+	(junction
 		(at 228.6 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fee6438-cf18-4e31-a9c7-9edc6da56025")
+	)
+	(junction
+		(at 270.51 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79176c08-9d9d-4f3a-8c5b-79b714c4abf0")
 	)
 	(junction
 		(at 123.19 53.34)
@@ -3914,22 +4747,22 @@
 		(uuid "7c6e1fb3-a8f7-4382-b444-0d7364827bd3")
 	)
 	(junction
+		(at 198.12 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81e49471-c13b-45ba-aad2-8e0a270c93eb")
+	)
+	(junction
 		(at 96.52 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95cdbbde-902c-4ead-bf6b-74991bde50d3")
 	)
 	(junction
-		(at 299.72 187.96)
+		(at 262.89 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a08200cd-27d5-523a-86e7-094928e6f6b2")
-	)
-	(junction
-		(at 203.2 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad488768-c200-4650-9676-8a3097bcf97e")
+		(uuid "b16fe8cb-b3b8-4088-a210-af1efa8be749")
 	)
 	(junction
 		(at 67.31 68.58)
@@ -3962,28 +4795,28 @@
 		(uuid "daa4c42a-6be3-4336-a552-4778ace9bc29")
 	)
 	(junction
+		(at 262.89 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df327412-1f55-4fc0-ab7b-af3a606c2f7e")
+	)
+	(junction
 		(at 231.14 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dff6b5c2-60c7-4166-9f45-dca9a125fb16")
 	)
 	(junction
+		(at 289.56 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2562c85-0dfe-4978-b9ed-41a1abde4afd")
+	)
+	(junction
 		(at 231.14 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e38d7062-da24-43e6-a1ac-b63d8aee7eda")
-	)
-	(junction
-		(at 284.48 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7644b34-207d-5848-9b1f-1569d17ed71c")
-	)
-	(junction
-		(at 207.01 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e858fa63-7601-47ed-bbdc-c38a7d2ca28a")
 	)
 	(no_connect
 		(at 66.04 83.82)
@@ -4020,6 +4853,16 @@
 			(type default)
 		)
 		(uuid "022df689-3f15-5f54-910e-95ddb9f10076")
+	)
+	(wire
+		(pts
+			(xy 210.82 170.18) (xy 210.82 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0307a4b9-7f92-4a7f-bd9e-726d85a68490")
 	)
 	(wire
 		(pts
@@ -4063,6 +4906,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 171.45) (xy 270.51 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0967912a-fec5-40c5-816e-ebb55b4cd8c2")
+	)
+	(wire
+		(pts
 			(xy 38.1 217.17) (xy 55.88 217.17)
 		)
 		(stroke
@@ -4073,13 +4926,13 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 163.83) (xy 317.5 182.88)
+			(xy 270.51 172.72) (xy 281.94 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c014bf2-27e6-52ad-a7a1-868ba48061a4")
+		(uuid "0de183d5-6d28-4a39-a0de-2172e448cf09")
 	)
 	(wire
 		(pts
@@ -4093,6 +4946,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 161.29) (xy 302.26 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f35241a-fff5-4463-8d0e-576187b3e3eb")
+	)
+	(wire
+		(pts
 			(xy 125.73 90.17) (xy 128.27 90.17)
 		)
 		(stroke
@@ -4100,16 +4963,6 @@
 			(type default)
 		)
 		(uuid "100459b3-fff6-519f-85a0-bc535adcaf7b")
-	)
-	(wire
-		(pts
-			(xy 284.48 185.42) (xy 284.48 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12519fa1-4f9b-527e-887e-f2406ef5f20c")
 	)
 	(wire
 		(pts
@@ -4133,6 +4986,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 170.18) (xy 262.89 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15751f36-4e7e-4137-8804-5e56a3dcc504")
+	)
+	(wire
+		(pts
 			(xy 123.19 53.34) (xy 127 53.34)
 		)
 		(stroke
@@ -4143,13 +5006,33 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 190.5) (xy 199.39 190.5)
+			(xy 210.82 167.64) (xy 208.28 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b73b708-5828-4621-a2fa-5b151e6de10f")
+		(uuid "1cfcd5dd-7434-4587-9eef-78c32a32b967")
+	)
+	(wire
+		(pts
+			(xy 262.89 166.37) (xy 262.89 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a95853-8ccf-437c-a91b-d9224fdc86fe")
+	)
+	(wire
+		(pts
+			(xy 262.89 179.07) (xy 262.89 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22910531-81c3-4336-90fa-eb1580eacb49")
 	)
 	(wire
 		(pts
@@ -4163,23 +5046,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 185.42) (xy 199.39 185.42)
+			(xy 270.51 186.69) (xy 270.51 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3323b1d1-4216-4f12-a385-3938e23d2be4")
-	)
-	(wire
-		(pts
-			(xy 299.72 214.63) (xy 299.72 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371a369e-651c-5dd4-a55f-5be856171eb5")
+		(uuid "36094a2d-9255-49b1-8c04-d011b7cd1803")
 	)
 	(wire
 		(pts
@@ -4203,16 +5076,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 193.04) (xy 317.5 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49f988b6-4397-5c05-be63-a1ad16cd6eb6")
-	)
-	(wire
-		(pts
 			(xy 72.39 172.72) (xy 72.39 167.64)
 		)
 		(stroke
@@ -4220,16 +5083,6 @@
 			(type default)
 		)
 		(uuid "4b28a1b9-8fb8-5f5e-8331-21e8f8bd8d18")
-	)
-	(wire
-		(pts
-			(xy 203.2 205.74) (xy 203.2 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b2ca1ba-a35a-5e30-9501-cd9bbb89a7cc")
 	)
 	(wire
 		(pts
@@ -4243,13 +5096,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 190.5) (xy 207.01 190.5)
+			(xy 205.74 175.26) (xy 205.74 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4deaee63-9aa2-5929-b188-e0da6e8ab019")
+		(uuid "4efc0073-bdae-4f6f-95da-6e653b431e3e")
 	)
 	(wire
 		(pts
@@ -4293,23 +5146,13 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 190.5) (xy 284.48 187.96)
+			(xy 292.1 161.29) (xy 289.56 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63ce472c-e565-5258-a64d-3ac6046aa6d3")
-	)
-	(wire
-		(pts
-			(xy 260.35 190.5) (xy 284.48 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649a4dc0-2ecd-505f-9ba3-032599fe58ba")
+		(uuid "639c7abb-f27c-4e40-b5fa-374035f37a3d")
 	)
 	(wire
 		(pts
@@ -4320,6 +5163,26 @@
 			(type default)
 		)
 		(uuid "661640d7-dff6-4c3c-be7f-23201ba92359")
+	)
+	(wire
+		(pts
+			(xy 283.21 161.29) (xy 289.56 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66acf3fc-262e-428c-9b0b-ed2675fd1eb7")
+	)
+	(wire
+		(pts
+			(xy 243.84 170.18) (xy 252.73 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8db805-9d09-4fbf-b341-c98c973f9f95")
 	)
 	(wire
 		(pts
@@ -4353,16 +5216,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 185.42) (xy 203.2 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4aff73-4c01-5e37-85dd-2a2839764989")
-	)
-	(wire
-		(pts
 			(xy 67.31 71.12) (xy 67.31 73.66)
 		)
 		(stroke
@@ -4390,16 +5243,6 @@
 			(type default)
 		)
 		(uuid "74808621-7758-57bd-9695-af9a79fbd93c")
-	)
-	(wire
-		(pts
-			(xy 210.82 185.42) (xy 203.2 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74844d3b-7a04-5b2d-85db-02289b7aab01")
 	)
 	(wire
 		(pts
@@ -4433,16 +5276,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 187.96) (xy 309.88 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "811a3686-c91e-5405-abbd-d612879251d8")
-	)
-	(wire
-		(pts
 			(xy 107.95 53.34) (xy 119.38 53.34)
 		)
 		(stroke
@@ -4450,6 +5283,36 @@
 			(type default)
 		)
 		(uuid "85bd73c4-2ad8-4f66-917f-f3f27b6684ae")
+	)
+	(wire
+		(pts
+			(xy 198.12 170.18) (xy 208.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89217cc5-b2c2-4e33-87f1-f20472745f26")
+	)
+	(wire
+		(pts
+			(xy 262.89 175.26) (xy 262.89 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf16f90-0116-4c8d-8e33-fbd58e56364e")
+	)
+	(wire
+		(pts
+			(xy 220.98 160.02) (xy 220.98 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2ef168-ce08-4d9e-97cd-cde4b6d3db49")
 	)
 	(wire
 		(pts
@@ -4463,13 +5326,23 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 207.01) (xy 299.72 187.96)
+			(xy 208.28 167.64) (xy 208.28 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90e79f87-ec1c-5dc7-a229-3eda717a8ef6")
+		(uuid "8f920e1f-ff9b-4dd2-9afb-7decb2c65dcf")
+	)
+	(wire
+		(pts
+			(xy 270.51 173.99) (xy 270.51 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916627de-8a1b-45c7-ba67-a741994c685d")
 	)
 	(wire
 		(pts
@@ -4480,6 +5353,16 @@
 			(type default)
 		)
 		(uuid "9974a1be-c6f1-4303-b889-653a59dcee5a")
+	)
+	(wire
+		(pts
+			(xy 243.84 175.26) (xy 252.73 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04f7dca-e523-439d-b5ec-cbb99a9fb078")
 	)
 	(wire
 		(pts
@@ -4500,6 +5383,16 @@
 			(type default)
 		)
 		(uuid "a0eded15-b04e-5675-8852-f154cfe7c25c")
+	)
+	(wire
+		(pts
+			(xy 289.56 172.72) (xy 292.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a319614a-c994-4a80-bd68-455a5672200b")
 	)
 	(wire
 		(pts
@@ -4543,13 +5436,13 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 153.67) (xy 317.5 156.21)
+			(xy 195.58 170.18) (xy 198.12 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b44fb38d-ab07-5d75-8a83-805a45990eab")
+		(uuid "b59180c9-f8e7-4012-94b4-dc271e2c677f")
 	)
 	(wire
 		(pts
@@ -4573,53 +5466,43 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 172.72) (xy 207.01 170.18)
+			(xy 208.28 175.26) (xy 210.82 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c53a876c-c76c-5244-9707-85cb34a57664")
+		(uuid "b8adf03b-ef8a-48b3-acf4-b301007d7492")
 	)
 	(wire
 		(pts
-			(xy 220.98 180.34) (xy 220.98 177.8)
+			(xy 262.89 163.83) (xy 262.89 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca67f953-fa6a-598b-ae11-368d2c6fbb61")
+		(uuid "c90af165-e528-4d1d-aaeb-ebde36801f78")
 	)
 	(wire
 		(pts
-			(xy 231.14 185.42) (xy 252.73 185.42)
+			(xy 208.28 170.18) (xy 208.28 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf235108-6ea4-55a8-8e43-848949d04ebb")
+		(uuid "cad02ed1-1e70-472c-9370-093ad1dc64cd")
 	)
 	(wire
 		(pts
-			(xy 220.98 195.58) (xy 220.98 198.12)
+			(xy 273.05 161.29) (xy 270.51 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0441011-db2e-54ff-acc1-5103fa88eea0")
-	)
-	(wire
-		(pts
-			(xy 231.14 190.5) (xy 252.73 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d85222f2-a29e-5c27-9470-3c79a8998ccc")
+		(uuid "cea450b2-1525-44c3-87e4-05d30bb25612")
 	)
 	(wire
 		(pts
@@ -4633,13 +5516,33 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 185.42) (xy 284.48 185.42)
+			(xy 198.12 175.26) (xy 205.74 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e72553ec-caf4-5937-91dc-d9a260cf3ba1")
+		(uuid "e3873d34-6791-4a7f-a237-02b5e28939d5")
+	)
+	(wire
+		(pts
+			(xy 205.74 172.72) (xy 210.82 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49fba61-a212-483f-9a8c-e9225b418405")
+	)
+	(wire
+		(pts
+			(xy 195.58 175.26) (xy 198.12 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64cb095-3500-4b4f-be9f-937d7f9cede1")
 	)
 	(wire
 		(pts
@@ -4663,43 +5566,33 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 180.34) (xy 207.01 190.5)
+			(xy 260.35 175.26) (xy 262.89 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffba36c5-39b9-4e79-8925-9c0deadb001f")
+		(uuid "f9afd5ef-0bea-4f17-a85c-945b2e2825cd")
 	)
-	(label "CROWBAR_GATE"
-		(at 284.48 187.96 0)
+	(label "GATE_N"
+		(at 231.14 170.18 0)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4e348260-1a01-5418-8035-b9696e6734e0")
+		(uuid "2c4d63de-9429-4345-9fb0-d520fc63fc6b")
 	)
-	(label "GATE_SOURCE"
-		(at 233.68 185.42 0)
+	(label "GATE_N"
+		(at 243.84 175.26 0)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "77108e49-5a3d-57cc-8d06-8d2ca27f4925")
-	)
-	(label "GATE_SINK"
-		(at 233.68 190.5 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "792e00a2-c037-5007-a530-0815769abf12")
+		(uuid "941a6031-8a36-417b-b39f-f374b96a9fe0")
 	)
 	(label "CC2"
 		(at 68.58 60.96 0)
@@ -4721,6 +5614,26 @@
 		)
 		(uuid "bce61465-9808-4f96-8717-ccda1497c9a8")
 	)
+	(label "GATE_P"
+		(at 231.14 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d29d208f-4fe1-4acd-bb16-d5978cd76561")
+	)
+	(label "GATE_P"
+		(at 243.84 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f58ce62c-8de2-48a9-a98f-db99073fb156")
+	)
 	(label "CC2"
 		(at 97.79 85.09 0)
 		(effects
@@ -4741,37 +5654,27 @@
 		)
 		(uuid "fe037c01-e24c-5194-bf93-c627c9f5f44c")
 	)
-	(label "CROWBAR_DRAIN"
-		(at 317.5 179.07 90)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe3eefcc-fe60-5cf2-99a5-be597204f6bc")
-	)
-	(hierarchical_label "GLITCH_PULSE"
+	(hierarchical_label "GLITCH_NEG"
 		(shape input)
-		(at 199.39 185.42 180)
+		(at 195.58 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "07c3aa17-deac-45c9-b726-ba8fe8716a07")
+		(uuid "2feb8a6a-f1e4-4138-877b-16ffd60eda27")
 	)
-	(hierarchical_label "~{GLITCH_EN}"
+	(hierarchical_label "~{GLITCH_POS}"
 		(shape input)
-		(at 199.39 190.5 180)
+		(at 195.58 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "44261a8a-da1b-4821-984f-ed074b884b96")
+		(uuid "5a60179e-5b6a-42c4-9e35-1d347745fa9f")
 	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
@@ -4817,17 +5720,6 @@
 		)
 		(uuid "811c015d-5a16-4eb1-bf04-2d270b950b9e")
 	)
-	(hierarchical_label "GLITCH_OUT"
-		(shape output)
-		(at 317.5 153.67 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "daace895-fde1-4dad-a781-e9d534c8333c")
-	)
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 128.27 85.09 0)
@@ -4838,6 +5730,17 @@
 			(justify left)
 		)
 		(uuid "e1093c35-f327-48da-9282-43045000d7c5")
+	)
+	(hierarchical_label "GLITCH_OUT"
+		(shape output)
+		(at 292.1 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6764aa5-297d-47be-ae3b-3471c50434ff")
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:GND")
@@ -4850,7 +5753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00a896d4-cc1a-5055-8c36-04ec520e6921")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 38.1 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -4911,7 +5814,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4928,7 +5831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06b24184-7921-535b-824a-d87c87b35cf5")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 231.14 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4988,185 +5891,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrokeGlitcher:R")
-		(at 317.5 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "090df5a7-a8ca-5673-83ba-06ecfbc8967b")
-		(property "Reference" "R8"
-			(at 322.58 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 322.58 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C21189.pdf"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "0 ohm links: target decouplers and crowbar isolation"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "0603WAF0000T5E"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part #" "C21189"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C21189.html"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C21189"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB Class" "Basic"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "BOM Snapshot" "2026-11-15"
-			(at 322.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Board Section" "Controller"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f6b3fc9-8fed-55f1-884e-427ff513b8a9")
-		)
-		(pin "2"
-			(uuid "69b5afee-d2fc-5ae2-b8f2-cdd67faa7988")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "R8")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5183,7 +5908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cdc97ae-f69b-5f03-97c0-9c965a854bd8")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 231.14 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5244,7 +5969,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5439,7 +6164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15880299-143c-42b4-9ec9-6f93b3ae1be7")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 116.84 48.7679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5501,85 +6226,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrokeGlitcher:GND")
-		(at 220.98 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b6c110e-8571-5c0a-968f-311b7b518146")
-		(property "Reference" "#PWR019"
-			(at 220.98 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 194.564 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1322b59-f88c-5fbf-ba17-53fbf1dbdb11")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR019")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5776,8 +6423,475 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 198.12 166.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c96c400-13d7-449e-8081-bbcaea9907b6")
+		(property "Reference" "R3"
+			(at 193.04 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 193.04 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25744.pdf"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "10 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25744.html"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25744"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Basic"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "BOM Snapshot" "2026-11-20"
+			(at 193.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Board Section" "Controller"
+			(at 462.28 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 metric)"
+			(at 198.12 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 198.12 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 198.12 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 198.12 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 198.12 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d51fc495-1df7-4922-b7a5-da6ed5c870c7")
+		)
+		(pin "2"
+			(uuid "f8261a08-72bd-495b-aab4-22ba18516bc7")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 185.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e254db9-6ebe-4b77-b76f-969f2c328774")
+		(property "Reference" "R8"
+			(at 257.81 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 257.81 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25744.pdf"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "10 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25744.html"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25744"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Basic"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "BOM Snapshot" "2026-11-20"
+			(at 257.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Board Section" "Controller"
+			(at 562.61 396.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 metric)"
+			(at 262.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 262.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 262.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 262.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 262.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f0dc399-e8fa-47b5-82b2-e900eaac44f8")
+		)
+		(pin "2"
+			(uuid "0fc1ea28-4a52-4b85-bbda-cf9caa4875e6")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BrokeGlitcher:GND")
-		(at 299.72 217.17 0)
+		(at 270.51 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5785,9 +6899,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2fc53196-aa31-5b4f-a74b-ef253f96146c")
-		(property "Reference" "#PWR027"
-			(at 299.72 210.82 0)
+		(uuid "2f0ba95d-4b20-491f-af7e-1be389666e6e")
+		(property "Reference" "#PWR028"
+			(at 270.51 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,7 +6912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.72 213.614 0)
+			(at 270.51 183.134 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5809,7 +6923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 213.36 0)
+			(at 270.51 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5820,7 +6934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 213.36 0)
+			(at 270.51 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5831,7 +6945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 299.72 213.36 0)
+			(at 270.51 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,12 +6956,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4104af74-ec0b-5fe1-9396-150f602bfa5d")
+			(uuid "3d364da9-8466-4730-bf55-d40d6a1d2b72")
 		)
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6077,6 +7191,84 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:GND")
+		(at 262.89 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3254d398-a3a9-412d-a03b-45a5c33cd4f5")
+		(property "Reference" "#PWR027"
+			(at 262.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 185.674 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65c2eac0-b8f7-405b-8324-ab74cdee169b")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrokeGlitcher:GND")
 		(at 228.6 224.79 0)
 		(unit 1)
 		(body_style 1)
@@ -6086,7 +7278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3428a10c-f653-5374-9d4f-bc26c2d33c49")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 228.6 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -6147,7 +7339,84 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR021")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrokeGlitcher:VCC")
+		(at 262.89 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "347f7bd9-d530-42df-8e3b-6db1330356a7")
+		(property "Reference" "#PWR026"
+			(at 262.89 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "VBUS_FUSED"
+			(at 262.89 152.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "700b1778-07fc-4372-b3b3-2eac7c475512")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6164,7 +7433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36f876f0-9135-5e9a-87b9-5b6e3c2ac26a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 96.52 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6225,15 +7494,15 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 207.01 176.53 0)
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 278.13 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6241,161 +7510,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "38e28b5f-5dc2-5195-bccc-ecc38e1ee21f")
-		(property "Reference" "R4"
-			(at 212.09 175.26 0)
+		(fields_autoplaced yes)
+		(uuid "384e2741-1a9e-4aee-86ff-a6fc6c499f25")
+		(property "Reference" "JP1"
+			(at 278.13 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 212.09 177.8 0)
+		(property "Value" "Jumper_2_Bridged"
+			(at 278.13 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25744.pdf"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "10 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25744"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25744.html"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25744"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB Class" "Basic"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "BOM Snapshot" "2026-11-20"
-			(at 212.09 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Board Section" "Controller"
-			(at 16.51 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Package" "0402 (1005 metric)"
-			(at 207.01 176.53 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 278.13 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6405,8 +7543,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "±1%"
-			(at 207.01 176.53 0)
+		(property "Datasheet" ""
+			(at 278.13 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,8 +7554,8 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "50 V"
-			(at 207.01 176.53 0)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 278.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6426,39 +7564,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Technology" "Thick film"
-			(at 207.01 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 207.01 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6881b9a4-43c1-5a49-990c-852d4882ee69")
 		)
 		(pin "2"
-			(uuid "d9ce12aa-7ef9-585d-83fb-275c2476ca8d")
+			(uuid "5c46977f-6989-4b3c-a54d-6dc6e123c9a8")
+		)
+		(pin "1"
+			(uuid "412bc496-57ea-4dd1-bed4-dfa00b26f86c")
 		)
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "R4")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6876,6 +7992,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 210.82 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a29b527-3733-402d-8a63-be12b670f44b")
+		(property "Reference" "#PWR0129"
+			(at 214.63 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS_FUSED"
+			(at 207.01 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 210.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "412390f0-0488-42e0-8c2b-56feb9cba9d8")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 219.71 64.77 0)
 		(unit 1)
@@ -7098,8 +8293,86 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:TestPoint")
-		(at 299.72 187.96 0)
+		(lib_id "BrokeGlitcher:GND")
+		(at 198.12 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f5ecf87-7341-4362-bebe-b253f3860787")
+		(property "Reference" "#PWR018"
+			(at 198.12 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 179.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e25ee9a5-76ae-4757-91ab-1c39377f6a44")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrokeGlitcher:R")
+		(at 256.54 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7107,71 +8380,169 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51872f22-d269-47c3-9dc6-7bd4c744654a")
-		(property "Reference" "TP4"
-			(at 302.26 184.6579 0)
+		(uuid "4fd3d589-267f-4ffa-969d-fa08d4c3cfe9")
+		(property "Reference" "R5"
+			(at 252.73 168.275 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 302.26 185.9279 0)
+		(property "Value" "10R"
+			(at 260.35 168.275 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 256.54 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 304.8 187.96 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22859.pdf"
+			(at 256.54 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 304.8 187.96 0)
+		(property "Description" "10 ohm 1%, separate source/sink gate resistors"
+			(at 256.54 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 299.72 187.96 0)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 256.54 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0603WAF100JT5E"
+			(at 256.54 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22859"
+			(at 256.54 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C22859.html"
+			(at 256.54 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C22859"
+			(at 256.54 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Basic"
+			(at 256.54 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 256.54 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "BOM Snapshot" "2026-11-15"
+			(at 256.54 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Board Section" "Controller"
+			(at 0 -15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
 		(pin "1"
-			(uuid "216ba015-9883-494d-bace-ede702ecbdd0")
+			(uuid "be4c2b04-1737-4cc8-861e-6ff64c788297")
+		)
+		(pin "2"
+			(uuid "24d0418f-d6ab-476a-b5ff-0284795897f8")
 		)
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "TP4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7188,7 +8559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54065324-3e62-53d4-837f-02b66156e40c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 82.55 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7249,7 +8620,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7444,7 +8815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58db3c5b-e8f3-5a77-85d1-a70a33e8506d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 91.44 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7505,7 +8876,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7522,7 +8893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59736c57-a060-5d4b-b96e-a9b2ad219d49")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 271.78 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7583,7 +8954,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7777,8 +9148,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:UCC27511ADBV")
-		(at 220.98 187.96 0)
+		(lib_id "BrokeGlitcher:R")
+		(at 256.54 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7786,9 +9157,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5f2ef4c6-0d3e-592a-97d0-2fc73ab5aca6")
-		(property "Reference" "U2"
-			(at 248.92 172.72 0)
+		(uuid "5be90f1d-26b6-45be-8543-37b170a65ed9")
+		(property "Reference" "R6"
+			(at 252.73 173.355 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7797,8 +9168,8 @@
 				)
 			)
 		)
-		(property "Value" "UCC27511A"
-			(at 248.92 175.26 0)
+		(property "Value" "10R"
+			(at 260.35 173.355 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7807,8 +9178,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 220.98 176.53 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7818,8 +9189,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2676982.pdf"
-			(at 220.98 176.53 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22859.pdf"
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,8 +9200,8 @@
 				)
 			)
 		)
-		(property "Description" "Crowbar MOSFET gate driver"
-			(at 220.98 176.53 0)
+		(property "Description" "10 ohm 1%, separate source/sink gate resistors"
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7840,8 +9211,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 220.98 176.53 0)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,8 +9222,8 @@
 				)
 			)
 		)
-		(property "MPN" "UCC27511ADBVR"
-			(at 220.98 176.53 0)
+		(property "MPN" "0603WAF100JT5E"
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7862,8 +9233,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2676982"
-			(at 220.98 176.53 0)
+		(property "LCSC Part #" "C22859"
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7873,8 +9244,8 @@
 				)
 			)
 		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C2676982.html"
-			(at 220.98 176.53 0)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C22859.html"
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7884,8 +9255,8 @@
 				)
 			)
 		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C2676982"
-			(at 220.98 176.53 0)
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C22859"
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,8 +9266,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Class" "Extended"
-			(at 220.98 176.53 0)
+		(property "JLCPCB Class" "Basic"
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7907,7 +9278,7 @@
 			)
 		)
 		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 220.98 176.53 0)
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,7 +9289,7 @@
 			)
 		)
 		(property "BOM Snapshot" "2026-11-15"
-			(at 220.98 176.53 0)
+			(at 256.54 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,7 +9300,7 @@
 			)
 		)
 		(property "Board Section" "Controller"
-			(at 0 0 0)
+			(at 0 -15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,27 +9311,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f91ae3a-58b0-58cd-924b-b775a494042b")
+			(uuid "bc11477d-bcf6-4f94-8cb0-67e82c8441af")
 		)
 		(pin "2"
-			(uuid "16476776-ab51-53a1-a95b-d00fd017412b")
-		)
-		(pin "3"
-			(uuid "3c938950-89a0-5562-bdae-1dff13095a3d")
-		)
-		(pin "4"
-			(uuid "2dc493dd-a82b-5b5f-bc76-959000d2949e")
-		)
-		(pin "5"
-			(uuid "c9845f12-a6a6-5864-a4ed-7b855fc5962f")
-		)
-		(pin "6"
-			(uuid "58de89d3-f038-53e8-9bea-c72792ed7cf2")
+			(uuid "ed21a9be-c716-42fe-a68c-02d434625490")
 		)
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "U2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8610,7 +9969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65fee9da-a261-57c4-8c6d-7aeda6c138ef")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 228.6 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -8670,7 +10029,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8687,7 +10046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dd8b2d9-78bb-5d2d-8684-06ccc22714e1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 43.18 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8748,7 +10107,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8765,7 +10124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70d26984-2c7d-54dc-9601-e936fbdc1b0c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 26.67 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8826,7 +10185,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9056,38 +10415,18 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:R")
-		(at 256.54 190.5 90)
+		(lib_id "BrokeGlitcher:+3V3")
+		(at 198.12 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7273db3b-2a2f-53bc-9d91-a05104ecdcfb")
-		(property "Reference" "R6"
-			(at 252.73 188.595 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 260.35 188.595 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 256.54 185.42 90)
+		(uuid "7a3d95e4-1214-4b1a-9f60-4b05f772f5bb")
+		(property "Reference" "#PWR017"
+			(at 198.12 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9097,8 +10436,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22859.pdf"
-			(at 256.54 185.42 90)
+		(property "Value" "+3V3"
+			(at 198.12 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9108,8 +10457,8 @@
 				)
 			)
 		)
-		(property "Description" "10 ohm 1%, separate source/sink gate resistors"
-			(at 256.54 185.42 90)
+		(property "Datasheet" ""
+			(at 198.12 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9119,96 +10468,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 256.54 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "0603WAF100JT5E"
-			(at 256.54 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part #" "C22859"
-			(at 256.54 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C22859.html"
-			(at 256.54 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C22859"
-			(at 256.54 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB Class" "Basic"
-			(at 256.54 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 256.54 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "BOM Snapshot" "2026-11-15"
-			(at 256.54 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Board Section" "Controller"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 198.12 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9219,15 +10480,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e0ce511-9107-5aab-84c0-2a5d5e8e553d")
-		)
-		(pin "2"
-			(uuid "508716b0-7318-5ab8-976c-e6ea5f0c6670")
+			(uuid "85455810-6434-494c-a2f4-9709b52efc05")
 		)
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "R6")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9244,7 +10502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e294b4e-dbc2-5ec2-ab4c-acf035204db3")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 83.82 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9304,7 +10562,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9321,7 +10579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "851d61bc-bdb2-55ff-85eb-3a85461e30c9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 58.42 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9382,676 +10640,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrokeGlitcher:+3V3")
-		(at 207.01 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "873fa7e2-6195-53ec-a036-0ff90fa0ccad")
-		(property "Reference" "#PWR017"
-			(at 207.01 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 207.01 166.624 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "beb56d38-0f04-5a2c-959a-48b4b55fa863")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrokeGlitcher:AO3400A")
-		(at 314.96 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8923e02c-3236-56ac-8f84-6532e3e2fe3e")
-		(property "Reference" "Q1"
-			(at 332.74 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 332.74 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C20917.pdf"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "N-channel crowbar MOSFET, AOS original"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "Alpha & Omega Semiconductor"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "AO3400A"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part #" "C20917"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C20917.html"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C20917"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB Class" "Basic"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "BOM Snapshot" "2026-11-15"
-			(at 314.96 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Board Section" "Controller"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e924a956-6f6a-51ee-8505-4fa7fd394bf7")
-		)
-		(pin "2"
-			(uuid "c0deb322-eefa-571a-b719-85a35ec3abd8")
-		)
-		(pin "3"
-			(uuid "78bf45cc-a50b-51b0-bace-13d8f460818b")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrokeGlitcher:R")
-		(at 256.54 185.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a23f09f-0444-50e8-a967-d765ff7866c5")
-		(property "Reference" "R5"
-			(at 252.73 183.515 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 260.35 183.515 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22859.pdf"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "10 ohm 1%, separate source/sink gate resistors"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "0603WAF100JT5E"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part #" "C22859"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C22859.html"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C22859"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB Class" "Basic"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "BOM Snapshot" "2026-11-15"
-			(at 256.54 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Board Section" "Controller"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "966b953a-40b2-5c45-ab07-2c8f58b0c994")
-		)
-		(pin "2"
-			(uuid "da4eaa4b-7b7a-5d0b-8725-da641e59f618")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 299.72 210.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "91c0dfa0-6234-54c8-969f-bad45c3cd4a5")
-		(property "Reference" "R7"
-			(at 304.8 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 304.8 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25744.pdf"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "10 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25744"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25744.html"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25744"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB Class" "Basic"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "BOM Snapshot" "2026-11-20"
-			(at 304.8 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Board Section" "Controller"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Package" "0402 (1005 metric)"
-			(at 299.72 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 299.72 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50 V"
-			(at 299.72 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Technology" "Thick film"
-			(at 299.72 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 299.72 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a13a3425-ec9d-5fb0-ba3d-aeb12a8fbdba")
-		)
-		(pin "2"
-			(uuid "8e3f8b28-bc49-5933-acb9-3b0cf6044c9b")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "R7")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10068,7 +10657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92ee4438-2bf1-5c15-80ca-3f00560d89c5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 251.46 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10129,7 +10718,169 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR024")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 267.97 166.37 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9396b870-87c2-4da2-97f0-3a122d842b76")
+		(property "Reference" "Q1"
+			(at 274.32 167.6401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 274.32 165.1001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 273.05 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15127.pdf"
+			(at 267.97 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-channel MOSFET, AOS original"
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AO3401A"
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C15127.html"
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB URL" ""
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Basic"
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "931b94b6-ab0f-43be-aca2-fe8d954fee30")
+		)
+		(pin "2"
+			(uuid "700387bd-8edc-4f77-9690-4cf9dfda3acf")
+		)
+		(pin "1"
+			(uuid "e7ffab57-db0d-486a-bc06-11ed4750e89c")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -10146,7 +10897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96812108-de90-594f-98ac-423d2124cacc")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 127 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10206,7 +10957,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10223,7 +10974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e7fa7f8-0182-5d37-9d5a-27d8f60e7ece")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10283,7 +11034,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10558,6 +11309,245 @@
 		)
 	)
 	(symbol
+		(lib_id "BrokeGlitcher:VCC")
+		(at 220.98 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b55ddc2c-c0b1-475d-a009-e9e6dd8f53ac")
+		(property "Reference" "#PWR023"
+			(at 220.98 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "VBUS_FUSED"
+			(at 220.98 156.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8755a77d-bbfc-4bf5-86e2-9160d6a171e4")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 267.97 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b59d01e5-0328-4ed1-bc7e-9fe909d56d9d")
+		(property "Reference" "Q2"
+			(at 274.32 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 274.32 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 273.05 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C20917.pdf"
+			(at 267.97 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-channel crowbar MOSFET, AOS original"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C20917"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C20917.html"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C20917"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Basic"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 267.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "38fef0eb-3591-40b4-8509-bbf4935ceb57")
+		)
+		(pin "2"
+			(uuid "ceaa43b9-a606-4dd6-86c8-344d0b65f924")
+		)
+		(pin "1"
+			(uuid "a3d456ad-b1e0-4d80-9e2c-f94f66d8b8e5")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BrokeGlitcher:PWR_FLAG")
 		(at 26.67 119.38 0)
 		(unit 1)
@@ -10636,8 +11626,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:VCC")
-		(at 220.98 177.8 0)
+		(lib_id "BrokeGlitcher:GND")
+		(at 220.98 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10645,9 +11635,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b8879212-c8b2-5597-8658-4c605715194c")
-		(property "Reference" "#PWR018"
-			(at 220.98 171.45 0)
+		(uuid "b934d83a-0319-4785-bf6c-40ef344efdd5")
+		(property "Reference" "#PWR024"
+			(at 220.98 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10657,8 +11647,9 @@
 				)
 			)
 		)
-		(property "Value" "VBUS_FUSED"
-			(at 220.98 174.244 0)
+		(property "Value" "GND"
+			(at 220.98 179.324 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10668,7 +11659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 173.99 0)
+			(at 220.98 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10679,7 +11670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 173.99 0)
+			(at 220.98 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10690,7 +11681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 173.99 0)
+			(at 220.98 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,12 +11692,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7160bd6-49f1-56f3-b7aa-8fcddfac34c4")
+			(uuid "cfac86da-1d73-4ad6-bc48-a4a28400fa30")
 		)
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR018")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10723,7 +11714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bac27d11-bf99-55e4-8db9-cab0ce9f4a70")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 38.1 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -10783,85 +11774,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrokeGlitcher:GND")
-		(at 317.5 195.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1e9ee01-517e-5749-8287-f3ec3566b3cb")
-		(property "Reference" "#PWR028"
-			(at 317.5 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 317.5 192.024 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 317.5 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 317.5 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 317.5 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a34a83c-abad-5bd6-afa6-44a43858bf0e")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR028")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10878,7 +11791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c91312ed-11b7-526d-ae30-767af979ddf9")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 113.03 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10939,7 +11852,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10956,7 +11869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc6dc38b-3d11-55a5-89c5-f1c0a7ae4713")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 50.8 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11017,240 +11930,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 203.2 201.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf044585-e6a5-5181-9c0d-fc41eafd17e6")
-		(property "Reference" "R3"
-			(at 208.28 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 208.28 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25744.pdf"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "10 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25744"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25744.html"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25744"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "JLCPCB Class" "Basic"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "BOM Snapshot" "2026-11-20"
-			(at 208.28 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Board Section" "Controller"
-			(at -60.96 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Package" "0402 (1005 metric)"
-			(at 203.2 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 203.2 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50 V"
-			(at 203.2 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Technology" "Thick film"
-			(at 203.2 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Rating" "62.5 mW"
-			(at 203.2 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ab66cb3-9398-5e07-a892-c8dca5725491")
-		)
-		(pin "2"
-			(uuid "78c21024-ce09-54ef-ac0a-d651e902d28f")
-		)
-		(instances
-			(project "broke-glitcher"
-				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "R3")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11267,7 +11947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf27e8d7-c876-5ce9-ab97-dff24ed4413e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR029"
 			(at 271.78 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11327,7 +12007,282 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR025")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:UCC27524D")
+		(at 220.98 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2a2d222-3e55-4d15-8169-10b77f189a80")
+		(property "Reference" "U2"
+			(at 223.1233 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UCC27524A"
+			(at 223.1233 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 220.98 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C185857.pdf"
+			(at 220.98 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual High-Speed MOSFET gate driver"
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UCC27524ADR"
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C185857"
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C185857.html"
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB URL" ""
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Extended"
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Snapshot" ""
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Board Section" ""
+			(at 220.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "2f2dbe1a-a31a-4885-b449-f807f2a057af")
+		)
+		(pin "6"
+			(uuid "3dbd41be-dc68-4e58-8b91-b050fcf10f7c")
+		)
+		(pin "3"
+			(uuid "7402340d-0e7f-4b14-a0ac-864e8c78041d")
+		)
+		(pin "1"
+			(uuid "0d1b6ad7-9fc1-40ce-be3c-370bef518449")
+		)
+		(pin "2"
+			(uuid "e884f3e2-6560-4e26-95ad-64698cdfa27b")
+		)
+		(pin "7"
+			(uuid "a99d0906-df6b-4349-b249-e7db6f6682e8")
+		)
+		(pin "8"
+			(uuid "149dbd47-70cc-4f70-8e50-45a9fa5bdf5b")
+		)
+		(pin "4"
+			(uuid "96776e62-7dd8-477e-9ea9-62ed3ca85c4b")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrokeGlitcher:GND")
+		(at 302.26 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d34ce685-9bf6-4d03-b784-fc8db97811c5")
+		(property "Reference" "#PWR0130"
+			(at 302.26 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 302.26 157.734 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5993c0fc-6bc8-45b9-bf2f-08ebbb6e5300")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -11556,6 +12511,239 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 262.89 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6739df0-7b11-47f9-8d93-ae7b6b52eb24")
+		(property "Reference" "R7"
+			(at 257.81 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 257.81 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25744.pdf"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "10 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25744.html"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25744"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Basic"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "BOM Snapshot" "2026-11-20"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Board Section" "Controller"
+			(at 562.61 370.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 metric)"
+			(at 262.89 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 262.89 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 262.89 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 262.89 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 262.89 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f6b2445-dd37-4e7e-b1d8-c6bb971e6ab3")
+		)
+		(pin "2"
+			(uuid "41a70467-e403-4832-bddd-c83eaad94723")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BrokeGlitcher:PWR_FLAG")
 		(at 80.01 53.34 0)
 		(unit 1)
@@ -11634,6 +12822,362 @@
 		)
 	)
 	(symbol
+		(lib_id "BrokeGlitcher:C")
+		(at 295.91 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4cb4ae8-e764-4101-894d-3daae64287ce")
+		(property "Reference" "C46"
+			(at 294.64 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 297.18 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15850.pdf"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "10 uF, 25 V, X5R, target bulk / ADC reference"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C15850.html"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C15850"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Basic"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "BOM Snapshot" "2026-11-15"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Board Section" "Controller"
+			(at 113.03 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "220a9a1a-1064-4d3f-b89e-420149a9c9dd")
+		)
+		(pin "2"
+			(uuid "113f5fbb-9d2e-4551-a160-49e3b8bbaec0")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrokeGlitcher:R")
+		(at 285.75 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5c27524-8929-4c6e-891b-c6e5de500a74")
+		(property "Reference" "R9"
+			(at 284.48 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 287.02 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C21189.pdf"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "0 ohm links: target decouplers and crowbar isolation"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C21189"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C21189.html"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C21189"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Basic"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "BOM Snapshot" "2026-11-15"
+			(at 287.02 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Board Section" "Controller"
+			(at 125.73 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cae3470-afc3-40e2-a072-435808b0605b")
+		)
+		(pin "2"
+			(uuid "e6bbeace-ca41-413e-b449-0a0a7f4e79f5")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BrokeGlitcher:VCC")
 		(at 72.39 167.64 0)
 		(unit 1)
@@ -11644,7 +13188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e73f390b-5964-5e13-b947-678f694c9ad8")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 72.39 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -11704,15 +13248,15 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "BrokeGlitcher:GND")
-		(at 203.2 208.28 0)
+		(lib_id "BrokeGlitcher:+3V3")
+		(at 289.56 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11720,9 +13264,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e83c25c4-1cbf-5ea7-b540-98f36b6d9a45")
-		(property "Reference" "#PWR016"
-			(at 203.2 201.93 0)
+		(uuid "eb6fcdaf-182d-4529-80dc-ace55115c416")
+		(property "Reference" "#PWR031"
+			(at 289.56 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11732,9 +13276,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 203.2 204.724 0)
-			(hide yes)
+		(property "Value" "+3V3"
+			(at 289.56 157.734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11744,7 +13287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 204.47 0)
+			(at 289.56 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11755,7 +13298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 204.47 0)
+			(at 289.56 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11766,7 +13309,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 204.47 0)
+			(at 289.56 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11777,12 +13320,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "787ed4aa-9102-5f82-b10c-a5ef853bd98b")
+			(uuid "a4d75178-a6bd-458f-b0f4-98a5df012d10")
 		)
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR016")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11977,7 +13520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9308906-2117-54d2-9f3d-3db52e7a5d51")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 43.18 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12037,7 +13580,241 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
-					(reference "#PWR05")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 179.07 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa9d422c-0aa9-4053-b05c-cb3d3f6fec50")
+		(property "Reference" "R4"
+			(at 193.04 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 193.04 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25744.pdf"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "10 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25744.html"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25744"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB Class" "Basic"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Packaging" "Tape & Reel (cut quantity)"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "BOM Snapshot" "2026-11-20"
+			(at 193.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Board Section" "Controller"
+			(at 388.62 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 metric)"
+			(at 198.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 198.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50 V"
+			(at 198.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick film"
+			(at 198.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Rating" "62.5 mW"
+			(at 198.12 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f49ce910-36c1-4ec2-9212-582e8fd319d5")
+		)
+		(pin "2"
+			(uuid "4a414152-ca89-4b4e-8cb6-1931bb8db2a6")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
+					(reference "R4")
 					(unit 1)
 				)
 			)

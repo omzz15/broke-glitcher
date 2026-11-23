@@ -283,12 +283,6 @@
 		(uuid "cdab8a73-9fdb-583e-89cb-a0abb101ef7e")
 	)
 	(junction
-		(at 213.36 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "041d417e-40c0-4717-a784-e2a4c7204130")
-	)
-	(junction
 		(at 317.5 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -347,16 +341,6 @@
 			(type default)
 		)
 		(uuid "17cc354e-ed0a-4137-886c-38c758b9e455")
-	)
-	(wire
-		(pts
-			(xy 203.2 162.56) (xy 215.9 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f12b6e9-3891-4549-8e1f-421e3af576d4")
 	)
 	(wire
 		(pts
@@ -500,16 +484,6 @@
 	)
 	(bus
 		(pts
-			(xy 213.36 158.75) (xy 215.9 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9070d640-ff6e-46b5-912d-69c74bf7d921")
-	)
-	(bus
-		(pts
 			(xy 284.48 142.24) (xy 284.48 162.56)
 		)
 		(stroke
@@ -547,6 +521,16 @@
 			(type default)
 		)
 		(uuid "b4aff3a5-55e1-457d-b629-7277b5f5dae1")
+	)
+	(wire
+		(pts
+			(xy 203.2 162.56) (xy 215.9 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5278d8f-6bff-42c7-9acd-dc02aeff8d66")
 	)
 	(wire
 		(pts
@@ -656,7 +640,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d1685e9c-31f5-4a48-8b07-e2e9fb7c839b")
+		(uuid "c475c603-1878-4bf9-8a40-cec60db57754")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -828,7 +812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53609ce2-036a-485b-9e0f-f1b2d4187d35")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR01"
 			(at 317.5 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -888,7 +872,7 @@
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
-					(reference "#PWR0126")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1119,16 +1103,6 @@
 				(justify right)
 			)
 		)
-		(pin "GLITCH_PULSE" output
-			(at 279.4 123.19 0)
-			(uuid "e009cade-2e27-4878-9157-5759488dd258")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "TARGET_PWR_EN" output
 			(at 279.4 118.11 0)
 			(uuid "ff54f059-5e9d-44f5-b969-b194f59f17da")
@@ -1159,16 +1133,6 @@
 				(justify right)
 			)
 		)
-		(pin "~{GLITCH_EN}" output
-			(at 279.4 120.65 0)
-			(uuid "47575c1d-b4fb-44ae-ac3b-7d91bf3a96b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "LINK_GPIO[17..29]" bidirectional
 			(at 215.9 118.11 180)
 			(uuid "45f0fd73-1ffe-4b23-ae0c-f1637cbde406")
@@ -1177,6 +1141,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GLITCH_NEG" output
+			(at 279.4 120.65 0)
+			(uuid "345f77e9-2cc2-4b68-af3d-a3fa8475d624")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{GLITCH_POS}" output
+			(at 279.4 123.19 0)
+			(uuid "a45f8f86-7b6e-4c0f-826f-704f2bdd25e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1384,16 +1368,6 @@
 				(justify left)
 			)
 		)
-		(pin "GLITCH_OUT" input
-			(at 215.9 162.56 180)
-			(uuid "0e51b2cc-d29c-4905-94b9-255ae74d6fb7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SENSE_N" output
 			(at 215.9 182.88 180)
 			(uuid "3ffb74c8-b65a-4ae5-bb7e-67be91569176")
@@ -1414,9 +1388,9 @@
 				(justify left)
 			)
 		)
-		(pin "TARGET{TARGET_LINK}" bidirectional
-			(at 215.9 158.75 180)
-			(uuid "99e955ce-8f9a-4969-8847-524c0624f147")
+		(pin "GLITCH_OUT" input
+			(at 215.9 162.56 180)
+			(uuid "74e61e28-0aff-4596-ab11-7e9bd8c53216")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,16 +1453,6 @@
 				(justify right)
 			)
 		)
-		(pin "GLITCH_PULSE" input
-			(at 292.1 123.19 180)
-			(uuid "a8b7fa9b-a799-48c7-a512-abdb786e67ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TARGET_PWR_EN" input
 			(at 292.1 118.11 180)
 			(uuid "ac87e3f7-2a2e-471e-adc3-c4cb9cdd15a1")
@@ -1519,9 +1483,19 @@
 				(justify left)
 			)
 		)
-		(pin "~{GLITCH_EN}" input
+		(pin "GLITCH_NEG" input
 			(at 292.1 120.65 180)
-			(uuid "60bfec2e-c7d9-47b0-90aa-dc2103b72076")
+			(uuid "8b73ea28-28ca-4fb1-89bf-2adcbee6043a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{GLITCH_POS}" input
+			(at 292.1 123.19 180)
+			(uuid "e27bac9e-10bc-40dd-baaa-47ca4f7ea316")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,16 +1548,6 @@
 				(justify left)
 			)
 		)
-		(pin "GLITCH_OUT" input
-			(at 203.2 162.56 0)
-			(uuid "086e569c-2665-4a4d-b396-50bbaf20ca9c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SENSE_N" output
 			(at 203.2 182.88 0)
 			(uuid "84e2966f-89eb-4f4d-b41b-04277cd6f149")
@@ -1607,6 +1571,16 @@
 		(pin "LINK_GPIO[17..29]" bidirectional
 			(at 203.2 158.75 0)
 			(uuid "2d3577c9-b765-4332-a8f5-99363a32f9e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GLITCH_OUT" input
+			(at 203.2 162.56 0)
+			(uuid "29d63738-5268-402d-8218-59d5f12bdff1")
 			(effects
 				(font
 					(size 1.27 1.27)
