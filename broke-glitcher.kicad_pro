@@ -76,7 +76,128 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|15000000|18910000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|0717623b-ebaf-44fa-ade1-f09137600f6f",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|18910000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|c77dc1eb-5fe0-4dde-beb8-4873a97a7157",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|23355000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|5bf55a2a-a4a3-4c16-9f6d-71a6eb2e42d4",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|27670000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|7016bf8a-f345-477c-9d24-db5fcc20d318",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|27670000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|bc89ba6d-8725-42a2-8212-4b2420bb9452",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|34410000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|021a83bc-446d-4a0e-a1a3-4b8c79da0e9a",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|34410000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|a1ce472a-6db3-4f3c-8319-2bf61c8f1bd6",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|38855000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|2b17b88b-7e55-414d-87d8-4438fe9088f6",
+          "Edge SMA Connectior"
+        ],
+        [
+          "copper_edge_clearance|15000000|43170000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|ed991f30-2e98-42f9-a144-9209c680a553",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|43170000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|fd43cf24-261d-49b1-ac8f-8fafa731771f",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|49910000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|b28b258d-e69a-4696-a499-c5191af18f61",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|49910000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|f9daa43b-8da7-4fc2-913a-1d166f6b108c",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|54355000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|860b1797-9c82-412e-bcbc-cfcada5db7c4",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|58670000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|247450f0-d19b-46fe-9367-add723379295",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|15000000|58670000|332f0ebc-d9d6-4f7c-add4-697b6d4da9c4|2a6fa91f-3ade-4477-896e-0ed9519bc3f9",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|18910000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|4382c95e-24ca-40d9-83b7-9b520d0c3423",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|18910000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|7d12a2e1-7eef-4762-a21a-f5ae65ebee78",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|23355000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|934602ab-61c0-4c81-960a-a03b56af3fac",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|27670000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|0b17684b-f94b-4347-b509-725335199df1",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|27670000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|e57ead0c-7903-4d0a-afe4-d5454eda2652",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|34410000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|227a6ae6-a679-4b97-8424-d12254ecc59a",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|34410000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|d3422595-9c71-4f7d-91cc-1b35b627a0b7",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|38855000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|b15a913a-1eb6-4579-b315-39e3873ff16e",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|43170000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|32ee7412-20eb-451d-985b-b446cec07239",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|43170000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|61e104e4-4698-4556-a180-e5e262bb3b7b",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|49910000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|752786a0-cc2f-41e1-aee3-5b72c56ad8b2",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|49910000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|9c455f57-9b1d-410c-a947-57d849f6fa9f",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|54355000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|eeb88a07-388b-4616-a2a2-20be6c3dc48c",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|58670000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|6dadfae3-c7e6-49a0-b94f-9074ce26be81",
+          "Edge SMA Connector"
+        ],
+        [
+          "copper_edge_clearance|90000000|58670000|6bdbf5e3-4fb9-4c95-9be8-4b2e5f97e233|a27ec404-9eda-4ce9-8abd-6ecde796d3dc",
+          "Edge SMA Connector"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -154,7 +275,7 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.0,
         "min_microvia_drill": 0.0,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
@@ -588,7 +709,7 @@
       },
       {
         "netclass": "Signal",
-        "pattern": ".*TARGET(?!_VDD).*"
+        "pattern": "*TARGET_PWR_EN"
       },
       {
         "netclass": "Signal",
@@ -612,7 +733,7 @@
       },
       {
         "netclass": "Signal",
-        "pattern": ".+/.*GLITCH.*"
+        "pattern": ".+/.*GLITCH(?!_OUT).*"
       },
       {
         "netclass": "Power",
