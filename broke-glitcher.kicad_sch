@@ -382,6 +382,16 @@
 		)
 		(uuid "47b260e4-30b4-42d6-ba54-f10dc7e2bb49")
 	)
+	(bus
+		(pts
+			(xy 203.2 166.37) (xy 215.9 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fff271-acd7-4ee2-9b3a-e73915800111")
+	)
 	(wire
 		(pts
 			(xy 279.4 120.65) (xy 292.1 120.65)
@@ -1133,16 +1143,6 @@
 				(justify right)
 			)
 		)
-		(pin "LINK_GPIO[17..29]" bidirectional
-			(at 215.9 118.11 180)
-			(uuid "45f0fd73-1ffe-4b23-ae0c-f1637cbde406")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "GLITCH_NEG" output
 			(at 279.4 120.65 0)
 			(uuid "345f77e9-2cc2-4b68-af3d-a3fa8475d624")
@@ -1161,6 +1161,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "LINK_GPIO[16..29]" bidirectional
+			(at 215.9 118.11 180)
+			(uuid "cf9a74c5-ed6b-4465-a67e-5e08223961c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1398,6 +1408,16 @@
 				(justify left)
 			)
 		)
+		(pin "TARGET{TARGET_LINK}" bidirectional
+			(at 215.9 166.37 180)
+			(uuid "6387d478-1d69-44de-b735-a6525d08568d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
@@ -1568,9 +1588,9 @@
 				(justify right)
 			)
 		)
-		(pin "LINK_GPIO[17..29]" bidirectional
-			(at 203.2 158.75 0)
-			(uuid "2d3577c9-b765-4332-a8f5-99363a32f9e6")
+		(pin "GLITCH_OUT" input
+			(at 203.2 162.56 0)
+			(uuid "29d63738-5268-402d-8218-59d5f12bdff1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,9 +1598,19 @@
 				(justify right)
 			)
 		)
-		(pin "GLITCH_OUT" input
-			(at 203.2 162.56 0)
-			(uuid "29d63738-5268-402d-8218-59d5f12bdff1")
+		(pin "TARGET{TARGET_LINK}" bidirectional
+			(at 203.2 166.37 0)
+			(uuid "074cd7e0-2696-40f4-b5db-1bef0951b6cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LINK_GPIO[16..29]" bidirectional
+			(at 203.2 158.75 0)
+			(uuid "640fe3b2-03ef-4ed1-8208-2b926a1eca37")
 			(effects
 				(font
 					(size 1.27 1.27)

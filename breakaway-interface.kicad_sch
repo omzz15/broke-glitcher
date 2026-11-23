@@ -2013,7 +2013,7 @@
 		)
 		(uuid "f9ddb4c3-6592-4844-b746-45d8a6ac1225")
 	)
-	(label "TARGET.UART_TX"
+	(label "TARGET.TRIGGER"
 		(at 220.98 74.93 0)
 		(effects
 			(font
@@ -2023,7 +2023,7 @@
 		)
 		(uuid "070608da-63f8-41ac-a9e9-dd5cfa3abf6f")
 	)
-	(label "LINK_GPIO17"
+	(label "LINK_GPIO16"
 		(at 317.5 85.09 180)
 		(effects
 			(font
@@ -2073,7 +2073,7 @@
 		)
 		(uuid "1cecaf2d-4690-417e-a818-c2acc7a5f233")
 	)
-	(label "TARGET."
+	(label "TARGET.SPI_CSn"
 		(at 220.98 77.47 0)
 		(effects
 			(font
@@ -2083,15 +2083,15 @@
 		)
 		(uuid "1ee78331-d47b-419c-a4e1-a3f1351946d5")
 	)
-	(label "TARGET."
-		(at 220.98 82.55 0)
+	(label "TARGET.SPI_CLK"
+		(at 220.98 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "28418b09-551c-4d68-af28-84cddcb08ccf")
+		(uuid "2fdd6d66-f408-46c6-a241-7408c2fe4f9a")
 	)
 	(label "LINK_GPIO24"
 		(at 55.88 73.66 0)
@@ -2103,7 +2103,17 @@
 		)
 		(uuid "37939feb-e186-4a78-8792-fc7087d32353")
 	)
-	(label "LINK_GPIO17"
+	(label "TARGET."
+		(at 222.25 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39790f95-77b0-4c65-817f-69395c6ae1e1")
+	)
+	(label "LINK_GPIO16"
 		(at 129.54 83.82 180)
 		(effects
 			(font
@@ -2153,26 +2163,6 @@
 		)
 		(uuid "5f9a7adb-0e1d-4824-bb3e-607751a3f856")
 	)
-	(label "TARGET."
-		(at 220.98 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f0706ba-1ecb-45ce-a89d-b32651c7b2d2")
-	)
-	(label "TARGET."
-		(at 220.98 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f29cd26-4549-42a7-99b7-4e091d34971c")
-	)
 	(label "LINK_GPIO18"
 		(at 241.3 85.09 0)
 		(effects
@@ -2182,16 +2172,6 @@
 			(justify left bottom)
 		)
 		(uuid "747872db-24be-4eb4-9a42-aad075989fac")
-	)
-	(label "TARGET."
-		(at 340.36 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74a307cc-c51f-4195-a6be-8b07449dc031")
 	)
 	(label "LINK_GPIO29"
 		(at 129.54 63.5 180)
@@ -2203,7 +2183,17 @@
 		)
 		(uuid "75fded42-39c4-4475-9832-a8710b2b5c76")
 	)
-	(label "TARGET.UART_RX"
+	(label "TARGET.SPI_MOSI"
+		(at 220.98 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "792c551a-364b-49ad-8097-4b8e3c650edb")
+	)
+	(label "TARGET.LFCLK"
 		(at 220.98 72.39 0)
 		(effects
 			(font
@@ -2212,6 +2202,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d915c98-6ec6-426d-a4b4-4d8c81ff9dca")
+	)
+	(label "TARGET.BSL"
+		(at 220.98 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81b585a4-5de7-4151-820f-ebce92bad5f6")
 	)
 	(label "LINK_GPIO27"
 		(at 241.3 69.85 0)
@@ -2223,6 +2223,16 @@
 		)
 		(uuid "82372ca2-98c8-41e1-9b0c-053ce82347d4")
 	)
+	(label "TARGET.SWCLK"
+		(at 340.36 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88f402b8-d402-498a-905b-befd27b79adf")
+	)
 	(label "LINK_GPIO24"
 		(at 241.3 74.93 0)
 		(effects
@@ -2233,7 +2243,7 @@
 		)
 		(uuid "8aef17df-53af-4aca-9dbb-46c3c789d180")
 	)
-	(label "TARGET."
+	(label "TARGET.UART_RX"
 		(at 220.98 80.01 0)
 		(effects
 			(font
@@ -2252,6 +2262,16 @@
 			(justify right bottom)
 		)
 		(uuid "965a3bf7-048f-4754-8305-db6719cb4710")
+	)
+	(label "TARGET.RESET"
+		(at 340.36 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9af6a87a-a108-4d3a-a23e-76c8490f492c")
 	)
 	(label "LINK_GPIO28"
 		(at 241.3 67.31 0)
@@ -2273,17 +2293,7 @@
 		)
 		(uuid "ab8b80ee-6b38-4c19-9e92-3e1955d6a7ff")
 	)
-	(label "TARGET."
-		(at 220.98 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b575cacc-7588-4922-8ea6-d0f1cffda486")
-	)
-	(label "TARGET."
+	(label "TARGET.HFCLK"
 		(at 340.36 74.93 180)
 		(effects
 			(font
@@ -2293,7 +2303,7 @@
 		)
 		(uuid "bb009c5e-d2b0-444b-8a1a-476828636033")
 	)
-	(label "TARGET."
+	(label "TARGET.UART_TX"
 		(at 340.36 80.01 180)
 		(effects
 			(font
@@ -2343,6 +2353,16 @@
 		)
 		(uuid "d1953bd2-aee6-4a3b-b496-3fe3b5df0ffd")
 	)
+	(label "TARGET.SWDIO"
+		(at 220.98 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8e77b10-075d-4980-a3dd-048f7f29e534")
+	)
 	(label "LINK_GPIO18"
 		(at 55.88 83.82 0)
 		(effects
@@ -2363,25 +2383,15 @@
 		)
 		(uuid "e710bdd8-26e7-474e-adc4-5948a09644e3")
 	)
-	(label "TARGET."
-		(at 340.36 64.77 180)
+	(label "TARGET.SPI_MISO"
+		(at 340.36 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f49b13fe-00ca-4b6e-9598-8807dd10ffa9")
-	)
-	(label "TARGET."
-		(at 340.36 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4f3e34a-581a-4ab6-b55b-db59f3ce7438")
+		(uuid "ecdaff55-4767-4b15-8758-ded955fb2da4")
 	)
 	(label "LINK_GPIO25"
 		(at 55.88 71.12 0)
@@ -2425,17 +2435,6 @@
 		)
 		(uuid "2ab22e9f-c655-4dfc-a6c4-619d50371c06")
 	)
-	(hierarchical_label "LINK_GPIO[17..29]"
-		(shape bidirectional)
-		(at 134.62 58.42 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3807641f-30c0-4461-8957-2e48b31eafc1")
-	)
 	(hierarchical_label "GLITCH_OUT"
 		(shape input)
 		(at 320.04 129.54 180)
@@ -2446,6 +2445,17 @@
 			(justify right)
 		)
 		(uuid "47790540-b659-4dd5-922b-4070271fdab7")
+	)
+	(hierarchical_label "LINK_GPIO[16..29]"
+		(shape bidirectional)
+		(at 134.62 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58b745f7-dfb9-423b-a264-a6e695564208")
 	)
 	(hierarchical_label "SENSE_N"
 		(shape output)
@@ -2480,7 +2490,7 @@
 		)
 		(uuid "7c5a832e-90a8-43b1-9394-9b0c929e514c")
 	)
-	(hierarchical_label "LINK_GPIO[17..29]"
+	(hierarchical_label "LINK_GPIO[16..29]"
 		(shape bidirectional)
 		(at 50.8 60.96 90)
 		(effects
@@ -2489,7 +2499,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dfd63b6-a881-4e74-aeed-9cea172c6e0d")
+		(uuid "9753ab68-21a3-4740-853b-cce4f69a045c")
 	)
 	(hierarchical_label "SENSE_P"
 		(shape output)

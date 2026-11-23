@@ -3737,6 +3737,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 91.44) (xy 148.59 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057338b9-1f72-4754-9c09-bc61f137e07c")
+	)
+	(wire
+		(pts
 			(xy 88.9 196.85) (xy 106.68 196.85)
 		)
 		(stroke
@@ -3877,6 +3887,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 93.98) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223cb0e7-730a-4649-ae98-eb2f72b8e742")
+	)
+	(wire
+		(pts
 			(xy 209.55 187.96) (xy 209.55 190.5)
 		)
 		(stroke
@@ -4007,16 +4027,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 93.98) (xy 175.26 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac6e1d2-ae0d-4ceb-bfcb-b28a606cdc64")
-	)
-	(wire
-		(pts
 			(xy 53.34 189.23) (xy 71.12 189.23)
 		)
 		(stroke
@@ -4024,6 +4034,16 @@
 			(type default)
 		)
 		(uuid "3c487440-a351-538f-82cb-0d82905d63e9")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 148.59 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db36909-2264-4def-b778-90da3ca95c3a")
 	)
 	(wire
 		(pts
@@ -4687,16 +4707,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 91.44) (xy 129.54 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d268864c-55ad-4b4f-a37f-fcba589970ff")
-	)
-	(wire
-		(pts
 			(xy 71.12 196.85) (xy 88.9 196.85)
 		)
 		(stroke
@@ -4834,6 +4844,16 @@
 			(type default)
 		)
 		(uuid "e6ad9f0d-8907-528d-8621-5e1335b7cc1a")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec55e047-b307-4ba8-80b8-6ef4bf8b0846")
 	)
 	(wire
 		(pts
@@ -5185,6 +5205,16 @@
 		)
 		(uuid "5ddf5e97-d0af-5727-880d-aa421fb1832b")
 	)
+	(label "LINK_GPIO16"
+		(at 129.54 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61f504a0-282d-47a9-bd16-d8c1daf5704d")
+	)
 	(label "XOUT"
 		(at 214.63 134.62 180)
 		(effects
@@ -5224,16 +5254,6 @@
 			(justify left bottom)
 		)
 		(uuid "71403629-e76c-4db6-a1ca-c72fdc38630f")
-	)
-	(label "LINK_GPIO17"
-		(at 129.54 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79c04e86-2a64-4095-8aac-36aa122fed7a")
 	)
 	(label "QSPI_CS"
 		(at 214.63 86.36 180)
@@ -5396,7 +5416,7 @@
 		(uuid "cb66d579-d35d-451c-a462-0c27f95e5040")
 	)
 	(label "STAT_LED"
-		(at 129.54 91.44 0)
+		(at 129.54 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5540,18 +5560,7 @@
 		)
 		(uuid "c57f4c12-53f6-4750-80cd-dab68aa47a52")
 	)
-	(hierarchical_label "LINK_GPIO[17..29]"
-		(shape bidirectional)
-		(at 2.8448 3.3496 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6a235c6-e46e-4773-9b5a-fdc628f4b7a5")
-	)
-	(hierarchical_label "LINK_GPIO[17..29]"
+	(hierarchical_label "LINK_GPIO[16..29]"
 		(shape bidirectional)
 		(at 177.8 86.36 90)
 		(effects
@@ -5583,17 +5592,6 @@
 			(justify left)
 		)
 		(uuid "f63386c8-781b-4be4-abbb-1e0e61042590")
-	)
-	(hierarchical_label "LINK_GPIO[17..29]"
-		(shape bidirectional)
-		(at 0.3048 0.8096 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f99558ac-1eff-41af-9bf0-7c0a4a7a4f97")
 	)
 	(hierarchical_label "ADC_CLK"
 		(shape output)
