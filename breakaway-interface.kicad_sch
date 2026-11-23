@@ -1131,6 +1131,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power global)
 			(pin_numbers
@@ -1318,6 +1484,24 @@
 			(justify left)
 		)
 		(uuid "79e6c1ba-52a2-5ee5-9045-43586d5a8b9f")
+	)
+	(junction
+		(at 105.41 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "461848e3-26b3-4c5d-b428-7d296bb22c49")
+	)
+	(junction
+		(at 156.21 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e8ca0b6-b476-48a8-99da-ea9037fd3cf8")
+	)
+	(junction
+		(at 54.61 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8c51163-a1ed-4ea5-b2bc-333a178950fa")
 	)
 	(bus_entry
 		(at 215.9 80.01)
@@ -1625,7 +1809,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 129.54) (xy 53.34 129.54)
+			(xy 104.14 139.7) (xy 105.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c0c706-619f-4fb8-81bf-b506dee58f5d")
+	)
+	(wire
+		(pts
+			(xy 55.88 129.54) (xy 54.61 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1642,6 +1836,16 @@
 			(type default)
 		)
 		(uuid "28ab879a-2cb6-405e-b7f8-fb3af56255ec")
+	)
+	(wire
+		(pts
+			(xy 105.41 129.54) (xy 104.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d305c36-f55b-4e11-b724-dc643304d2d5")
 	)
 	(wire
 		(pts
@@ -1745,6 +1949,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 139.7) (xy 54.61 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfb7b81-60e2-488b-9f84-0a2560f8ed27")
+	)
+	(wire
+		(pts
 			(xy 276.86 134.62) (xy 276.86 137.16)
 		)
 		(stroke
@@ -1752,6 +1966,16 @@
 			(type default)
 		)
 		(uuid "6c86a164-dada-59ce-ad69-0bd414400112")
+	)
+	(wire
+		(pts
+			(xy 154.94 139.7) (xy 156.21 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfd38ec-d41b-4ea7-8d34-d45b8c8d8d7f")
 	)
 	(wire
 		(pts
@@ -1765,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 129.54) (xy 104.14 129.54)
+			(xy 106.68 129.54) (xy 105.41 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1845,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 129.54) (xy 154.94 129.54)
+			(xy 157.48 129.54) (xy 156.21 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1892,6 +2116,16 @@
 			(type default)
 		)
 		(uuid "bd5d9bf3-0365-52ad-b9e3-de963a6ad1d3")
+	)
+	(wire
+		(pts
+			(xy 156.21 129.54) (xy 154.94 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8122ba4-9fd7-4a23-a7dc-7d9ec3b96fce")
 	)
 	(wire
 		(pts
@@ -1982,6 +2216,16 @@
 			(type default)
 		)
 		(uuid "e74dc4b9-ef23-4817-a367-9f90f421bb55")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 53.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97cbc7a-4b67-465e-9f2d-6c3e16622396")
 	)
 	(wire
 		(pts
@@ -2083,7 +2327,7 @@
 		)
 		(uuid "1ee78331-d47b-419c-a4e1-a3f1351946d5")
 	)
-	(label "TARGET.SPI_CLK"
+	(label "TARGET.SPI_SCK"
 		(at 220.98 85.09 0)
 		(effects
 			(font
@@ -2102,16 +2346,6 @@
 			(justify left bottom)
 		)
 		(uuid "37939feb-e186-4a78-8792-fc7087d32353")
-	)
-	(label "TARGET."
-		(at 222.25 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39790f95-77b0-4c65-817f-69395c6ae1e1")
 	)
 	(label "LINK_GPIO16"
 		(at 129.54 83.82 180)
@@ -2413,16 +2647,16 @@
 		)
 		(uuid "fe1e4d9f-3a54-49e0-abc3-6c633dc7c744")
 	)
-	(hierarchical_label "SENSE_P"
-		(shape output)
-		(at 218.44 129.54 180)
+	(hierarchical_label "TARGET_SENSE_N"
+		(shape input)
+		(at 269.24 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "01deae50-43e8-4ff6-a50f-7fdb75ef2215")
+		(uuid "2466db40-822e-41bc-998e-b790125e56a5")
 	)
 	(hierarchical_label "SENSE_N"
 		(shape output)
@@ -2435,8 +2669,19 @@
 		)
 		(uuid "2ab22e9f-c655-4dfc-a6c4-619d50371c06")
 	)
-	(hierarchical_label "GLITCH_OUT"
+	(hierarchical_label "TARGET_SENSE_P"
 		(shape input)
+		(at 53.34 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fcbfdb6-ea44-4fd1-8fc1-44e87e49b470")
+	)
+	(hierarchical_label "TARGET_GLITCH_OUT"
+		(shape output)
 		(at 320.04 129.54 180)
 		(effects
 			(font
@@ -2457,16 +2702,27 @@
 		)
 		(uuid "58b745f7-dfb9-423b-a264-a6e695564208")
 	)
-	(hierarchical_label "SENSE_N"
-		(shape output)
-		(at 269.24 129.54 180)
+	(hierarchical_label "TARGET_SENSE_P"
+		(shape input)
+		(at 218.44 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6a408a15-d35e-43fc-94fc-0d3875ba2bfb")
+		(uuid "6480836e-fc54-441b-8a6f-56c1abe4a78c")
+	)
+	(hierarchical_label "TARGET_SENSE_N"
+		(shape input)
+		(at 104.14 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65f52264-d09b-4c66-a5de-ebe3e924bbd8")
 	)
 	(hierarchical_label "TARGET{TARGET_LINK}"
 		(shape bidirectional)
@@ -2511,6 +2767,17 @@
 			(justify right)
 		)
 		(uuid "b2f2c885-3213-479c-873e-30c8b238c974")
+	)
+	(hierarchical_label "TARGET_GLITCH_OUT"
+		(shape output)
+		(at 154.94 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2c90b69-dde7-4707-bf0d-0298f8599b4a")
 	)
 	(hierarchical_label "TARGET{TARGET_LINK}"
 		(shape bidirectional)
@@ -2918,6 +3185,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 156.21 134.62 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2355e1af-ba0c-4de7-a1ef-b4ad1964cc35")
+		(property "Reference" "JP5"
+			(at 153.67 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 153.67 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 156.21 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 163.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec09e0e3-91a3-40aa-8e1b-f30d6466fb57")
+		)
+		(pin "1"
+			(uuid "56c0c049-a2e7-4c9d-aac4-5a23601a1703")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/d17160bd-daf5-5533-9d68-e15229d9d939"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BrokeGlitcher:GND")
 		(at 162.56 137.16 0)
 		(unit 1)
@@ -3150,6 +3499,170 @@
 			(project "broke-glitcher"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/d17160bd-daf5-5533-9d68-e15229d9d939"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 105.41 134.62 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "563fa855-89e2-489f-88d8-3a0c27e1261e")
+		(property "Reference" "JP6"
+			(at 102.87 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 102.87 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 105.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 113.03 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6100137c-9afa-44e5-9ecd-3c464cbf2b51")
+		)
+		(pin "1"
+			(uuid "2a0531f5-c34a-4fb9-9993-29e9b36622dc")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/d17160bd-daf5-5533-9d68-e15229d9d939"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 54.61 134.62 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64e90de0-cb33-4505-bf88-d4a83418198f")
+		(property "Reference" "JP7"
+			(at 52.07 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 52.07 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 54.61 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 62.23 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56633f2d-d879-4ed3-a39e-6673a47c161f")
+		)
+		(pin "1"
+			(uuid "3911bb27-8717-491e-bb5c-5f440148d84d")
+		)
+		(instances
+			(project "broke-glitcher"
+				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/d17160bd-daf5-5533-9d68-e15229d9d939"
+					(reference "JP7")
 					(unit 1)
 				)
 			)

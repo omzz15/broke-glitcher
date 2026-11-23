@@ -63,7 +63,7 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -76,68 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|15000000|18910000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|0717623b-ebaf-44fa-ade1-f09137600f6f",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|18910000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|c77dc1eb-5fe0-4dde-beb8-4873a97a7157",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|23355000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|5bf55a2a-a4a3-4c16-9f6d-71a6eb2e42d4",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|27670000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|7016bf8a-f345-477c-9d24-db5fcc20d318",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|27670000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|bc89ba6d-8725-42a2-8212-4b2420bb9452",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|34410000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|021a83bc-446d-4a0e-a1a3-4b8c79da0e9a",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|34410000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|a1ce472a-6db3-4f3c-8319-2bf61c8f1bd6",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|38855000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|2b17b88b-7e55-414d-87d8-4438fe9088f6",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|43170000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|ed991f30-2e98-42f9-a144-9209c680a553",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|43170000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|fd43cf24-261d-49b1-ac8f-8fafa731771f",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|49910000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|6dadfae3-c7e6-49a0-b94f-9074ce26be81",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|49910000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|a27ec404-9eda-4ce9-8abd-6ecde796d3dc",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|54355000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|eeb88a07-388b-4616-a2a2-20be6c3dc48c",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|58670000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|752786a0-cc2f-41e1-aee3-5b72c56ad8b2",
-          "Edge SMA connector"
-        ],
-        [
-          "copper_edge_clearance|15000000|58670000|cfdb2d32-0e76-43ff-9bf2-cb03fa782ab4|9c455f57-9b1d-410c-a947-57d849f6fa9f",
-          "Edge SMA connector"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -275,9 +214,12 @@
       ],
       "track_widths": [
         0.0,
+        0.150876,
         0.2,
         0.3,
-        0.5
+        0.4,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -941,7 +883,7 @@
         "uuid": "1574f122-72a3-4d04-827f-4da4e6044b1c"
       }
     ],
-    "used_designators": "#FLG1-3,#FLG2018,#FLG2020,#PWR1-131,#PWR4007-4010,#PWR4012,#PWR4024-4025,#PWR7015,#PWR7017,#PWR7020,#PWR8016,#PWR8018,#PWR8029-8032,#PWR8034,#PWR8036,C1-46,D1-8,F1,H1-4,J1-11,JP1-4,NT1-4,Q1-3,R1-61,SW1-2,TP1-16,U1-9,Y1",
+    "used_designators": "#FLG1-3,#FLG2018,#FLG2020,#PWR1-136,#PWR4007-4010,#PWR4012,#PWR4024-4025,#PWR7015,#PWR7017,#PWR7020,#PWR8016,#PWR8018,#PWR8029-8032,#PWR8034,#PWR8036,C1-46,D1-8,F1,H1-4,J1-13,JP1-7,NT1-4,Q1-3,R1-61,SW1-2,TP1-16,U1-9,Y1",
     "variants": []
   },
   "sheets": [

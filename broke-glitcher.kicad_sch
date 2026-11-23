@@ -289,22 +289,10 @@
 		(uuid "1c7ea882-2bdc-4819-bd15-660a0827ea89")
 	)
 	(junction
-		(at 213.36 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "277bdece-6bd0-45f2-913d-d013c57f084e")
-	)
-	(junction
 		(at 325.12 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4542323e-3925-4b76-9906-6d54cba3406d")
-	)
-	(junction
-		(at 210.82 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3c9fbfe-ec39-4ca6-8cde-3b1f13950bbc")
 	)
 	(junction
 		(at 332.74 207.01)
@@ -314,7 +302,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 199.39) (xy 213.36 199.39)
+			(xy 215.9 199.39) (xy 210.82 199.39)
 		)
 		(stroke
 			(width 0)
@@ -324,7 +312,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 201.93) (xy 215.9 201.93)
+			(xy 208.28 201.93) (xy 215.9 201.93)
 		)
 		(stroke
 			(width 0)
@@ -382,6 +370,16 @@
 		)
 		(uuid "47b260e4-30b4-42d6-ba54-f10dc7e2bb49")
 	)
+	(wire
+		(pts
+			(xy 203.2 182.88) (xy 208.28 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492d74aa-2898-42fd-9d1e-c94d4e3624fd")
+	)
 	(bus
 		(pts
 			(xy 203.2 166.37) (xy 215.9 166.37)
@@ -404,6 +402,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 175.26) (xy 215.9 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc40ac6-ddf7-424a-bb35-adc6014f9213")
+	)
+	(wire
+		(pts
 			(xy 279.4 128.27) (xy 292.1 128.27)
 		)
 		(stroke
@@ -411,16 +419,6 @@
 			(type default)
 		)
 		(uuid "51e9955b-4ef3-431b-9115-19ef59c53438")
-	)
-	(wire
-		(pts
-			(xy 203.2 182.88) (xy 215.9 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b34a702-c169-48ab-a687-9836359dcc18")
 	)
 	(wire
 		(pts
@@ -464,6 +462,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 170.18) (xy 215.9 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c7d9dd-d438-42de-9c28-794d058c804b")
+	)
+	(wire
+		(pts
 			(xy 279.4 130.81) (xy 292.1 130.81)
 		)
 		(stroke
@@ -491,6 +499,16 @@
 			(type default)
 		)
 		(uuid "8457e34c-f450-46c8-8190-07eec8699612")
+	)
+	(wire
+		(pts
+			(xy 203.2 172.72) (xy 215.9 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec11a75-e7ef-48dd-98c5-03004db571c7")
 	)
 	(bus
 		(pts
@@ -534,16 +552,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 162.56) (xy 215.9 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5278d8f-6bff-42c7-9acd-dc02aeff8d66")
-	)
-	(wire
-		(pts
 			(xy 292.1 160.02) (xy 287.02 160.02)
 		)
 		(stroke
@@ -554,7 +562,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 182.88) (xy 210.82 201.93)
+			(xy 208.28 182.88) (xy 208.28 201.93)
 		)
 		(stroke
 			(width 0)
@@ -564,17 +572,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 180.34) (xy 215.9 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d35e81e6-01e2-4d11-93ae-56ce086992c9")
-	)
-	(wire
-		(pts
-			(xy 213.36 199.39) (xy 213.36 180.34)
+			(xy 210.82 199.39) (xy 210.82 180.34)
 		)
 		(stroke
 			(width 0)
@@ -601,6 +599,16 @@
 			(type default)
 		)
 		(uuid "e21da221-5c43-4a69-a5e3-8754eeae8a64")
+	)
+	(wire
+		(pts
+			(xy 203.2 180.34) (xy 210.82 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b9e910-b10f-4d6c-af8b-e4bef8c1ca62")
 	)
 	(wire
 		(pts
@@ -1378,39 +1386,39 @@
 				(justify left)
 			)
 		)
-		(pin "SENSE_N" output
-			(at 215.9 182.88 180)
-			(uuid "3ffb74c8-b65a-4ae5-bb7e-67be91569176")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SENSE_P" output
-			(at 215.9 180.34 180)
-			(uuid "a3956f8e-33d2-4c6e-993b-f1ec7196468d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GLITCH_OUT" input
-			(at 215.9 162.56 180)
-			(uuid "74e61e28-0aff-4596-ab11-7e9bd8c53216")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TARGET{TARGET_LINK}" bidirectional
 			(at 215.9 166.37 180)
 			(uuid "6387d478-1d69-44de-b735-a6525d08568d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TARGET_GLITCH_OUT" input
+			(at 215.9 170.18 180)
+			(uuid "b3f521a1-d6c9-425a-8287-7366f4178640")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TARGET_SENSE_N" output
+			(at 215.9 172.72 180)
+			(uuid "ea8bbb5b-ab13-4e40-93f9-5b423d4cf1fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TARGET_SENSE_P" output
+			(at 215.9 175.26 180)
+			(uuid "e4ac7a83-02d1-4424-9501-6306b2786d18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,6 +1619,36 @@
 		(pin "LINK_GPIO[16..29]" bidirectional
 			(at 203.2 158.75 0)
 			(uuid "640fe3b2-03ef-4ed1-8208-2b926a1eca37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TARGET_GLITCH_OUT" output
+			(at 203.2 170.18 0)
+			(uuid "cf76f013-1bf7-41e0-a2ef-ef76575f993c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TARGET_SENSE_N" input
+			(at 203.2 172.72 0)
+			(uuid "3992011e-c3f2-413c-bb25-965e3f57495a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TARGET_SENSE_P" input
+			(at 203.2 175.26 0)
+			(uuid "31180301-714f-4fcd-87bd-4ddcc65b47c5")
 			(effects
 				(font
 					(size 1.27 1.27)
