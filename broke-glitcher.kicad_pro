@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.0,
+          "min_thickness": 0.25,
           "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -1001,7 +1001,7 @@
         "uuid": "1574f122-72a3-4d04-827f-4da4e6044b1c"
       }
     ],
-    "used_designators": "#FLG1-3,#FLG2018,#FLG2020,#PWR1-136,#PWR4007-4010,#PWR4012,#PWR4024-4025,#PWR7015,#PWR7017,#PWR7020,#PWR8016,#PWR8018,#PWR8029-8032,#PWR8034,#PWR8036,C1-46,D1-8,F1,H1-4,J1-13,JP1-7,NT1-4,Q1-3,R1-61,SW1-2,TP1-16,U1-9,Y1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
