@@ -1,0 +1,15 @@
+{
+  "source_geometry_preserved": true,
+  "source_schematics_preserved": true,
+  "export_only_changes": [
+    "auxiliary origin 15,65 mm",
+    "remove paste on 30 DNP SMA pads"
+  ],
+  "placed_components": 110,
+  "unique_bom_rows": 37,
+  "bom_cpl_reference_sets_match": true,
+  "DNP_headers_and_SMAs_absent": true,
+  "USB_C_included": true,
+  "assembly_side": "Top",
+  "jlc_placement_preview_verified": false
+}

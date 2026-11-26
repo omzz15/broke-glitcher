@@ -1,0 +1,39 @@
+GLITCH PENGUIN — FABRICATION AND ASSEMBLY NOTES
+
+One complete unit is a joined 75 x 50 mm controller + target set.
+Two different separable designs; do not depanel the internal seam.
+Quantity requested at checkout refers to COMPLETE JOINED SETS.
+
+4-layer FR-4; nominal 1.6 mm finished thickness.
+JLC04161H-3313 / JLC3313, 1 oz outer / 0.5 oz inner copper.
+Outer prepregs: 3313, 0.0994 mm each; centre core: 1.265 mm.
+White solder mask; black silkscreen on both sides.
+HASL with lead, unless the order explicitly specifies LeadFree HASL.
+Tent vias on both sides; preserve intentional pad mask openings.
+No gold fingers, castellations, edge plating, or V-score.
+
+Preserve the routed internal slots and 50 x 0.5 mm NPTH mouse-bite holes.
+Signal/power traces intentionally cross the breakaway tabs.
+Do not remove, relocate, or depanel these tabs without asking us.
+
+Standard PCBA, TOP SIDE ONLY: 110 components per joined set.
+Use the supplied BOM and CPL. Do not populate:
+  SMA connectors: J4, J6, J7, J8, J9, J11.
+  2.54 mm headers: J2, J5, J10, J12, J13, JP2.
+J1 USB-C IS populated; solder its shell anchors as required.
+Test pads, mounting holes, mouse bites and copper jumpers are PCB features.
+Do not add shunts or solder bridges to jumpers. Preserve etched bridges.
+DNP SMA solder-paste apertures have been omitted from this export.
+
+Please add EXTERNAL process rails/tooling/fiducials for Standard PCBA,
+reaching at least 75 x 70 mm overall. Starting request: 10 mm top/bottom
+rails; confirm tab positions clear the USB-C connector and components.
+These external rails are not in the uploaded original Gerbers.
+Transform all Gerbers/drills/CPL consistently if adding rails/panelization.
+Ship the internal controller + target joined. External rails may remain.
+
+Placement coordinates: mm, lower-left origin, top view, X right / Y up.
+Review IC pin 1 and all polarities against the supplied assembly drawing
+and orientation-pad-reference.csv. U6 requires explicit orientation review.
+Request confirmation of final CAM files, placement and small silkscreen text.
+No firmware programming, functional testing, or conformal coating specified.

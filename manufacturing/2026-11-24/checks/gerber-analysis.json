@@ -1,0 +1,1144 @@
+{
+  "analyzer_type": "gerber",
+  "schema_version": "1.4.0",
+  "directory": "manufacturing/2026-11-24/gerbers",
+  "generator": "Pcbnew 10.0.3",
+  "layer_count": 4,
+  "board_dimensions": {
+    "width_mm": 75.05,
+    "height_mm": 50.05,
+    "area_mm2": 3756.3,
+    "source": "gbrjob"
+  },
+  "statistics": {
+    "gerber_files": 10,
+    "drill_files": 2,
+    "total_holes": 466,
+    "total_flashes": 2341,
+    "total_draws": 82154
+  },
+  "completeness": {
+    "found_layers": [
+      "B.Cu",
+      "B.Mask",
+      "B.SilkS",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.Paste",
+      "F.SilkS",
+      "In1.Cu",
+      "In2.Cu"
+    ],
+    "expected_layers": [
+      "B.Cu",
+      "B.Mask",
+      "B.SilkS",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.Paste",
+      "F.SilkS",
+      "In1.Cu",
+      "In2.Cu"
+    ],
+    "missing": [],
+    "extra": [],
+    "has_pth_drill": true,
+    "has_npth_drill": true,
+    "complete": true,
+    "source": "gbrjob"
+  },
+  "alignment": {
+    "aligned": true,
+    "issues": [],
+    "layer_extents": {
+      "B.Cu": {
+        "width": 74.599,
+        "height": 49.599
+      },
+      "B.Mask": {
+        "width": 70.0,
+        "height": 43.825
+      },
+      "B.SilkS": {
+        "width": 70.0,
+        "height": 47.317
+      },
+      "Edge.Cuts": {
+        "width": 75.0,
+        "height": 50.0
+      },
+      "F.Cu": {
+        "width": 74.599,
+        "height": 49.599
+      },
+      "F.Mask": {
+        "width": 70.0,
+        "height": 46.5
+      },
+      "F.Paste": {
+        "width": 61.83,
+        "height": 46.5
+      },
+      "F.SilkS": {
+        "width": 73.402,
+        "height": 49.601
+      },
+      "In1.Cu": {
+        "width": 74.599,
+        "height": 49.599
+      },
+      "In2.Cu": {
+        "width": 74.599,
+        "height": 49.599
+      },
+      "drill_NPTH": {
+        "width": 19.64,
+        "height": 34.7
+      },
+      "drill_PTH": {
+        "width": 72.0,
+        "height": 47.119
+      }
+    }
+  },
+  "drill_classification": {
+    "vias": {
+      "count": 319,
+      "tools": [
+        {
+          "diameter_mm": 0.3,
+          "count": 287
+        },
+        {
+          "diameter_mm": 0.5,
+          "count": 32
+        }
+      ]
+    },
+    "component_holes": {
+      "count": 147,
+      "tools": [
+        {
+          "diameter_mm": 0.2,
+          "count": 9
+        },
+        {
+          "diameter_mm": 0.46,
+          "count": 12
+        },
+        {
+          "diameter_mm": 0.5,
+          "count": 50,
+          "type": "NPTH"
+        },
+        {
+          "diameter_mm": 0.6,
+          "count": 4
+        },
+        {
+          "diameter_mm": 0.65,
+          "count": 2,
+          "type": "NPTH"
+        },
+        {
+          "diameter_mm": 1.0,
+          "count": 66
+        },
+        {
+          "diameter_mm": 2.2,
+          "count": 4
+        }
+      ]
+    },
+    "mounting_holes": {
+      "count": 0,
+      "tools": []
+    },
+    "classification_method": "x2_attributes"
+  },
+  "pad_summary": {
+    "smd_apertures": 74,
+    "via_apertures": 1276,
+    "heatsink_apertures": 39,
+    "tht_holes": 147,
+    "smd_source": "x2_aperture_function",
+    "smd_ratio": 0.33
+  },
+  "trace_widths": {
+    "unique_widths_mm": [
+      0.1494,
+      0.1509,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      1.0
+    ],
+    "min_trace_mm": 0.1494,
+    "max_trace_mm": 1.0,
+    "width_count": 7,
+    "min_feature_mm": 0.1494
+  },
+  "component_analysis": {
+    "total_unique": 145,
+    "front_side": 142,
+    "back_side": 3,
+    "component_refs": [
+      "C1",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C2",
+      "C20",
+      "C21",
+      "C22",
+      "C23",
+      "C24",
+      "C25",
+      "C26",
+      "C27",
+      "C28",
+      "C29",
+      "C3",
+      "C30",
+      "C31",
+      "C32",
+      "C33",
+      "C34",
+      "C35",
+      "C36",
+      "C37",
+      "C38",
+      "C39",
+      "C4",
+      "C40",
+      "C41",
+      "C42",
+      "C43",
+      "C44",
+      "C45",
+      "C46",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "F1",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "J1",
+      "J10",
+      "J11",
+      "J12",
+      "J13",
+      "J2",
+      "J4",
+      "J5",
+      "J6",
+      "J7",
+      "J8",
+      "J9",
+      "JP1",
+      "JP2",
+      "JP3",
+      "JP4",
+      "JP5",
+      "JP6",
+      "JP7",
+      "MB1",
+      "Q1",
+      "Q2",
+      "R1",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R16",
+      "R17",
+      "R18",
+      "R19",
+      "R2",
+      "R25",
+      "R26",
+      "R3",
+      "R30",
+      "R31",
+      "R32",
+      "R33",
+      "R34",
+      "R35",
+      "R36",
+      "R37",
+      "R38",
+      "R39",
+      "R4",
+      "R40",
+      "R41",
+      "R42",
+      "R43",
+      "R44",
+      "R45",
+      "R46",
+      "R47",
+      "R48",
+      "R49",
+      "R5",
+      "R50",
+      "R6",
+      "R7",
+      "R8",
+      "R9",
+      "SW1",
+      "SW2",
+      "TP1",
+      "TP10",
+      "TP11",
+      "TP12",
+      "TP13",
+      "TP2",
+      "TP3",
+      "TP4",
+      "TP5",
+      "TP6",
+      "TP7",
+      "TP9",
+      "U1",
+      "U2",
+      "U3",
+      "U4",
+      "U5",
+      "U6",
+      "U7",
+      "U8",
+      "Y1"
+    ],
+    "has_x2_data": true,
+    "pads_per_component": {
+      "H1": 1,
+      "H2": 1,
+      "H3": 1,
+      "H4": 1,
+      "J1": 6,
+      "J10": 20,
+      "J11": 7,
+      "J12": 10,
+      "J13": 10,
+      "J2": 3,
+      "J4": 7,
+      "J5": 20,
+      "J6": 7,
+      "J7": 7,
+      "J8": 7,
+      "J9": 7,
+      "JP1": 2,
+      "JP2": 3,
+      "JP5": 2,
+      "JP6": 2,
+      "JP7": 2,
+      "MB1": 50,
+      "TP1": 1,
+      "TP10": 1,
+      "TP11": 1,
+      "TP12": 1,
+      "TP13": 1,
+      "TP2": 1,
+      "TP3": 1,
+      "TP4": 1,
+      "TP5": 1,
+      "TP6": 1,
+      "TP7": 1,
+      "TP9": 1,
+      "U4": 1,
+      "U6": 10
+    },
+    "total_pads": 199
+  },
+  "net_analysis": {
+    "total_unique": 115,
+    "named_nets": 103,
+    "unnamed_nets": 12,
+    "power_nets": [
+      "+1V0",
+      "+3V3",
+      "GND",
+      "VBUS",
+      "VDD_CORE"
+    ],
+    "signal_nets": [
+      "/10-bit ADC and references/ADC.D0",
+      "/10-bit ADC and references/ADC.D1",
+      "/10-bit ADC and references/ADC.D2",
+      "/10-bit ADC and references/ADC.D3",
+      "/10-bit ADC and references/ADC.D4",
+      "/10-bit ADC and references/ADC.D5",
+      "/10-bit ADC and references/ADC.D6",
+      "/10-bit ADC and references/ADC.D7",
+      "/10-bit ADC and references/ADC.D8",
+      "/10-bit ADC and references/ADC.D9",
+      "/10-bit ADC and references/ADC.OTR",
+      "/10-bit ADC and references/ADC_CLK",
+      "/10-bit ADC and references/ADC_D0",
+      "/10-bit ADC and references/ADC_D1",
+      "/10-bit ADC and references/ADC_D2",
+      "/10-bit ADC and references/ADC_D3",
+      "/10-bit ADC and references/ADC_D4",
+      "/10-bit ADC and references/ADC_D5",
+      "/10-bit ADC and references/ADC_D6",
+      "/10-bit ADC and references/ADC_D7",
+      "/10-bit ADC and references/ADC_D8",
+      "/10-bit ADC and references/ADC_D9",
+      "/10-bit ADC and references/ADC_IN",
+      "/10-bit ADC and references/ADC_MODE",
+      "/10-bit ADC and references/ADC_OTR",
+      "/10-bit ADC and references/ADC_REFBF",
+      "/10-bit ADC and references/ADC_REFTF",
+      "/10-bit ADC and references/ADC_STBY",
+      "/AC current-shunt amplifier/AMP_N",
+      "/AC current-shunt amplifier/AMP_OUT",
+      "/AC current-shunt amplifier/AMP_P",
+      "/AC current-shunt amplifier/SENSE_HI_AC",
+      "/AC current-shunt amplifier/SENSE_LO_AC",
+      "/AC current-shunt amplifier/SENSE_N",
+      "/AC current-shunt amplifier/SENSE_P",
+      "/Breakaway interface/LINK_GPIO16",
+      "/Breakaway interface/LINK_GPIO18",
+      "/Breakaway interface/LINK_GPIO19",
+      "/Breakaway interface/LINK_GPIO20",
+      "/Breakaway interface/LINK_GPIO21",
+      "/Breakaway interface/LINK_GPIO22",
+      "/Breakaway interface/LINK_GPIO23",
+      "/Breakaway interface/LINK_GPIO24",
+      "/Breakaway interface/LINK_GPIO25",
+      "/Breakaway interface/LINK_GPIO26",
+      "/Breakaway interface/LINK_GPIO27",
+      "/Breakaway interface/LINK_GPIO28",
+      "/Breakaway interface/LINK_GPIO29",
+      "/Breakaway interface/TARGET_GLITCH_OUT",
+      "/GLITCH_OUT",
+      "/MSPM0G3507 target and debug access/D7_A",
+      "/MSPM0G3507 target and debug access/D8_A",
+      "/MSPM0G3507 target and debug access/PA0",
+      "/MSPM0G3507 target and debug access/PA1",
+      "/MSPM0G3507 target and debug access/PA15",
+      "/MSPM0G3507 target and debug access/PA16",
+      "/MSPM0G3507 target and debug access/PA17",
+      "/MSPM0G3507 target and debug access/PA2",
+      "/MSPM0G3507 target and debug access/PA21",
+      "/MSPM0G3507 target and debug access/PA22",
+      "/MSPM0G3507 target and debug access/PA23",
+      "/MSPM0G3507 target and debug access/PA24",
+      "/MSPM0G3507 target and debug access/PA25",
+      "/MSPM0G3507 target and debug access/PA26",
+      "/MSPM0G3507 target and debug access/PA27",
+      "/MSPM0G3507 target and debug access/PA3",
+      "/MSPM0G3507 target and debug access/PA7",
+      "/MSPM0G3507 target and debug access/PA9",
+      "/RP2040 controller, flash and oscillator/BOOTSEL_SW",
+      "/RP2040 controller, flash and oscillator/GLITCH_NEG",
+      "/RP2040 controller, flash and oscillator/QSPI_CLK",
+      "/RP2040 controller, flash and oscillator/QSPI_CS",
+      "/RP2040 controller, flash and oscillator/QSPI_IO0",
+      "/RP2040 controller, flash and oscillator/QSPI_IO1",
+      "/RP2040 controller, flash and oscillator/QSPI_IO2",
+      "/RP2040 controller, flash and oscillator/QSPI_IO3",
+      "/RP2040 controller, flash and oscillator/RP_ADC_CLK",
+      "/RP2040 controller, flash and oscillator/RP_RUN",
+      "/RP2040 controller, flash and oscillator/RP_SWCLK",
+      "/RP2040 controller, flash and oscillator/RP_SWDIO",
+      "/RP2040 controller, flash and oscillator/RP_USB_DN",
+      "/RP2040 controller, flash and oscillator/RP_USB_DP",
+      "/RP2040 controller, flash and oscillator/STAT_LED",
+      "/RP2040 controller, flash and oscillator/TARGET_PWR_EN",
+      "/RP2040 controller, flash and oscillator/USB_DN",
+      "/RP2040 controller, flash and oscillator/USB_DP",
+      "/RP2040 controller, flash and oscillator/XIN",
+      "/RP2040 controller, flash and oscillator/XOUT",
+      "/RP2040 controller, flash and oscillator/XTAL_OUT",
+      "/RP2040 controller, flash and oscillator/~{GLITCH_POS}",
+      "/USB, 3.3 V supply and glitch driver/CC1",
+      "/USB, 3.3 V supply and glitch driver/CC2",
+      "/USB, 3.3 V supply and glitch driver/GATE_N",
+      "/USB, 3.3 V supply and glitch driver/GATE_P",
+      "RP_CORE_1V1",
+      "TARGET_VDD",
+      "TARGET_VDD_SENSE",
+      "VBUS_FUSED"
+    ],
+    "total_pins": 485
+  },
+  "gerbers": [
+    {
+      "filename": "broke-glitcher-B_Cu.gbl",
+      "layer_type": "B.Cu",
+      "units": "mm",
+      "aperture_count": 20,
+      "flash_count": 445,
+      "draw_count": 8452,
+      "region_count": 23,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L4,Bot",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "EtchedComponent": 1,
+          "SMDPad": 3,
+          "ComponentPad": 6,
+          "HeatsinkPad": 2,
+          "ViaPad": 2,
+          "Conductor": 6
+        },
+        "by_function_flashes": {
+          "EtchedComponent": 0,
+          "SMDPad": 30,
+          "ComponentPad": 86,
+          "HeatsinkPad": 10,
+          "ViaPad": 319,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.1509,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          1.0
+        ],
+        "min_feature_mm": 0.1509
+      },
+      "x2_component_count": 21,
+      "x2_net_count": 48,
+      "x2_pin_count": 84
+    },
+    {
+      "filename": "broke-glitcher-B_Mask.gbs",
+      "layer_type": "B.Mask",
+      "units": "mm",
+      "aperture_count": 9,
+      "flash_count": 144,
+      "draw_count": 12,
+      "region_count": 3,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Bot",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.5
+      },
+      "x2_component_count": 21,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "broke-glitcher-B_Silkscreen.gbo",
+      "layer_type": "B.SilkS",
+      "units": "mm",
+      "aperture_count": 15,
+      "flash_count": 144,
+      "draw_count": 9691,
+      "region_count": 135,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Legend,Bot",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.12
+      },
+      "x2_component_count": 21,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "broke-glitcher-Edge_Cuts.gm1",
+      "layer_type": "Edge.Cuts",
+      "units": "mm",
+      "aperture_count": 1,
+      "flash_count": 0,
+      "draw_count": 40,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Profile,NP"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "Profile": 1
+        },
+        "by_function_flashes": {
+          "Profile": 0
+        },
+        "min_feature_mm": 0.05
+      },
+      "x2_component_count": 1,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "broke-glitcher-F_Cu.gtl",
+      "layer_type": "F.Cu",
+      "units": "mm",
+      "aperture_count": 22,
+      "flash_count": 460,
+      "draw_count": 26157,
+      "region_count": 439,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L1,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "EtchedComponent": 1,
+          "SMDPad": 5,
+          "ComponentPad": 6,
+          "HeatsinkPad": 3,
+          "ViaPad": 2,
+          "Conductor": 5
+        },
+        "by_function_flashes": {
+          "EtchedComponent": 0,
+          "SMDPad": 44,
+          "ComponentPad": 86,
+          "HeatsinkPad": 11,
+          "ViaPad": 319,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.1494,
+          0.1509,
+          0.2,
+          0.3,
+          0.5
+        ],
+        "min_feature_mm": 0.1494
+      },
+      "x2_component_count": 141,
+      "x2_net_count": 115,
+      "x2_pin_count": 479
+    },
+    {
+      "filename": "broke-glitcher-F_Mask.gts",
+      "layer_type": "F.Mask",
+      "units": "mm",
+      "aperture_count": 13,
+      "flash_count": 160,
+      "draw_count": 3040,
+      "region_count": 383,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Top",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.5
+      },
+      "x2_component_count": 142,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "broke-glitcher-F_Paste.gtp",
+      "layer_type": "F.Paste",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 3112,
+      "region_count": 389,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Paste,Top",
+        "FilePolarity": "Positive"
+      },
+      "x2_component_count": 110,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "broke-glitcher-F_Silkscreen.gto",
+      "layer_type": "F.SilkS",
+      "units": "mm",
+      "aperture_count": 23,
+      "flash_count": 160,
+      "draw_count": 13940,
+      "region_count": 502,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Legend,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.0728
+      },
+      "x2_component_count": 142,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "broke-glitcher-In1_Cu.g1",
+      "layer_type": "In1.Cu",
+      "units": "mm",
+      "aperture_count": 9,
+      "flash_count": 414,
+      "draw_count": 8900,
+      "region_count": 1,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L2,Inr",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "ComponentPad": 6,
+          "HeatsinkPad": 1,
+          "ViaPad": 2
+        },
+        "by_function_flashes": {
+          "ComponentPad": 86,
+          "HeatsinkPad": 9,
+          "ViaPad": 319
+        },
+        "min_feature_mm": 0.5
+      },
+      "x2_component_count": 18,
+      "x2_net_count": 48,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "broke-glitcher-In2_Cu.g2",
+      "layer_type": "In2.Cu",
+      "units": "mm",
+      "aperture_count": 13,
+      "flash_count": 414,
+      "draw_count": 8810,
+      "region_count": 7,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.3",
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "ProjectId": "broke-glitcher,62726f6b-652d-4676-9c69-74636865722e,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L3,Inr",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "ComponentPad": 6,
+          "HeatsinkPad": 1,
+          "ViaPad": 2,
+          "Conductor": 4
+        },
+        "by_function_flashes": {
+          "ComponentPad": 86,
+          "HeatsinkPad": 9,
+          "ViaPad": 319,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.2,
+          0.4,
+          0.5,
+          1.0
+        ],
+        "min_feature_mm": 0.2
+      },
+      "x2_component_count": 18,
+      "x2_net_count": 48,
+      "x2_pin_count": 0
+    }
+  ],
+  "drills": [
+    {
+      "filename": "broke-glitcher-NPTH.drl",
+      "type": "NPTH",
+      "units": "mm",
+      "hole_count": 52,
+      "tools": {
+        "T1": {
+          "diameter_mm": 0.5,
+          "hole_count": 50,
+          "aper_function": "NonPlated,NPTH,ComponentDrill"
+        },
+        "T2": {
+          "diameter_mm": 0.65,
+          "hole_count": 2,
+          "aper_function": "NonPlated,NPTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        4
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "GenerationSoftware": "Kicad,Pcbnew,10.0.3",
+        "FileFunction": "NonPlated,1,4,NPTH"
+      }
+    },
+    {
+      "filename": "broke-glitcher-PTH.drl",
+      "type": "PTH",
+      "units": "mm",
+      "hole_count": 414,
+      "tools": {
+        "T1": {
+          "diameter_mm": 0.2,
+          "hole_count": 9,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T2": {
+          "diameter_mm": 0.3,
+          "hole_count": 287,
+          "aper_function": "Plated,PTH,ViaDrill"
+        },
+        "T3": {
+          "diameter_mm": 0.46,
+          "hole_count": 12,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T4": {
+          "diameter_mm": 0.5,
+          "hole_count": 32,
+          "aper_function": "Plated,PTH,ViaDrill"
+        },
+        "T5": {
+          "diameter_mm": 0.6,
+          "hole_count": 4,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T6": {
+          "diameter_mm": 1.0,
+          "hole_count": 66,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T7": {
+          "diameter_mm": 2.2,
+          "hole_count": 4,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        4
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-11-24T04:09:44-05:00",
+        "GenerationSoftware": "Kicad,Pcbnew,10.0.3",
+        "FileFunction": "Plated,1,4,PTH"
+      }
+    }
+  ],
+  "drill_tools": {
+    "0.5mm": {
+      "diameter_mm": 0.5,
+      "count": 82,
+      "type": "NPTH"
+    },
+    "0.65mm": {
+      "diameter_mm": 0.65,
+      "count": 2,
+      "type": "NPTH"
+    },
+    "0.2mm": {
+      "diameter_mm": 0.2,
+      "count": 9,
+      "type": "PTH"
+    },
+    "0.3mm": {
+      "diameter_mm": 0.3,
+      "count": 287,
+      "type": "PTH"
+    },
+    "0.46mm": {
+      "diameter_mm": 0.46,
+      "count": 12,
+      "type": "PTH"
+    },
+    "0.6mm": {
+      "diameter_mm": 0.6,
+      "count": 4,
+      "type": "PTH"
+    },
+    "1.0mm": {
+      "diameter_mm": 1.0,
+      "count": 66,
+      "type": "PTH"
+    },
+    "2.2mm": {
+      "diameter_mm": 2.2,
+      "count": 4,
+      "type": "PTH"
+    }
+  },
+  "job_file": {
+    "generator": "Pcbnew 10.0.3",
+    "vendor": "KiCad",
+    "creation_date": "2026-11-24T04:09:44-05:00",
+    "board_width_mm": 75.05,
+    "board_height_mm": 50.05,
+    "layer_count": 4,
+    "board_thickness_mm": 1.6252,
+    "finish": "HAL SnPb",
+    "project_name": "broke-glitcher",
+    "design_rules": [
+      {
+        "layers": "Outer",
+        "PadToPad": 0.0,
+        "PadToTrack": 0.0,
+        "TrackToTrack": -0.0,
+        "MinLineWidth": 0.1494,
+        "TrackToRegion": 0.15,
+        "RegionToRegion": 0.15
+      },
+      {
+        "layers": "Inner",
+        "PadToPad": 0.0,
+        "PadToTrack": 0.0,
+        "TrackToTrack": -0.0,
+        "MinLineWidth": 0.2,
+        "TrackToRegion": 0.2,
+        "RegionToRegion": 0.2
+      }
+    ],
+    "expected_files": [
+      {
+        "path": "broke-glitcher-F_Cu.gtl",
+        "function": "Copper,L1,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "broke-glitcher-In1_Cu.g1",
+        "function": "Copper,L2,Inr",
+        "polarity": "Positive"
+      },
+      {
+        "path": "broke-glitcher-In2_Cu.g2",
+        "function": "Copper,L3,Inr",
+        "polarity": "Positive"
+      },
+      {
+        "path": "broke-glitcher-B_Cu.gbl",
+        "function": "Copper,L4,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "broke-glitcher-F_Paste.gtp",
+        "function": "SolderPaste,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "broke-glitcher-F_Silkscreen.gto",
+        "function": "Legend,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "broke-glitcher-B_Silkscreen.gbo",
+        "function": "Legend,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "broke-glitcher-F_Mask.gts",
+        "function": "SolderMask,Top",
+        "polarity": "Negative"
+      },
+      {
+        "path": "broke-glitcher-B_Mask.gbs",
+        "function": "SolderMask,Bot",
+        "polarity": "Negative"
+      },
+      {
+        "path": "broke-glitcher-Edge_Cuts.gm1",
+        "function": "Profile",
+        "polarity": "Positive"
+      }
+    ],
+    "stackup": [
+      {
+        "type": "Legend",
+        "name": "Top Silk Screen"
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Top Solder Paste"
+      },
+      {
+        "type": "SolderMask",
+        "name": "Top Solder Mask",
+        "thickness_mm": 0.0305
+      },
+      {
+        "type": "Copper",
+        "name": "F.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "Dielectric",
+        "name": "F.Cu/In1.Cu",
+        "thickness_mm": 0.0994,
+        "material": "3313"
+      },
+      {
+        "type": "Copper",
+        "name": "In1.Cu",
+        "thickness_mm": 0.0152
+      },
+      {
+        "type": "Dielectric",
+        "name": "In1.Cu/In2.Cu",
+        "thickness_mm": 1.265,
+        "material": "FR4"
+      },
+      {
+        "type": "Copper",
+        "name": "In2.Cu",
+        "thickness_mm": 0.0152
+      },
+      {
+        "type": "Dielectric",
+        "name": "In2.Cu/B.Cu",
+        "thickness_mm": 0.0994,
+        "material": "3313"
+      },
+      {
+        "type": "Copper",
+        "name": "B.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "SolderMask",
+        "name": "Bottom Solder Mask",
+        "thickness_mm": 0.0305
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Bottom Solder Paste"
+      },
+      {
+        "type": "Legend",
+        "name": "Bottom Silk Screen"
+      }
+    ]
+  },
+  "findings": [],
+  "assessments": [],
+  "summary": {
+    "total_findings": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    }
+  },
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "inputs": {
+    "source_files": [
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-B_Cu.gbl",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-B_Mask.gbs",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-B_Silkscreen.gbo",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-Edge_Cuts.gm1",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-F_Cu.gtl",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-F_Mask.gts",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-F_Paste.gtp",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-F_Silkscreen.gto",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-In1_Cu.g1",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-In2_Cu.g2",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-NPTH.drl",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-PTH.drl",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-job.gbrjob"
+    ],
+    "source_hashes": {
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-B_Cu.gbl": "a817389d1cf9c1d1847da2e16d7c4700b74dcd784d4840e9c08d7787dca20298",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-B_Mask.gbs": "12c865cd7072a6ba658e186970f535afb103ef356607d863db39b35709a334c6",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-B_Silkscreen.gbo": "c753c5ac5622beb9bde0134330e72b51b9b4a3808590f1408a80cd3ea93133d5",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-Edge_Cuts.gm1": "b00439b9bfa65a894f7f8f98f9a09a70bcbad018416b8635105da7c874c33b13",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-F_Cu.gtl": "56324b94e3a7306ff1a0e912a222c72896ce68e83540a81dd54a23db78e2272c",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-F_Mask.gts": "185610036931bec97c8de8e65b1a880938fbb50bf023ab8bb57120d7a3d59cd9",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-F_Paste.gtp": "685f1d6bdfb6f8c17bb325c36676c3f2faec0631085c01f1fa2f33a9bfb1c859",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-F_Silkscreen.gto": "019ca100f00bc98e37babc0e2851ac6fd30e9347bda3c3bddd0b0f5be11113e0",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-In1_Cu.g1": "2a1477e7e739b4462392d2df9fd44d8255b675ebb6813d08f84d413e5ed40d7a",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-In2_Cu.g2": "1badef806b173f29ec908219d4bb6aa9ceefcd3f68520b02972b993987b56dcd",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-NPTH.drl": "e7906a233b76be3e7a30106acd908802231848c23c6a3755dd55c88dcf00bc6e",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-PTH.drl": "0f3886c97ac5ce77a51ac1251293e027c9c867a30519d52ec3b68627764a96a5",
+      "manufacturing/2026-11-24/gerbers/broke-glitcher-job.gbrjob": "2a6eb24f26d317a0fd6b69eb2eb272c2ab5440a69cadc3140f4ca17b4e2426e4"
+    },
+    "run_id": "20261124T090645Z-0fe17c",
+    "config_hash": null,
+    "upstream_artifacts": {}
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "diagnostics": [],
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261124T090645Z-0fe17c"
+  }
+}

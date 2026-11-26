@@ -6133,10 +6133,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1363b8e5-054f-4db9-91bf-7094047617eb")
 		(property "Reference" "J2"
 			(at 55.88 129.032 0)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BrokeGlitcher_Mechanical")(type "KiCad")(uri "${KIPRJMOD}/footprints/BrokeGlitcher_Mechanical.pretty")(options "")(descr "Project-specific routable breakaway seam"))
+)

@@ -1,0 +1,219 @@
+{
+  "origin_mm": [
+    15,
+    65
+  ],
+  "dnp_paste_apertures_removed": [
+    {
+      "ref": "J6",
+      "pad": "1",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "1",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J4",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J11",
+      "pad": "1",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J11",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J11",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J11",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J11",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J9",
+      "pad": "1",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J9",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J9",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J9",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J9",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J8",
+      "pad": "1",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J8",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J8",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J8",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J8",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "1",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "2",
+      "layers": [
+        "F.Paste"
+      ]
+    },
+    {
+      "ref": "J7",
+      "pad": "2",
+      "layers": [
+        "B.Paste"
+      ]
+    }
+  ],
+  "note": "Export copy only. No changes to copper, solder mask, drills or silkscreen."
+}
