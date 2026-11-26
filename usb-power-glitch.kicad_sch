@@ -4615,17 +4615,6 @@
 		)
 		(uuid "dde71053-be4e-531e-b782-7a60e9c5ef1c")
 	)
-	(text "U4 supplies board 3.3 V. RP2040 retains its internal core regulator.\nCheck LDO temperature and VBUS droop at maximum measured load."
-		(exclude_from_sim no)
-		(at 205.74 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0891a453-fe8f-5a0a-8d01-785201b837b2")
-	)
 	(text "USB-C / ESD / FUSED POWER ENTRY / 3.3 V SUPPLY"
 		(exclude_from_sim no)
 		(at 25.4 27.94 0)
@@ -4637,7 +4626,7 @@
 		)
 		(uuid "572113ce-d678-59f9-b59f-b20c550d4402")
 	)
-	(text "GATE DRIVER / PULSED VDD CROWBAR"
+	(text "GATE DRIVER / PULSED CROWBAR"
 		(exclude_from_sim no)
 		(at 177.8 142.24 0)
 		(effects
@@ -4647,17 +4636,6 @@
 			(justify left)
 		)
 		(uuid "69e915c2-2f60-5ed8-b11c-f5b4aa5e1e00")
-	)
-	(text "U7 VDD must remain >= 4.5 V for specified timing.\nKeep pulse return short; R19 is not rated for a sustained short."
-		(exclude_from_sim no)
-		(at 25.4 254 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f757e83-6c08-56aa-aa6d-ae651f438c77")
 	)
 	(text "3.3 V LDO"
 		(exclude_from_sim no)
@@ -4670,7 +4648,7 @@
 		)
 		(uuid "b1a5af83-adad-5304-ab27-5bdee705607d")
 	)
-	(text "TARGET POWER SWITCH / CONTROLLER SIDE"
+	(text "TARGET POWER SWITCH"
 		(exclude_from_sim no)
 		(at 25.4 142.24 0)
 		(effects
@@ -4681,7 +4659,7 @@
 		)
 		(uuid "e422dd72-24eb-5d9b-9bc2-d56715aa6beb")
 	)
-	(text "QOD tied to VOUT: discharge enabled.\nSwitched 3.3 V crosses J3/J4 pin 19.\nR19 shunt is on TARGET side, sheet 8."
+	(text "QOD tied to VOUT: discharge enabled."
 		(exclude_from_sim no)
 		(at 96.52 215.9 0)
 		(effects
@@ -5073,6 +5051,16 @@
 			(type default)
 		)
 		(uuid "3bc83ebf-4598-5f86-977d-50fd9f879603")
+	)
+	(wire
+		(pts
+			(xy 209.55 177.8) (xy 210.82 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e1bea6-1754-4f43-98e4-63af00857968")
 	)
 	(wire
 		(pts
@@ -5476,6 +5464,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 179.07) (xy 207.01 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c319bfe1-24d7-4d7c-a166-3f7dbcef1d37")
+	)
+	(wire
+		(pts
 			(xy 262.89 163.83) (xy 262.89 166.37)
 		)
 		(stroke
@@ -5483,6 +5481,16 @@
 			(type default)
 		)
 		(uuid "c90af165-e528-4d1d-aaeb-ebde36801f78")
+	)
+	(wire
+		(pts
+			(xy 209.55 179.07) (xy 209.55 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fb0fb5-e1d8-4358-a4a2-ee51675090bb")
 	)
 	(wire
 		(pts
@@ -7993,7 +8001,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 210.82 177.8 90)
+		(at 207.01 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8004,7 +8012,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a29b527-3733-402d-8a63-be12b670f44b")
 		(property "Reference" "#PWR0129"
-			(at 214.63 177.8 0)
+			(at 210.82 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8015,18 +8023,17 @@
 			)
 		)
 		(property "Value" "VBUS_FUSED"
-			(at 207.01 177.7999 90)
+			(at 205.74 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 177.8 0)
+			(at 207.01 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 177.8 0)
+			(at 207.01 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8048,7 +8055,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 210.82 177.8 0)
+			(at 207.01 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,10 +12030,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2a2d222-3e55-4d15-8169-10b77f189a80")
 		(property "Reference" "U2"
-			(at 223.1233 160.02 0)
+			(at 228.6 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12036,7 +12042,7 @@
 			)
 		)
 		(property "Value" "UCC27524A"
-			(at 223.1233 162.56 0)
+			(at 228.6 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

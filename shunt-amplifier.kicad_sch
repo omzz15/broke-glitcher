@@ -1701,7 +1701,7 @@
 		)
 		(uuid "025aea1f-544c-58fd-9503-49aee8d6176f")
 	)
-	(text "Kelvin sense R19 on TARGET side, sheet 8. 1 ohm: 1 mA change -> 10 mV.\nNominal ADC range: +/-50 mA around the settled baseline. Not a DC ammeter."
+	(text "Assuming 1 ohm sense resistor: 1 mA change -> 10 mV.\nNominal ADC range: +/- 500mV -> +/-50 mA around the settled baseline. Not a DC ammeter."
 		(exclude_from_sim no)
 		(at 25.4 43.18 0)
 		(effects
@@ -1733,17 +1733,6 @@
 			(justify left)
 		)
 		(uuid "2e1dcb08-3078-59fc-ac47-32c83d80eaf4")
-	)
-	(text "R46/C45 are parallel OUT-to-IN- feedback. R47/C46 are parallel IN+-to-1V bias.\nMatched 200R/2k 0.1% ratios; C45/C46 paired 7p5 C0G.\n1u coupling: 796 Hz high-pass. Feedback RC: 10.6 MHz; R27/C44: 179 MHz.\nWhole-path target ~5 MHz including finite op-amp GBW; estimate, not measured.\nPlace feedback parts at U9; keep both input arms short and matched.\nValidate noise, input clamping, common-mode rejection and recovery after a glitch."
-		(exclude_from_sim no)
-		(at 25.4 251.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdc636f5-11ff-58b5-9d37-59ed9f138dc3")
 	)
 	(junction
 		(at 266.7 104.14)

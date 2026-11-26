@@ -3275,39 +3275,6 @@
 		)
 		(uuid "2b228ff8-4462-51b2-8b32-693e63294954")
 	)
-	(text "C1-C6: IOVDD pins 1/10/22/33/42/49. C7/C8: DVDD pins 23/50.\nC9 USB_VDD; C10 ADC_AVDD. C27 VREG_IN; C28 VREG_OUT.\nPlace each capacitor at its corresponding supply pin."
-		(exclude_from_sim no)
-		(at 25.4 238.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "76182d85-fef8-5ab7-a0a5-dd2eb05f6139")
-	)
-	(text "IOVDD: pins 1/10/22/33/42/49 share the shown pin.\nAll six connect to +3V3; C2 decouples pin 10."
-		(exclude_from_sim no)
-		(at 25.4 40.64 0)
-		(effects
-			(font
-				(size 1.05 1.05)
-			)
-			(justify left)
-		)
-		(uuid "7792fe52-150a-53cc-8e39-a235522440ac")
-	)
-	(text "Use generic SPI boot2 first; validate Puya QE/quad commands.\nBOOTSEL shorts flash CS through 1k during reset/boot."
-		(exclude_from_sim no)
-		(at 208.28 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8652bced-a134-573b-ab07-2bb2a937b3cb")
-	)
 	(text "RP2040 / CAPTURE AND TARGET INTERFACE"
 		(exclude_from_sim no)
 		(at 25.4 27.94 0)
@@ -3318,17 +3285,6 @@
 			(justify left)
 		)
 		(uuid "9309f5fe-0cb9-5e74-8e9f-b4810c1155fb")
-	)
-	(text "R15/R16/R48: place at RP2040 source pins.\n{TARGET_LINK} -> target; {ADC_CAPTURE} <- ADC."
-		(exclude_from_sim no)
-		(at 124.714 157.226 0)
-		(effects
-			(font
-				(size 1.15 1.15)
-			)
-			(justify left)
-		)
-		(uuid "acf70bbe-b806-5b3b-b3f1-d3e6c15fc203")
 	)
 	(text "2 MB FLASH / USB BOOT"
 		(exclude_from_sim no)
@@ -3396,7 +3352,7 @@
 		(uuid "59423212-4038-5fd4-8c1b-c4930ee7f363")
 	)
 	(junction
-		(at 43.18 137.16)
+		(at 38.1 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b6b2aba-bd7e-4a3d-a2e9-452cd3360140")
@@ -3857,7 +3813,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 127) (xy 43.18 137.16)
+			(xy 38.1 50.8) (xy 38.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4057,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 137.16) (xy 58.42 137.16)
+			(xy 50.8 60.96) (xy 53.34 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4377,7 +4333,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 137.16) (xy 45.72 137.16)
+			(xy 38.1 60.96) (xy 40.64 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4387,7 +4343,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 119.38) (xy 43.18 116.84)
+			(xy 38.1 43.18) (xy 38.1 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4996,7 +4952,7 @@
 		(uuid "02ba4577-9f2e-45fa-addd-509c99bc7595")
 	)
 	(label "RP_RUN"
-		(at 43.18 130.81 180)
+		(at 38.1 54.61 180)
 		(effects
 			(font
 				(size 1 1)
@@ -5606,7 +5562,7 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:GND")
-		(at 58.42 137.16 0)
+		(at 53.34 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5616,7 +5572,7 @@
 		(dnp no)
 		(uuid "04ffcad6-cb47-5caa-965e-9dc3ffc33f69")
 		(property "Reference" "#PWR037"
-			(at 58.42 130.81 0)
+			(at 53.34 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5627,7 +5583,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 133.604 0)
+			(at 53.34 57.404 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5638,7 +5594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 133.35 0)
+			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5649,7 +5605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 133.35 0)
+			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,7 +5616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 133.35 0)
+			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6678,7 +6634,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 123.19 0)
+		(at 38.1 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6688,7 +6644,7 @@
 		(dnp no)
 		(uuid "205e5b04-4cf1-5452-ad78-1ea3b2e877f7")
 		(property "Reference" "R10"
-			(at 48.26 121.92 0)
+			(at 43.18 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6698,7 +6654,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6708,7 +6664,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6719,7 +6675,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C25744.pdf"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6730,7 +6686,7 @@
 			)
 		)
 		(property "Description" "10 kΩ, ±1%, 50 V, Thick film, 0402 (1005 metric)"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6741,7 +6697,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6752,7 +6708,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6763,7 +6719,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6774,7 +6730,7 @@
 			)
 		)
 		(property "LCSC URL" "https://www.lcsc.com/product-detail/C25744.html"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6785,7 +6741,7 @@
 			)
 		)
 		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C25744"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,7 +6752,7 @@
 			)
 		)
 		(property "JLCPCB Class" "Basic"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,7 +6763,7 @@
 			)
 		)
 		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6818,7 +6774,7 @@
 			)
 		)
 		(property "BOM Snapshot" "2026-11-20"
-			(at 48.26 124.46 0)
+			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6829,7 +6785,7 @@
 			)
 		)
 		(property "Board Section" "Controller"
-			(at 0 8.89 0)
+			(at -5.08 -67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,7 +6796,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 metric)"
-			(at 43.18 123.19 0)
+			(at 38.1 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,7 +6807,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 43.18 123.19 0)
+			(at 38.1 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6862,7 +6818,7 @@
 			)
 		)
 		(property "Voltage Rating" "50 V"
-			(at 43.18 123.19 0)
+			(at 38.1 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,7 +6829,7 @@
 			)
 		)
 		(property "Technology" "Thick film"
-			(at 43.18 123.19 0)
+			(at 38.1 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,7 +6840,7 @@
 			)
 		)
 		(property "Power Rating" "62.5 mW"
-			(at 43.18 123.19 0)
+			(at 38.1 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9135,7 +9091,7 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:+3V3")
-		(at 43.18 116.84 0)
+		(at 38.1 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9145,7 +9101,7 @@
 		(dnp no)
 		(uuid "7d8c6dd2-7526-5e7a-9754-9c35a95c9fcf")
 		(property "Reference" "#PWR036"
-			(at 43.18 110.49 0)
+			(at 38.1 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9156,7 +9112,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 43.18 113.284 0)
+			(at 38.1 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9166,7 +9122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 113.03 0)
+			(at 38.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9177,7 +9133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 113.03 0)
+			(at 38.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9188,7 +9144,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 113.03 0)
+			(at 38.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10686,7 +10642,7 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:SW_Push")
-		(at 50.8 137.16 0)
+		(at 45.72 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10696,7 +10652,7 @@
 		(dnp no)
 		(uuid "94dab3ac-23fe-56c3-a308-f8cde4422ed8")
 		(property "Reference" "SW1"
-			(at 50.8 130.81 0)
+			(at 45.72 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10706,7 +10662,7 @@
 			)
 		)
 		(property "Value" "RP2040 RESET"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10716,7 +10672,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10727,7 +10683,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C720477.pdf"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10738,7 +10694,7 @@
 			)
 		)
 		(property "Description" "Momentary buttons: BOOTSEL (SW1) and RP2040 RUN reset (SW2)"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10749,7 +10705,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10760,7 +10716,7 @@
 			)
 		)
 		(property "MPN" "TS-1088-AR02016"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +10727,7 @@
 			)
 		)
 		(property "LCSC Part #" "C720477"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10782,7 +10738,7 @@
 			)
 		)
 		(property "LCSC URL" "https://www.lcsc.com/product-detail/C720477.html"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10793,7 +10749,7 @@
 			)
 		)
 		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/C720477"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10804,7 +10760,7 @@
 			)
 		)
 		(property "JLCPCB Class" "Basic"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +10771,7 @@
 			)
 		)
 		(property "Packaging" "Tape & Reel (cut quantity)"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10826,7 +10782,7 @@
 			)
 		)
 		(property "BOM Snapshot" "2026-11-15"
-			(at 50.8 133.35 0)
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10837,7 +10793,7 @@
 			)
 		)
 		(property "Board Section" "Controller"
-			(at 0 0 0)
+			(at -5.08 -76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13913,7 +13869,7 @@
 	)
 	(symbol
 		(lib_id "BrokeGlitcher:TestPoint")
-		(at 43.18 137.16 90)
+		(at 38.1 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13924,7 +13880,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8c0f80c-141c-4042-a4a2-637aa7819f62")
 		(property "Reference" "TP2"
-			(at 39.878 134.62 90)
+			(at 34.798 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13934,7 +13890,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 39.878 134.62 90)
+			(at 34.798 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13945,7 +13901,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 43.18 132.08 0)
+			(at 38.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13956,7 +13912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 132.08 0)
+			(at 38.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13967,7 +13923,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 43.18 137.16 0)
+			(at 38.1 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

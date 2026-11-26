@@ -1633,17 +1633,6 @@
 		)
 		(uuid "27974385-0499-5a95-bebc-961f4f5e6388")
 	)
-	(text "ADC_CLK: R15 at RP2040 GPIO11 (sheet 3)."
-		(exclude_from_sim no)
-		(at 76.2 48.26 0)
-		(effects
-			(font
-				(size 1.15 1.15)
-			)
-			(justify left)
-		)
-		(uuid "5b53e595-e715-5e58-8394-56ceea073d30")
-	)
 	(text "DRVDD: pin 2"
 		(exclude_from_sim no)
 		(at 243.84 165.1 0)
@@ -1654,28 +1643,6 @@
 			(justify left)
 		)
 		(uuid "5d8c5e27-8ea2-54e0-8bc7-9a7e7216b1c2")
-	)
-	(text "DATA BUS -> RP2040 (sheet 3)\nD0..D9 -> GPIO0..GPIO9\nOTR -> GPIO10; STBY -> GPIO12\n\nPlace R5-R14 near ADC outputs.\nStart capture at 10 MS/s.\n35 MS/s is the ADC rating;\nsystem timing needs validation."
-		(exclude_from_sim no)
-		(at 271.78 81.28 0)
-		(effects
-			(font
-				(size 1.2 1.2)
-			)
-			(justify left)
-		)
-		(uuid "6f447b7a-33c1-5926-a97c-c25ac8963c1d")
-	)
-	(text "Use a continuous ground plane. Route the ADC digital return away from AIN and\nthe reference network. Put every bypass capacitor at its corresponding supply pin."
-		(exclude_from_sim no)
-		(at 25.4 238.76 0)
-		(effects
-			(font
-				(size 1.2 1.2)
-			)
-			(justify left)
-		)
-		(uuid "b7d1a474-95eb-5f7c-84a6-0cd1599e9b16")
 	)
 	(text "LOCAL SUPPLY BYPASS"
 		(exclude_from_sim no)

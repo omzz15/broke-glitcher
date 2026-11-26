@@ -2925,17 +2925,6 @@
 		)
 		(uuid "78ac5b0b-1422-51b7-a736-56a26e0157a6")
 	)
-	(text "HF bypass PA6/pin10: 4-48 MHz. LF bypass PA4/pin8: nominal 32.768 kHz.\nR16/R48 are on sheet 3; place physically at RP2040 GPIO24/GPIO25.\nFirmware selects external clocks after internal-clock boot.\nFor BSL entry, assert TP11 to target VDD during reset; review TI security errata."
-		(exclude_from_sim no)
-		(at 25.4 251.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23d9fc08-b317-5940-b875-e8cc2c33af0b")
-	)
 	(text "TARGET SUPPLY / CORE CAP / RESET BIAS"
 		(exclude_from_sim no)
 		(at 25.4 165.1 0)
@@ -2967,28 +2956,6 @@
 			)
 		)
 		(uuid "e6bc8105-0fac-4dc3-aa68-c813dca4e3a6")
-	)
-	(text "BSL: RP GPIO27 via R54; R34 keeps normal boot selected."
-		(exclude_from_sim no)
-		(at 30.48 139.7 0)
-		(effects
-			(font
-				(size 1.2 1.2)
-			)
-			(justify left)
-		)
-		(uuid "e6fe888e-13fb-5f23-9131-574f994c8cf6")
-	)
-	(text "SPI0 peripheral; GPIO header on sheet 7"
-		(exclude_from_sim no)
-		(at 157.48 134.62 0)
-		(effects
-			(font
-				(size 1.1 1.1)
-			)
-			(justify left)
-		)
-		(uuid "f7da1b5f-a4ca-50fa-91de-2044eca2b4b9")
 	)
 	(text "Status LEDs"
 		(exclude_from_sim no)
@@ -4291,7 +4258,7 @@
 	)
 	(hierarchical_label "TARGET_GLITCH_OUT"
 		(shape input)
-		(at 152.4 203.2 270)
+		(at 170.18 199.39 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7492,7 +7459,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 152.4 199.39 0)
+		(at 170.18 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7503,7 +7470,7 @@
 		(fields_autoplaced yes)
 		(uuid "b55f14ef-0585-4b5d-9507-e0786ebaa494")
 		(property "Reference" "JP2"
-			(at 152.4 193.04 0)
+			(at 170.18 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7513,7 +7480,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 152.4 195.58 0)
+			(at 170.18 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7523,7 +7490,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 152.4 199.39 0)
+			(at 170.18 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7534,7 +7501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 209.55 0)
+			(at 170.18 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7545,7 +7512,7 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, both open"
-			(at 152.4 212.09 0)
+			(at 170.18 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7556,7 +7523,7 @@
 			)
 		)
 		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 152.4 217.17 0)
+			(at 170.18 213.36 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -7567,7 +7534,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 151.13 219.71 0)
+			(at 168.91 215.9 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -7975,7 +7942,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 157.48 199.39 270)
+		(at 175.26 195.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7986,7 +7953,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2470e07-abeb-40a4-8063-e16870ee33d1")
 		(property "Reference" "#PWR069"
-			(at 153.67 199.39 0)
+			(at 171.45 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7997,7 +7964,7 @@
 			)
 		)
 		(property "Value" "VDD_CORE"
-			(at 161.29 199.3899 90)
+			(at 179.07 195.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8008,7 +7975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 199.39 0)
+			(at 175.26 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8019,7 +7986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 199.39 0)
+			(at 175.26 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8030,7 +7997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 157.48 199.39 0)
+			(at 175.26 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8900,7 +8867,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 147.32 199.39 90)
+		(at 165.1 195.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8911,7 +8878,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8f5dd6f-19e4-4a76-9aa5-cfcfa849f3fb")
 		(property "Reference" "#PWR073"
-			(at 151.13 199.39 0)
+			(at 168.91 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,7 +8889,7 @@
 			)
 		)
 		(property "Value" "TARGET_VDD_SENSE"
-			(at 143.51 199.3899 90)
+			(at 161.29 195.5799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8933,7 +8900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 199.39 0)
+			(at 165.1 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8944,7 +8911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 199.39 0)
+			(at 165.1 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8955,7 +8922,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 147.32 199.39 0)
+			(at 165.1 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
