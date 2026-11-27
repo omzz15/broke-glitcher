@@ -4615,17 +4615,6 @@
 		)
 		(uuid "dde71053-be4e-531e-b782-7a60e9c5ef1c")
 	)
-	(text "U4 supplies board 3.3 V. RP2040 retains its internal core regulator.\nCheck LDO temperature and VBUS droop at maximum measured load."
-		(exclude_from_sim no)
-		(at 205.74 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0891a453-fe8f-5a0a-8d01-785201b837b2")
-	)
 	(text "USB-C / ESD / FUSED POWER ENTRY / 3.3 V SUPPLY"
 		(exclude_from_sim no)
 		(at 25.4 27.94 0)
@@ -4637,7 +4626,7 @@
 		)
 		(uuid "572113ce-d678-59f9-b59f-b20c550d4402")
 	)
-	(text "GATE DRIVER / PULSED VDD CROWBAR"
+	(text "GATE DRIVER / PULSED CROWBAR"
 		(exclude_from_sim no)
 		(at 177.8 142.24 0)
 		(effects
@@ -4647,17 +4636,6 @@
 			(justify left)
 		)
 		(uuid "69e915c2-2f60-5ed8-b11c-f5b4aa5e1e00")
-	)
-	(text "U7 VDD must remain >= 4.5 V for specified timing.\nKeep pulse return short; R19 is not rated for a sustained short."
-		(exclude_from_sim no)
-		(at 25.4 254 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f757e83-6c08-56aa-aa6d-ae651f438c77")
 	)
 	(text "3.3 V LDO"
 		(exclude_from_sim no)
@@ -4670,7 +4648,7 @@
 		)
 		(uuid "b1a5af83-adad-5304-ab27-5bdee705607d")
 	)
-	(text "TARGET POWER SWITCH / CONTROLLER SIDE"
+	(text "TARGET POWER SWITCH"
 		(exclude_from_sim no)
 		(at 25.4 142.24 0)
 		(effects
@@ -4681,7 +4659,7 @@
 		)
 		(uuid "e422dd72-24eb-5d9b-9bc2-d56715aa6beb")
 	)
-	(text "QOD tied to VOUT: discharge enabled.\nSwitched 3.3 V crosses J3/J4 pin 19.\nR19 shunt is on TARGET side, sheet 8."
+	(text "QOD tied to VOUT: discharge enabled."
 		(exclude_from_sim no)
 		(at 96.52 215.9 0)
 		(effects
@@ -5073,6 +5051,16 @@
 			(type default)
 		)
 		(uuid "3bc83ebf-4598-5f86-977d-50fd9f879603")
+	)
+	(wire
+		(pts
+			(xy 209.55 177.8) (xy 210.82 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e1bea6-1754-4f43-98e4-63af00857968")
 	)
 	(wire
 		(pts
@@ -5476,6 +5464,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 179.07) (xy 207.01 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c319bfe1-24d7-4d7c-a166-3f7dbcef1d37")
+	)
+	(wire
+		(pts
 			(xy 262.89 163.83) (xy 262.89 166.37)
 		)
 		(stroke
@@ -5483,6 +5481,16 @@
 			(type default)
 		)
 		(uuid "c90af165-e528-4d1d-aaeb-ebde36801f78")
+	)
+	(wire
+		(pts
+			(xy 209.55 179.07) (xy 209.55 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fb0fb5-e1d8-4358-a4a2-ee51675090bb")
 	)
 	(wire
 		(pts
@@ -5812,7 +5820,7 @@
 			(uuid "37a3c733-8454-534c-8b27-6b03b1dc3458")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR04")
 					(unit 1)
@@ -5889,7 +5897,7 @@
 			(uuid "241614be-6e7a-58ad-b220-a9611c8e4265")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR021")
 					(unit 1)
@@ -5967,7 +5975,7 @@
 			(uuid "287cac5e-bfeb-5e13-b8a3-5b9395efe295")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR022")
 					(unit 1)
@@ -6145,7 +6153,7 @@
 			(uuid "9588da22-62fd-5a55-bb9f-15d0f451dc7e")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "C7")
 					(unit 1)
@@ -6224,7 +6232,7 @@
 			(uuid "3ba64cc1-a778-4879-adeb-09314c2fbc45")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "TP1")
 					(unit 1)
@@ -6414,7 +6422,7 @@
 			(uuid "3eeb0a10-a502-58f2-b862-001379e40196")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "U1")
 					(unit 1)
@@ -6648,7 +6656,7 @@
 			(uuid "f8261a08-72bd-495b-aab4-22ba18516bc7")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "R3")
 					(unit 1)
@@ -6881,7 +6889,7 @@
 			(uuid "0fc1ea28-4a52-4b85-bbda-cf9caa4875e6")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "R8")
 					(unit 1)
@@ -6959,7 +6967,7 @@
 			(uuid "3d364da9-8466-4730-bf55-d40d6a1d2b72")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR028")
 					(unit 1)
@@ -7181,7 +7189,7 @@
 			(uuid "06d5fcbd-76b3-548e-8a26-4e2abda723d2")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "C5")
 					(unit 1)
@@ -7259,7 +7267,7 @@
 			(uuid "65c2eac0-b8f7-405b-8324-ab74cdee169b")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR027")
 					(unit 1)
@@ -7337,7 +7345,7 @@
 			(uuid "309bb339-4d81-5ed3-aa24-3a067cff03bb")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR020")
 					(unit 1)
@@ -7414,7 +7422,7 @@
 			(uuid "700b1778-07fc-4372-b3b3-2eac7c475512")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR026")
 					(unit 1)
@@ -7492,7 +7500,7 @@
 			(uuid "e3b9afba-b7df-5ed7-a17c-3c4f90632af7")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR013")
 					(unit 1)
@@ -7572,7 +7580,7 @@
 			(uuid "412bc496-57ea-4dd1-bed4-dfa00b26f86c")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "JP1")
 					(unit 1)
@@ -7750,7 +7758,7 @@
 			(uuid "901c69bf-dfad-55b8-a399-4d4fd480a809")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "C6")
 					(unit 1)
@@ -7983,7 +7991,7 @@
 			(uuid "2dd51297-6c6a-5647-ac6a-28133048306b")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "R2")
 					(unit 1)
@@ -7993,7 +8001,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 210.82 177.8 90)
+		(at 207.01 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8004,7 +8012,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a29b527-3733-402d-8a63-be12b670f44b")
 		(property "Reference" "#PWR0129"
-			(at 214.63 177.8 0)
+			(at 210.82 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8015,18 +8023,17 @@
 			)
 		)
 		(property "Value" "VBUS_FUSED"
-			(at 207.01 177.7999 90)
+			(at 205.74 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 177.8 0)
+			(at 207.01 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 177.8 0)
+			(at 207.01 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8048,7 +8055,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 210.82 177.8 0)
+			(at 207.01 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8062,7 +8069,7 @@
 			(uuid "412390f0-0488-42e0-8c2b-56feb9cba9d8")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR0129")
 					(unit 1)
@@ -8284,7 +8291,7 @@
 			(uuid "d5d4e35e-77dd-57ca-9c6e-a415fb51e337")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "C4")
 					(unit 1)
@@ -8362,7 +8369,7 @@
 			(uuid "e25ee9a5-76ae-4757-91ab-1c39377f6a44")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR018")
 					(unit 1)
@@ -8540,7 +8547,7 @@
 			(uuid "24d0418f-d6ab-476a-b5ff-0284795897f8")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "R5")
 					(unit 1)
@@ -8618,7 +8625,7 @@
 			(uuid "74a165bf-a82a-5cae-9c73-3c1911c300d7")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR010")
 					(unit 1)
@@ -8796,7 +8803,7 @@
 			(uuid "1af3d22f-9e1c-5759-b942-4f12b1580c59")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "C8")
 					(unit 1)
@@ -8874,7 +8881,7 @@
 			(uuid "a534354a-5496-54e6-b7aa-e05a3d283464")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR012")
 					(unit 1)
@@ -8952,7 +8959,7 @@
 			(uuid "43d0c315-0316-55e2-a323-fb7161ee6a52")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR030")
 					(unit 1)
@@ -9139,7 +9146,7 @@
 			(uuid "a2d128af-583a-55bf-8835-dfc573c3ac0d")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "U3")
 					(unit 1)
@@ -9317,7 +9324,7 @@
 			(uuid "ed21a9be-c716-42fe-a68c-02d434625490")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "R6")
 					(unit 1)
@@ -9495,7 +9502,7 @@
 			(uuid "a5154e57-6802-5953-aaab-89730c01dfd3")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "C2")
 					(unit 1)
@@ -9717,7 +9724,7 @@
 			(uuid "aaac5368-86d6-5b28-870c-15beafeaba65")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "C3")
 					(unit 1)
@@ -9950,7 +9957,7 @@
 			(uuid "4409d676-9013-52a4-acfd-c09a70918721")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "R1")
 					(unit 1)
@@ -10027,7 +10034,7 @@
 			(uuid "4fa9a874-6499-5fe9-8b28-d31ea21aa530")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR019")
 					(unit 1)
@@ -10105,7 +10112,7 @@
 			(uuid "9d008e2a-aa37-5fad-beec-b1c60e23ac9b")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR05")
 					(unit 1)
@@ -10183,7 +10190,7 @@
 			(uuid "df74b485-561e-51c8-96cd-128ae594a575")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR02")
 					(unit 1)
@@ -10406,7 +10413,7 @@
 			(uuid "935230a1-4184-520d-88de-16ac29d8f24c")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "J1")
 					(unit 1)
@@ -10483,7 +10490,7 @@
 			(uuid "85455810-6434-494c-a2f4-9709b52efc05")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR017")
 					(unit 1)
@@ -10560,7 +10567,7 @@
 			(uuid "1dbdb4cd-afcd-524f-a552-7d061b5d895f")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR011")
 					(unit 1)
@@ -10638,7 +10645,7 @@
 			(uuid "1335b132-8a63-5b9e-9cba-1c2cea0d0746")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR08")
 					(unit 1)
@@ -10716,7 +10723,7 @@
 			(uuid "adff1fad-5fa0-548c-9072-8a3750e8d4c2")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR025")
 					(unit 1)
@@ -10878,7 +10885,7 @@
 			(uuid "e7ffab57-db0d-486a-bc06-11ed4750e89c")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "Q1")
 					(unit 1)
@@ -10955,7 +10962,7 @@
 			(uuid "55cf7cd5-54a6-5bcc-bca7-41cc1f7b167a")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR016")
 					(unit 1)
@@ -11032,7 +11039,7 @@
 			(uuid "d40b3848-6ced-5d27-8178-f37ca143de2b")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR014")
 					(unit 1)
@@ -11222,7 +11229,7 @@
 			(uuid "c13295f0-8f5b-5c9e-9295-6ee2e0ca2174")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "D1")
 					(unit 1)
@@ -11300,7 +11307,7 @@
 			(uuid "e6566aae-8b2a-582a-ad79-3ee53f94c47c")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#FLG03")
 					(unit 1)
@@ -11377,7 +11384,7 @@
 			(uuid "8755a77d-bbfc-4bf5-86e2-9160d6a171e4")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR023")
 					(unit 1)
@@ -11539,7 +11546,7 @@
 			(uuid "a3d456ad-b1e0-4d80-9e2c-f94f66d8b8e5")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "Q2")
 					(unit 1)
@@ -11617,7 +11624,7 @@
 			(uuid "ab4b4a72-729b-5733-b5db-4c73b8f839fb")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#FLG01")
 					(unit 1)
@@ -11695,7 +11702,7 @@
 			(uuid "cfac86da-1d73-4ad6-bc48-a4a28400fa30")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR024")
 					(unit 1)
@@ -11772,7 +11779,7 @@
 			(uuid "5f91c5be-f381-55b0-9211-f704419db425")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR03")
 					(unit 1)
@@ -11850,7 +11857,7 @@
 			(uuid "2d62e237-13c9-5e37-a0d5-d4207c1d2968")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR015")
 					(unit 1)
@@ -11928,7 +11935,7 @@
 			(uuid "06ba3beb-311c-5aa4-b7a4-8719ef279ca0")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR07")
 					(unit 1)
@@ -12005,7 +12012,7 @@
 			(uuid "ab3b4cc1-3811-547e-9c1a-76f6df93cfa4")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR029")
 					(unit 1)
@@ -12023,10 +12030,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2a2d222-3e55-4d15-8169-10b77f189a80")
 		(property "Reference" "U2"
-			(at 223.1233 160.02 0)
+			(at 228.6 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12036,7 +12042,7 @@
 			)
 		)
 		(property "Value" "UCC27524A"
-			(at 223.1233 162.56 0)
+			(at 228.6 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12202,7 +12208,7 @@
 			(uuid "96776e62-7dd8-477e-9ea9-62ed3ca85c4b")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "U2")
 					(unit 1)
@@ -12280,7 +12286,7 @@
 			(uuid "5993c0fc-6bc8-45b9-bf2f-08ebbb6e5300")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR0130")
 					(unit 1)
@@ -12502,7 +12508,7 @@
 			(uuid "ebd62ad0-b0eb-5ed6-b15b-896c17edfe42")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "C1")
 					(unit 1)
@@ -12735,7 +12741,7 @@
 			(uuid "41a70467-e403-4832-bddd-c83eaad94723")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "R7")
 					(unit 1)
@@ -12813,7 +12819,7 @@
 			(uuid "f57cdc44-9984-5988-b153-5c816f6eb95c")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#FLG02")
 					(unit 1)
@@ -12991,7 +12997,7 @@
 			(uuid "113f5fbb-9d2e-4551-a160-49e3b8bbaec0")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "C46")
 					(unit 1)
@@ -13169,7 +13175,7 @@
 			(uuid "e6bbeace-ca41-413e-b449-0a0a7f4e79f5")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "R9")
 					(unit 1)
@@ -13246,7 +13252,7 @@
 			(uuid "04fcec71-ea58-538f-911a-1a5d2e946a07")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR09")
 					(unit 1)
@@ -13323,7 +13329,7 @@
 			(uuid "a4d75178-a6bd-458f-b0f4-98a5df012d10")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR031")
 					(unit 1)
@@ -13501,7 +13507,7 @@
 			(uuid "3a284948-18fd-5bcd-bc35-135610694515")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "F1")
 					(unit 1)
@@ -13578,7 +13584,7 @@
 			(uuid "9ff04b2d-e862-5c3e-aeae-17dd667a6a3c")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "#PWR06")
 					(unit 1)
@@ -13812,7 +13818,7 @@
 			(uuid "4a414152-ca89-4b4e-8cb6-1931bb8db2a6")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c/ae0bdb6f-4509-5f7c-8bf7-45db4e0a1628"
 					(reference "R4")
 					(unit 1)

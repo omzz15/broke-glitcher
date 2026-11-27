@@ -299,6 +299,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -310,6 +311,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -321,6 +323,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -633,7 +636,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "broke-glitcher.kicad_pro",
+    "filename": "glitch-penguin.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -685,8 +688,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "USB",
@@ -996,12 +999,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "broke-glitcher.kicad_sch",
-        "name": "broke-glitcher",
+        "filename": "glitch-penguin.kicad_sch",
+        "name": "glitch-penguin",
         "uuid": "1574f122-72a3-4d04-827f-4da4e6044b1c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR50",
     "variants": []
   },
   "sheets": [
