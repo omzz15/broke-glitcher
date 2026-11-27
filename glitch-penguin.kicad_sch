@@ -583,7 +583,7 @@
 			(uuid "9a485e86-a534-43f4-a58c-e59568d9b4c2")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(reference "H3")
 					(unit 1)
@@ -663,7 +663,7 @@
 			(uuid "e0f6213f-cc0e-4932-865d-1b733adebe79")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(reference "H1")
 					(unit 1)
@@ -741,7 +741,7 @@
 			(uuid "2b2b7111-5870-425e-b1cf-9f421df41a84")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(reference "#PWR01")
 					(unit 1)
@@ -821,7 +821,7 @@
 			(uuid "cad5b0af-7b5e-424d-aab9-a996c122056d")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(reference "H4")
 					(unit 1)
@@ -901,7 +901,7 @@
 			(uuid "b7ded693-f8bc-452c-876e-948a0a655d33")
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(reference "H2")
 					(unit 1)
@@ -1037,7 +1037,7 @@
 			)
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(page "3")
 				)
@@ -1112,7 +1112,7 @@
 			)
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(page "6")
 				)
@@ -1197,7 +1197,7 @@
 			)
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(page "5")
 				)
@@ -1282,7 +1282,7 @@
 			)
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(page "4")
 				)
@@ -1387,7 +1387,7 @@
 			)
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(page "2")
 				)
@@ -1512,7 +1512,7 @@
 			)
 		)
 		(instances
-			(project "broke-glitcher"
+			(project "glitch-penguin"
 				(path "/1574f122-72a3-4d04-827f-4da4e6044b1c"
 					(page "8")
 				)

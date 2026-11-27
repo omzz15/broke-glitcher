@@ -636,7 +636,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "broke-glitcher.kicad_pro",
+    "filename": "glitch-penguin.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -999,8 +999,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "broke-glitcher.kicad_sch",
-        "name": "broke-glitcher",
+        "filename": "glitch-penguin.kicad_sch",
+        "name": "glitch-penguin",
         "uuid": "1574f122-72a3-4d04-827f-4da4e6044b1c"
       }
     ],

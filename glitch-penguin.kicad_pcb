@@ -15125,7 +15125,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e78ebe03-ffb1-4ffa-bb76-026066df427f")
 		(sheetname "/")
-		(sheetfile "broke-glitcher.kicad_sch")
+		(sheetfile "glitch-penguin.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15247,7 +15247,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0f46a84a-ff6b-41cf-9973-f236b3c2269a")
 		(sheetname "/")
-		(sheetfile "broke-glitcher.kicad_sch")
+		(sheetfile "glitch-penguin.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34855,7 +34855,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e084196c-eddd-4f49-ba95-d561f9d77f95")
 		(sheetname "/")
-		(sheetfile "broke-glitcher.kicad_sch")
+		(sheetfile "glitch-penguin.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35087,7 +35087,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/13066df7-6b88-42cb-8b00-9532d9e4d2e6")
 		(sheetname "/")
-		(sheetfile "broke-glitcher.kicad_sch")
+		(sheetfile "glitch-penguin.kicad_sch")
 		(units
 			(unit
 				(name "A")
