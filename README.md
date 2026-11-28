@@ -14,7 +14,7 @@ There are many great glitching products out there (see [NewAE](https://www.newae
   - AC coupled input range of +/-50mV
   - Bandwidth of 5 MHz
 - SMA connectors for differnatial sense and glitch output
-- Integrated [MCPMOG3507](https://www.ti.com/product/MSPM0G3507) target
+- Integrated [MSPMOG3507](https://www.ti.com/product/MSPM0G3507) target
 
 ## Overview
 At the core of the board sits the RP2040 which handles 
